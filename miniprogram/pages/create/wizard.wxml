@@ -1,0 +1,25 @@
+<view class="creator-page wizard-page" style="padding-top: {{topInset}}px">
+  <view class="creator-top"><button class="creator-icon" bindtap="back" aria-label="返回书房" disabled="{{saving}}"><image src="/assets/icons/library/back-ink.png" /></button><view class="creator-top-title">新建作品</view></view>
+  <view class="creator-container">
+    <view class="wizard-steps"><block wx:for="{{steps}}" wx:key="*this"><view class="wizard-step {{index <= step ? 'active' : ''}}"><text>{{index + 1}}</text><text>{{item}}</text></view></block></view>
+    <view wx:if="{{error}}" class="creator-feedback" role="alert">{{error}}</view>
+    <block wx:if="{{step === 0}}">
+      <view class="creator-title">故事，从这里开始。</view>
+      <label class="creator-field wizard-first"><text class="creator-field-label">作品名称</text><input class="creator-input" value="{{title}}" data-field="title" bindinput="input" maxlength="80" placeholder="为你的故事起个名字" /></label>
+      <label class="creator-field"><text class="creator-field-label">故事灵感</text><textarea class="creator-input wizard-idea" value="{{idea}}" data-field="idea" bindinput="input" maxlength="2000" placeholder="主角遇到了什么困境，又准备如何反击？" /></label>
+      <view class="creator-field-label">题材</view><view class="wizard-chips"><block wx:for="{{genres}}" wx:key="*this"><button class="{{genre === item ? 'selected' : ''}}" data-value="{{item}}" bindtap="chooseGenre" aria-pressed="{{genre === item}}">{{item}}</button></block></view>
+    </block>
+    <block wx:elif="{{step === 1}}">
+      <view class="creator-title">确定故事的骨架。</view>
+      <label class="creator-field wizard-first"><text class="creator-field-label">主角</text><textarea class="creator-input" value="{{protagonist}}" data-field="protagonist" bindinput="input" maxlength="1000" placeholder="姓名、目标、性格、能力与代价" /></label>
+      <label class="creator-field"><text class="creator-field-label">世界设定</text><textarea class="creator-input" value="{{world}}" data-field="world" bindinput="input" maxlength="2000" placeholder="时代、地点、势力与规则" /></label>
+      <view class="creator-field-label">故事基调</view><view class="wizard-chips"><block wx:for="{{moods}}" wx:key="*this"><button class="{{mood === item ? 'selected' : ''}}" data-value="{{item}}" bindtap="chooseMood">{{item}}</button></block></view>
+    </block>
+    <block wx:else>
+      <view class="creator-title">{{title}}</view><view class="creator-subtitle">{{genre}} · {{mood}}</view>
+      <view class="wizard-summary"><text>{{idea}}</text><view wx:if="{{protagonist}}"><text class="creator-muted">主角</text><text>{{protagonist}}</text></view><view wx:if="{{world}}"><text class="creator-muted">世界</text><text>{{world}}</text></view></view>
+      <view class="wizard-switch"><view><view>正文插图</view><text>开启</text></view><switch checked="{{illustrationsEnabled}}" bindchange="toggleImages" color="#16705b" /></view>
+    </block>
+  </view>
+  <view class="wizard-footer"><view><button wx:if="{{step > 0}}" class="creator-secondary" bindtap="prev" disabled="{{saving}}">上一步</button><button class="creator-primary" bindtap="next" disabled="{{saving}}">{{saving ? '正在创建' : step === 2 ? '创建 AI 作品' : '下一步'}}</button></view></view>
+</view>

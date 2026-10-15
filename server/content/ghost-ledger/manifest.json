@@ -1,0 +1,4648 @@
+{
+  "id": "work_ghost_ledger",
+  "title": "镇诡司：我以功簿斩妖",
+  "author": "唐渡",
+  "type": "东方玄幻 · 斩妖升级",
+  "summary": "黑水驿收尸役陆昭得到一本只记未结之功的黑色功簿。每替死者完成一件有证据的遗愿，他便能结算一门技艺；若功劳来自谎言，技艺会在最危险时反噬。",
+  "tagline": "功簿记功，不替活人逃责。",
+  "cover": "/assets/books/ghost-ledger/cover-ink-v2.webp",
+  "status": "complete",
+  "targetWords": 320000,
+  "plannedChapters": 100,
+  "reads": "新作连载",
+  "score": "新作",
+  "volumes": [
+    {
+      "id": "ghost-volume-01",
+      "title": "卷一 · 黑水收尸",
+      "sortOrder": 0,
+      "plannedChapters": 16
+    },
+    {
+      "id": "ghost-volume-02",
+      "title": "卷二 · 北镇试刀",
+      "sortOrder": 1,
+      "plannedChapters": 16
+    },
+    {
+      "id": "ghost-volume-03",
+      "title": "卷三 · 百里妖关",
+      "sortOrder": 2,
+      "plannedChapters": 16
+    },
+    {
+      "id": "ghost-volume-04",
+      "title": "卷四 · 功簿争权",
+      "sortOrder": 3,
+      "plannedChapters": 16
+    },
+    {
+      "id": "ghost-volume-05",
+      "title": "卷五 · 九镇天灾",
+      "sortOrder": 4,
+      "plannedChapters": 20
+    },
+    {
+      "id": "ghost-volume-06",
+      "title": "卷六 · 天下未结",
+      "sortOrder": 5,
+      "plannedChapters": 16
+    }
+  ],
+  "assets": [
+    {
+      "id": "work_ghost_ledger_scene_blackwater_pass",
+      "type": "scene",
+      "title": "黑水驿 · 三具尸",
+      "url": "/assets/books/ghost-ledger/blackwater-pass.webp",
+      "chapterNumber": 1,
+      "sortOrder": 10,
+      "paragraphIndex": 1
+    },
+    {
+      "id": "work_ghost_ledger_portrait_luzhao",
+      "type": "character",
+      "title": "陆昭 · 人物参考图",
+      "url": "/assets/books/ghost-ledger/lu-zhao.webp",
+      "characterId": "char_ghost_luzhao",
+      "sortOrder": 20
+    },
+    {
+      "id": "work_ghost_ledger_portrait_xuqingtang",
+      "type": "character",
+      "title": "许青棠 · 人物参考图",
+      "url": "/assets/books/ghost-ledger/xu-qingtang.webp",
+      "characterId": "char_ghost_xuqingtang",
+      "sortOrder": 21
+    },
+    {
+      "id": "work_ghost_ledger_portrait_hetingzhou",
+      "type": "character",
+      "title": "贺停舟 · 人物参考图",
+      "url": "/assets/books/ghost-ledger/he-tingzhou.webp",
+      "characterId": "char_ghost_hetingzhou",
+      "sortOrder": 22
+    },
+    {
+      "id": "work_ghost_ledger_portrait_sikongjin",
+      "type": "character",
+      "title": "司空烬 · 人物参考图",
+      "url": "/assets/books/ghost-ledger/sikong-jin.webp",
+      "characterId": "char_ghost_sikongjin",
+      "sortOrder": 23
+    },
+    {
+      "id": "work_ghost_ledger_scene_001_02",
+      "type": "scene",
+      "title": "三袋黑砂分开封存",
+      "url": "/api/assets/work_ghost_ledger_scene_001_02_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_001_03",
+      "type": "scene",
+      "title": "桐油木屑与断箭头",
+      "url": "/api/assets/work_ghost_ledger_scene_001_03_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 23,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_001_04",
+      "type": "scene",
+      "title": "三趾印与未破封粮仓",
+      "url": "/api/assets/work_ghost_ledger_scene_001_04_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 30,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_001_05",
+      "type": "scene",
+      "title": "木屑针孔拓纸与收尸牌排序",
+      "url": "/api/assets/work_ghost_ledger_scene_001_05_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 41,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_002_01",
+      "type": "scene",
+      "title": "三车横过驿站过道",
+      "url": "/api/assets/work_ghost_ledger_scene_002_01_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_002_02",
+      "type": "scene",
+      "title": "黑皮功簿初现",
+      "url": "/api/assets/work_ghost_ledger_scene_002_02_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_002_03",
+      "type": "scene",
+      "title": "白额狼递出旧铜牌",
+      "url": "/api/assets/work_ghost_ledger_scene_002_03_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 19,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_002_04",
+      "type": "scene",
+      "title": "功簿黑字与四个空格",
+      "url": "/api/assets/work_ghost_ledger_scene_002_04_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 31,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_002_05",
+      "type": "scene",
+      "title": "被刮军粮分配单分袋",
+      "url": "/api/assets/work_ghost_ledger_scene_002_05_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 40,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_003_01",
+      "type": "scene",
+      "title": "纸灰中的两类纤维",
+      "url": "/api/assets/work_ghost_ledger_scene_003_01_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_003_02",
+      "type": "scene",
+      "title": "雪水凝住灯罩灰粉",
+      "url": "/api/assets/work_ghost_ledger_scene_003_02_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 16,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_003_03",
+      "type": "scene",
+      "title": "门槛外三枚黑钉",
+      "url": "/api/assets/work_ghost_ledger_scene_003_03_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_003_04",
+      "type": "scene",
+      "title": "三排封绳不同的粮袋",
+      "url": "/api/assets/work_ghost_ledger_scene_003_04_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_003_05",
+      "type": "scene",
+      "title": "未完成的临时铜牌",
+      "url": "/api/assets/work_ghost_ledger_scene_003_05_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 56,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_004_01",
+      "type": "scene",
+      "title": "秤房麻布下的十一斤粮",
+      "url": "/api/assets/work_ghost_ledger_scene_004_01_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_004_02",
+      "type": "scene",
+      "title": "只认领原先的一袋粮",
+      "url": "/api/assets/work_ghost_ledger_scene_004_02_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_004_03",
+      "type": "scene",
+      "title": "押狼须留下伤情副本",
+      "url": "/api/assets/work_ghost_ledger_scene_004_03_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 15,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_004_04",
+      "type": "scene",
+      "title": "第四格落下一道黑线",
+      "url": "/api/assets/work_ghost_ledger_scene_004_04_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_004_05",
+      "type": "scene",
+      "title": "粗细不同的两条绳样",
+      "url": "/api/assets/work_ghost_ledger_scene_004_05_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 24,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_005_01",
+      "type": "scene",
+      "title": "半枚铜牌与两处空格",
+      "url": "/api/assets/work_ghost_ledger_scene_005_01_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 5,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_005_02",
+      "type": "scene",
+      "title": "半牌限制写入复核单",
+      "url": "/api/assets/work_ghost_ledger_scene_005_02_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_005_03",
+      "type": "scene",
+      "title": "洗净旧车铺新麻布",
+      "url": "/api/assets/work_ghost_ledger_scene_005_03_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 12,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_005_04",
+      "type": "scene",
+      "title": "两袋粮的窄路条",
+      "url": "/api/assets/work_ghost_ledger_scene_005_04_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 19,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_005_05",
+      "type": "scene",
+      "title": "鞋底与针钉三类拓样",
+      "url": "/api/assets/work_ghost_ledger_scene_005_05_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 32,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_006_01",
+      "type": "scene",
+      "title": "左右手冷热反应记录",
+      "url": "/api/assets/work_ghost_ledger_scene_006_01_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_006_02",
+      "type": "scene",
+      "title": "左腕提醒绳",
+      "url": "/api/assets/work_ghost_ledger_scene_006_02_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_006_03",
+      "type": "scene",
+      "title": "北门旧册偏房查阅",
+      "url": "/api/assets/work_ghost_ledger_scene_006_03_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_006_04",
+      "type": "scene",
+      "title": "耗材栏与桐油灰",
+      "url": "/api/assets/work_ghost_ledger_scene_006_04_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 23,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_006_05",
+      "type": "scene",
+      "title": "铃架七号新钉拓样",
+      "url": "/api/assets/work_ghost_ledger_scene_006_05_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 26,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_007_01",
+      "type": "scene",
+      "title": "雪线三组脚印编号",
+      "url": "/api/assets/work_ghost_ledger_scene_007_01_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_007_02",
+      "type": "scene",
+      "title": "木套器具压印对照",
+      "url": "/api/assets/work_ghost_ledger_scene_007_02_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 13,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_007_03",
+      "type": "scene",
+      "title": "冰下空铜铃封存",
+      "url": "/api/assets/work_ghost_ledger_scene_007_03_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 24,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_007_04",
+      "type": "scene",
+      "title": "三日保全脚印拓样",
+      "url": "/api/assets/work_ghost_ledger_scene_007_04_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 31,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_007_05",
+      "type": "scene",
+      "title": "脚印与主人未定",
+      "url": "/api/assets/work_ghost_ledger_scene_007_05_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 34,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_008_01",
+      "type": "scene",
+      "title": "木作铺断口比对",
+      "url": "/api/assets/work_ghost_ledger_scene_008_01_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_008_02",
+      "type": "scene",
+      "title": "旧货票与黑麻线索",
+      "url": "/api/assets/work_ghost_ledger_scene_008_02_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_008_03",
+      "type": "scene",
+      "title": "第三户拒领并退回封粮",
+      "url": "/api/assets/work_ghost_ledger_scene_008_03_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_008_04",
+      "type": "scene",
+      "title": "两枚鞋扣不同物",
+      "url": "/api/assets/work_ghost_ledger_scene_008_04_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 26,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_008_05",
+      "type": "scene",
+      "title": "三次复称记录并列",
+      "url": "/api/assets/work_ghost_ledger_scene_008_05_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 35,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_009_01",
+      "type": "scene",
+      "title": "粮车木楔保全现场",
+      "url": "/api/assets/work_ghost_ledger_scene_009_01_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_009_02",
+      "type": "scene",
+      "title": "车板三条新刮痕",
+      "url": "/api/assets/work_ghost_ledger_scene_009_02_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 12,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_009_03",
+      "type": "scene",
+      "title": "雪沟两股拖痕分叉",
+      "url": "/api/assets/work_ghost_ledger_scene_009_03_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 13,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_009_04",
+      "type": "scene",
+      "title": "拖痕旁半枚旧铜片",
+      "url": "/api/assets/work_ghost_ledger_scene_009_04_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 15,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_009_05",
+      "type": "scene",
+      "title": "三块路图限定责任",
+      "url": "/api/assets/work_ghost_ledger_scene_009_05_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 31,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_010_01",
+      "type": "scene",
+      "title": "三根木签标记纸灰",
+      "url": "/api/assets/work_ghost_ledger_scene_010_01_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_010_02",
+      "type": "scene",
+      "title": "铁盒内半焦路令",
+      "url": "/api/assets/work_ghost_ledger_scene_010_02_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_010_03",
+      "type": "scene",
+      "title": "三处灰样分瓷片比对",
+      "url": "/api/assets/work_ghost_ledger_scene_010_03_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 15,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_010_04",
+      "type": "scene",
+      "title": "车底浅槽两根细木",
+      "url": "/api/assets/work_ghost_ledger_scene_010_04_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 21,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_010_05",
+      "type": "scene",
+      "title": "三只木匣独立封存",
+      "url": "/api/assets/work_ghost_ledger_scene_010_05_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 29,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_011_01",
+      "type": "scene",
+      "title": "尸体搬运链分段记录",
+      "url": "/api/assets/work_ghost_ledger_scene_011_01_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_011_02",
+      "type": "scene",
+      "title": "衣领半张军令封存",
+      "url": "/api/assets/work_ghost_ledger_scene_011_02_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_011_03",
+      "type": "scene",
+      "title": "空试指骨无反应",
+      "url": "/api/assets/work_ghost_ledger_scene_011_03_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_011_04",
+      "type": "scene",
+      "title": "听骨后先记录代价",
+      "url": "/api/assets/work_ghost_ledger_scene_011_04_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_011_05",
+      "type": "scene",
+      "title": "左右手温度复测记录",
+      "url": "/api/assets/work_ghost_ledger_scene_011_05_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_012_01",
+      "type": "scene",
+      "title": "门闩绳结空铃三袋分置",
+      "url": "/api/assets/work_ghost_ledger_scene_012_01_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_012_02",
+      "type": "scene",
+      "title": "煤灰落在湿墨旁",
+      "url": "/api/assets/work_ghost_ledger_scene_012_02_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_012_03",
+      "type": "scene",
+      "title": "木箱七块羊骨名牌",
+      "url": "/api/assets/work_ghost_ledger_scene_012_03_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_012_04",
+      "type": "scene",
+      "title": "三名见证人职责拆开",
+      "url": "/api/assets/work_ghost_ledger_scene_012_04_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 28,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_012_05",
+      "type": "scene",
+      "title": "合上证物箱仍未结算",
+      "url": "/api/assets/work_ghost_ledger_scene_012_05_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 29,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_013_01",
+      "type": "scene",
+      "title": "七块羊骨牌分置",
+      "url": "/api/assets/work_ghost_ledger_scene_013_01_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 6,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_013_02",
+      "type": "scene",
+      "title": "冬祭伤亡册空格",
+      "url": "/api/assets/work_ghost_ledger_scene_013_02_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 13,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_013_03",
+      "type": "scene",
+      "title": "七孔红蜡墙面",
+      "url": "/api/assets/work_ghost_ledger_scene_013_03_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 19,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_013_04",
+      "type": "scene",
+      "title": "功簿四项空格",
+      "url": "/api/assets/work_ghost_ledger_scene_013_04_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 23,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_013_05",
+      "type": "scene",
+      "title": "告示与主动选择",
+      "url": "/api/assets/work_ghost_ledger_scene_013_05_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 33,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_014_01",
+      "type": "scene",
+      "title": "棚外活人手印",
+      "url": "/api/assets/work_ghost_ledger_scene_014_01_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_014_02",
+      "type": "scene",
+      "title": "白粉与双纸对照",
+      "url": "/api/assets/work_ghost_ledger_scene_014_02_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_014_03",
+      "type": "scene",
+      "title": "半块羊骨牌落箱",
+      "url": "/api/assets/work_ghost_ledger_scene_014_03_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_014_04",
+      "type": "scene",
+      "title": "陈骁鞋带平直切口",
+      "url": "/api/assets/work_ghost_ledger_scene_014_04_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 24,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_014_05",
+      "type": "scene",
+      "title": "四页记录分开留疑",
+      "url": "/api/assets/work_ghost_ledger_scene_014_05_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 30,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_015_01",
+      "type": "scene",
+      "title": "姐姐帶来的旧布鞋",
+      "url": "/api/assets/work_ghost_ledger_scene_015_01_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_015_02",
+      "type": "scene",
+      "title": "再次触骨的风险单",
+      "url": "/api/assets/work_ghost_ledger_scene_015_02_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_015_03",
+      "type": "scene",
+      "title": "两类路线材料分开比对",
+      "url": "/api/assets/work_ghost_ledger_scene_015_03_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 14,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_015_04",
+      "type": "scene",
+      "title": "黑簿路线仍缺旁证",
+      "url": "/api/assets/work_ghost_ledger_scene_015_04_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_015_05",
+      "type": "scene",
+      "title": "分栏交接各自选择",
+      "url": "/api/assets/work_ghost_ledger_scene_015_05_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 25,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_016_01",
+      "type": "scene",
+      "title": "清場前拓存拖痕",
+      "url": "/api/assets/work_ghost_ledger_scene_016_01_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 6,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_016_02",
+      "type": "scene",
+      "title": "三日复核期限批语",
+      "url": "/api/assets/work_ghost_ledger_scene_016_02_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_016_03",
+      "type": "scene",
+      "title": "七槽旧铁牌限时核验",
+      "url": "/api/assets/work_ghost_ledger_scene_016_03_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_016_04",
+      "type": "scene",
+      "title": "授印与责任权限并列",
+      "url": "/api/assets/work_ghost_ledger_scene_016_04_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 19,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_016_05",
+      "type": "scene",
+      "title": "限时开闸保全新尸证",
+      "url": "/api/assets/work_ghost_ledger_scene_016_05_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 27,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_017_01",
+      "type": "scene",
+      "title": "旧车铃与家属两栏选择",
+      "url": "/api/assets/work_ghost_ledger_scene_017_01_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 8,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_017_02",
+      "type": "scene",
+      "title": "炭灰夹纸纤维分样",
+      "url": "/api/assets/work_ghost_ledger_scene_017_02_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_017_03",
+      "type": "scene",
+      "title": "三人派行与各自限制",
+      "url": "/api/assets/work_ghost_ledger_scene_017_03_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 18,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_017_04",
+      "type": "scene",
+      "title": "旧渡车轴折纸原位",
+      "url": "/api/assets/work_ghost_ledger_scene_017_04_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 19,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_017_05",
+      "type": "scene",
+      "title": "三张证物单限定责任",
+      "url": "/api/assets/work_ghost_ledger_scene_017_05_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_018_01",
+      "type": "scene",
+      "title": "清砂四角石隔离木匣",
+      "url": "/api/assets/work_ghost_ledger_scene_018_01_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_018_02",
+      "type": "scene",
+      "title": "三份纸边样本分开",
+      "url": "/api/assets/work_ghost_ledger_scene_018_02_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_018_03",
+      "type": "scene",
+      "title": "车轴木隔挡露细红线",
+      "url": "/api/assets/work_ghost_ledger_scene_018_03_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 21,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_018_04",
+      "type": "scene",
+      "title": "门缝纸条独立封存",
+      "url": "/api/assets/work_ghost_ledger_scene_018_04_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_018_05",
+      "type": "scene",
+      "title": "木匣红线纸条分人交接",
+      "url": "/api/assets/work_ghost_ledger_scene_018_05_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 41,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_019_01",
+      "type": "scene",
+      "title": "三把钥匙与待验粮仓",
+      "url": "/api/assets/work_ghost_ledger_scene_019_01_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_019_02",
+      "type": "scene",
+      "title": "钥匙检查各自选择",
+      "url": "/api/assets/work_ghost_ledger_scene_019_02_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_019_03",
+      "type": "scene",
+      "title": "七袋待验与鼓起纸签",
+      "url": "/api/assets/work_ghost_ledger_scene_019_03_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 8,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_019_04",
+      "type": "scene",
+      "title": "第三把锁夹纸",
+      "url": "/api/assets/work_ghost_ledger_scene_019_04_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_019_05",
+      "type": "scene",
+      "title": "锁可开名不可代",
+      "url": "/api/assets/work_ghost_ledger_scene_019_05_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 26,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_020_01",
+      "type": "scene",
+      "title": "木框罩住半圈车辙",
+      "url": "/api/assets/work_ghost_ledger_scene_020_01_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_020_02",
+      "type": "scene",
+      "title": "三枚空铜钱试牵引",
+      "url": "/api/assets/work_ghost_ledger_scene_020_02_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_020_03",
+      "type": "scene",
+      "title": "第二箭钉住墙缝纸带",
+      "url": "/api/assets/work_ghost_ledger_scene_020_03_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 12,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_020_04",
+      "type": "scene",
+      "title": "纸筒七段粮路分离",
+      "url": "/api/assets/work_ghost_ledger_scene_020_04_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 25,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_020_05",
+      "type": "scene",
+      "title": "三方封存与箭留封条",
+      "url": "/api/assets/work_ghost_ledger_scene_020_05_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 34,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_021_01",
+      "type": "scene",
+      "title": "功簿院铜牌来使",
+      "url": "/api/assets/work_ghost_ledger_scene_021_01_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_021_02",
+      "type": "scene",
+      "title": "核验范围补充单",
+      "url": "/api/assets/work_ghost_ledger_scene_021_02_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_021_03",
+      "type": "scene",
+      "title": "三人保管选择分栏",
+      "url": "/api/assets/work_ghost_ledger_scene_021_03_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 15,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_021_04",
+      "type": "scene",
+      "title": "预录功成单入匣",
+      "url": "/api/assets/work_ghost_ledger_scene_021_04_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 21,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_021_05",
+      "type": "scene",
+      "title": "来使可验功名不可预支",
+      "url": "/api/assets/work_ghost_ledger_scene_021_05_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 29,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_022_01",
+      "type": "scene",
+      "title": "仓门外三列问询",
+      "url": "/api/assets/work_ghost_ledger_scene_022_01_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_022_02",
+      "type": "scene",
+      "title": "女孩带路的限定选择",
+      "url": "/api/assets/work_ghost_ledger_scene_022_02_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 8,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_022_03",
+      "type": "scene",
+      "title": "十张假功单复制",
+      "url": "/api/assets/work_ghost_ledger_scene_022_03_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_022_04",
+      "type": "scene",
+      "title": "四个朱砂记号分开拓存",
+      "url": "/api/assets/work_ghost_ledger_scene_022_04_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 13,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_022_05",
+      "type": "scene",
+      "title": "假功单贴上卫印",
+      "url": "/api/assets/work_ghost_ledger_scene_022_05_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 24,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_023_01",
+      "type": "scene",
+      "title": "废驿记号拓在木板",
+      "url": "/api/assets/work_ghost_ledger_scene_023_01_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_023_02",
+      "type": "scene",
+      "title": "雪沟白蜡木旗杆",
+      "url": "/api/assets/work_ghost_ledger_scene_023_02_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_023_03",
+      "type": "scene",
+      "title": "冰下七张窄条底稿",
+      "url": "/api/assets/work_ghost_ledger_scene_023_03_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 9,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_023_04",
+      "type": "scene",
+      "title": "接收栏受牵引实验",
+      "url": "/api/assets/work_ghost_ledger_scene_023_04_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 17,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_023_05",
+      "type": "scene",
+      "title": "旗可指路不能报功",
+      "url": "/api/assets/work_ghost_ledger_scene_023_05_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_024_01",
+      "type": "scene",
+      "title": "驿站领用册与乙十七",
+      "url": "/api/assets/work_ghost_ledger_scene_024_01_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_024_02",
+      "type": "scene",
+      "title": "周梅确认皮囊拒绝报功",
+      "url": "/api/assets/work_ghost_ledger_scene_024_02_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_024_03",
+      "type": "scene",
+      "title": "废驿旧水井木盖",
+      "url": "/api/assets/work_ghost_ledger_scene_024_03_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 14,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_024_04",
+      "type": "scene",
+      "title": "井底蜡封木匣分证",
+      "url": "/api/assets/work_ghost_ledger_scene_024_04_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_024_05",
+      "type": "scene",
+      "title": "自现进城纸字隔离",
+      "url": "/api/assets/work_ghost_ledger_scene_024_05_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 30,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_025_01",
+      "type": "scene",
+      "title": "北门三层封存",
+      "url": "/api/assets/work_ghost_ledger_scene_025_01_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_025_02",
+      "type": "scene",
+      "title": "东市飞纸停在选择外",
+      "url": "/api/assets/work_ghost_ledger_scene_025_02_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_025_03",
+      "type": "scene",
+      "title": "草车车底白纸卷",
+      "url": "/api/assets/work_ghost_ledger_scene_025_03_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_025_04",
+      "type": "scene",
+      "title": "红线量后自行断开",
+      "url": "/api/assets/work_ghost_ledger_scene_025_04_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_025_05",
+      "type": "scene",
+      "title": "进城者皆可交功",
+      "url": "/api/assets/work_ghost_ledger_scene_025_05_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 19,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_026_01",
+      "type": "scene",
+      "title": "四样墨样分袋",
+      "url": "/api/assets/work_ghost_ledger_scene_026_01_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_026_02",
+      "type": "scene",
+      "title": "遇水四种扩散",
+      "url": "/api/assets/work_ghost_ledger_scene_026_02_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_026_03",
+      "type": "scene",
+      "title": "受热显出横格",
+      "url": "/api/assets/work_ghost_ledger_scene_026_03_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 8,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_026_04",
+      "type": "scene",
+      "title": "压痕不能认凶手",
+      "url": "/api/assets/work_ghost_ledger_scene_026_04_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_026_05",
+      "type": "scene",
+      "title": "木牌与湿脚印分开封存",
+      "url": "/api/assets/work_ghost_ledger_scene_026_05_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 34,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_027_01",
+      "type": "scene",
+      "title": "黑蜡封存旧案柜",
+      "url": "/api/assets/work_ghost_ledger_scene_027_01_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_027_02",
+      "type": "scene",
+      "title": "黑铜印断片与裂纹",
+      "url": "/api/assets/work_ghost_ledger_scene_027_02_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 8,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_027_03",
+      "type": "scene",
+      "title": "旧模板预印功成",
+      "url": "/api/assets/work_ghost_ledger_scene_027_03_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 15,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_027_04",
+      "type": "scene",
+      "title": "撤民责任木牌",
+      "url": "/api/assets/work_ghost_ledger_scene_027_04_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_027_05",
+      "type": "scene",
+      "title": "旧案原件三方封存",
+      "url": "/api/assets/work_ghost_ledger_scene_027_05_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 24,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_028_01",
+      "type": "scene",
+      "title": "三箱红线牵向姓名柜",
+      "url": "/api/assets/work_ghost_ledger_scene_028_01_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_028_02",
+      "type": "scene",
+      "title": "石七拒收纸面结果",
+      "url": "/api/assets/work_ghost_ledger_scene_028_02_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_028_03",
+      "type": "scene",
+      "title": "无五官纸脸",
+      "url": "/api/assets/work_ghost_ledger_scene_028_03_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 12,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_028_04",
+      "type": "scene",
+      "title": "封功刀前的责任确认",
+      "url": "/api/assets/work_ghost_ledger_scene_028_04_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_028_05",
+      "type": "scene",
+      "title": "断线后分项封存",
+      "url": "/api/assets/work_ghost_ledger_scene_028_05_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 25,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_029_01",
+      "type": "scene",
+      "title": "三盏白灯与空木牌",
+      "url": "/api/assets/work_ghost_ledger_scene_029_01_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_029_02",
+      "type": "scene",
+      "title": "粮路已核纸无笔压",
+      "url": "/api/assets/work_ghost_ledger_scene_029_02_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_029_03",
+      "type": "scene",
+      "title": "宴席责任三分栏",
+      "url": "/api/assets/work_ghost_ledger_scene_029_03_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_029_04",
+      "type": "scene",
+      "title": "乙十七湿字空签",
+      "url": "/api/assets/work_ghost_ledger_scene_029_04_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 23,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_029_05",
+      "type": "scene",
+      "title": "夜宴记录分袋",
+      "url": "/api/assets/work_ghost_ledger_scene_029_05_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 30,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_030_01",
+      "type": "scene",
+      "title": "第七仓四拨人",
+      "url": "/api/assets/work_ghost_ledger_scene_030_01_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_030_02",
+      "type": "scene",
+      "title": "锁孔青白砂粒",
+      "url": "/api/assets/work_ghost_ledger_scene_030_02_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_030_03",
+      "type": "scene",
+      "title": "七袋粮与细红线",
+      "url": "/api/assets/work_ghost_ledger_scene_030_03_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_030_04",
+      "type": "scene",
+      "title": "封功刀断粮袋红线",
+      "url": "/api/assets/work_ghost_ledger_scene_030_04_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_030_05",
+      "type": "scene",
+      "title": "开封核验尚未接收",
+      "url": "/api/assets/work_ghost_ledger_scene_030_05_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 19,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_033_01",
+      "type": "scene",
+      "title": "铜匣白骨空栏与黑粉",
+      "url": "/api/assets/work_ghost_ledger_scene_033_01_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_033_02",
+      "type": "scene",
+      "title": "冰面军令红线与褪墨",
+      "url": "/api/assets/work_ghost_ledger_scene_033_02_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_033_03",
+      "type": "scene",
+      "title": "深青令牌白雾三横线",
+      "url": "/api/assets/work_ghost_ledger_scene_033_03_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 14,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_033_04",
+      "type": "scene",
+      "title": "空白副纸与命令纸对照",
+      "url": "/api/assets/work_ghost_ledger_scene_033_04_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_033_05",
+      "type": "scene",
+      "title": "吞字军令与五类证物分存",
+      "url": "/api/assets/work_ghost_ledger_scene_033_05_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 26,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_034_01",
+      "type": "scene",
+      "title": "黑石坡三层烽台与双车辙",
+      "url": "/api/assets/work_ghost_ledger_scene_034_01_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_034_02",
+      "type": "scene",
+      "title": "锁孔纸卷与三圈麻绳骨片",
+      "url": "/api/assets/work_ghost_ledger_scene_034_02_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_034_03",
+      "type": "scene",
+      "title": "火盆三层灰烬分别取样",
+      "url": "/api/assets/work_ghost_ledger_scene_034_03_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_034_04",
+      "type": "scene",
+      "title": "地窖救出活人分工见证",
+      "url": "/api/assets/work_ghost_ledger_scene_034_04_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_034_05",
+      "type": "scene",
+      "title": "封功刀只断骨片纸卷细线",
+      "url": "/api/assets/work_ghost_ledger_scene_034_05_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_067_01",
+      "type": "scene",
+      "title": "风停九袋挂在交叉绳上",
+      "url": "/api/assets/work_ghost_ledger_scene_067_01_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_067_02",
+      "type": "scene",
+      "title": "分拆药粮领用",
+      "url": "/api/assets/work_ghost_ledger_scene_067_02_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_067_03",
+      "type": "scene",
+      "title": "废井铁环黑线原位",
+      "url": "/api/assets/work_ghost_ledger_scene_067_03_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_067_04",
+      "type": "scene",
+      "title": "雪下空木箱分存",
+      "url": "/api/assets/work_ghost_ledger_scene_067_04_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 17,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_067_05",
+      "type": "scene",
+      "title": "三孔木板钉痕拓样",
+      "url": "/api/assets/work_ghost_ledger_scene_067_05_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 22,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_068_01",
+      "type": "scene",
+      "title": "三组搜寻队分工出发",
+      "url": "/api/assets/work_ghost_ledger_scene_068_01_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_068_02",
+      "type": "scene",
+      "title": "铁铜鞋钉分装",
+      "url": "/api/assets/work_ghost_ledger_scene_068_02_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_068_03",
+      "type": "scene",
+      "title": "井壁铁环四缺口",
+      "url": "/api/assets/work_ghost_ledger_scene_068_03_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 9,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_068_04",
+      "type": "scene",
+      "title": "废窑活人自愿回城",
+      "url": "/api/assets/work_ghost_ledger_scene_068_04_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 13,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_068_05",
+      "type": "scene",
+      "title": "五色布证物分区",
+      "url": "/api/assets/work_ghost_ledger_scene_068_05_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 20,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_069_01",
+      "type": "scene",
+      "title": "湿牌与裂铃",
+      "url": "/api/assets/work_ghost_ledger_scene_069_01_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_069_02",
+      "type": "scene",
+      "title": "北线小艇",
+      "url": "/api/assets/work_ghost_ledger_scene_069_02_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_069_03",
+      "type": "scene",
+      "title": "双向水流",
+      "url": "/api/assets/work_ghost_ledger_scene_069_03_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 4,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_069_04",
+      "type": "scene",
+      "title": "倒扣摆渡船",
+      "url": "/api/assets/work_ghost_ledger_scene_069_04_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 8,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_069_05",
+      "type": "scene",
+      "title": "船棚孤铃",
+      "url": "/api/assets/work_ghost_ledger_scene_069_05_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 18,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_070_01",
+      "type": "scene",
+      "title": "认不出的老人",
+      "url": "/api/assets/work_ghost_ledger_scene_070_01_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_070_02",
+      "type": "scene",
+      "title": "白牌与鞋印",
+      "url": "/api/assets/work_ghost_ledger_scene_070_02_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_070_03",
+      "type": "scene",
+      "title": "小名登记",
+      "url": "/api/assets/work_ghost_ledger_scene_070_03_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 6,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_070_04",
+      "type": "scene",
+      "title": "炭笔添字",
+      "url": "/api/assets/work_ghost_ledger_scene_070_04_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_070_05",
+      "type": "scene",
+      "title": "编号领药",
+      "url": "/api/assets/work_ghost_ledger_scene_070_05_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 21,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_071_01",
+      "type": "scene",
+      "title": "井边回声",
+      "url": "/api/assets/work_ghost_ledger_scene_071_01_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_071_02",
+      "type": "scene",
+      "title": "三道封线",
+      "url": "/api/assets/work_ghost_ledger_scene_071_02_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_071_03",
+      "type": "scene",
+      "title": "白牌渗水",
+      "url": "/api/assets/work_ghost_ledger_scene_071_03_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_071_04",
+      "type": "scene",
+      "title": "沟底证物",
+      "url": "/api/assets/work_ghost_ledger_scene_071_04_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 9,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_071_05",
+      "type": "scene",
+      "title": "带走无字牌",
+      "url": "/api/assets/work_ghost_ledger_scene_071_05_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_072_01",
+      "type": "scene",
+      "title": "合并预录",
+      "url": "/api/assets/work_ghost_ledger_scene_072_01_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_072_02",
+      "type": "scene",
+      "title": "分项表入席",
+      "url": "/api/assets/work_ghost_ledger_scene_072_02_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_072_03",
+      "type": "scene",
+      "title": "九袋粮损",
+      "url": "/api/assets/work_ghost_ledger_scene_072_03_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_072_04",
+      "type": "scene",
+      "title": "四牌分责",
+      "url": "/api/assets/work_ghost_ledger_scene_072_04_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 11,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_072_05",
+      "type": "scene",
+      "title": "更正不抹除",
+      "url": "/api/assets/work_ghost_ledger_scene_072_05_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 21,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_073_01",
+      "type": "scene",
+      "title": "四柜之前",
+      "url": "/api/assets/work_ghost_ledger_scene_073_01_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_073_02",
+      "type": "scene",
+      "title": "三条优先线",
+      "url": "/api/assets/work_ghost_ledger_scene_073_02_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_073_03",
+      "type": "scene",
+      "title": "红布包的限制",
+      "url": "/api/assets/work_ghost_ledger_scene_073_03_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_073_04",
+      "type": "scene",
+      "title": "可执笔的伤肩",
+      "url": "/api/assets/work_ghost_ledger_scene_073_04_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 10,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_073_05",
+      "type": "scene",
+      "title": "留白的伤情页",
+      "url": "/api/assets/work_ghost_ledger_scene_073_05_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 20,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_074_01",
+      "type": "scene",
+      "title": "雪压城防图",
+      "url": "/api/assets/work_ghost_ledger_scene_074_01_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_074_02",
+      "type": "scene",
+      "title": "三步临时入城",
+      "url": "/api/assets/work_ghost_ledger_scene_074_02_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_074_03",
+      "type": "scene",
+      "title": "雪沟封存物",
+      "url": "/api/assets/work_ghost_ledger_scene_074_03_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_074_04",
+      "type": "scene",
+      "title": "五份回传",
+      "url": "/api/assets/work_ghost_ledger_scene_074_04_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 13,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_074_05",
+      "type": "scene",
+      "title": "称量而未拆封",
+      "url": "/api/assets/work_ghost_ledger_scene_074_05_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 20,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_031_01",
+      "type": "scene",
+      "title": "纸墙长出三条窄巷",
+      "url": "/api/assets/work_ghost_ledger_scene_031_01_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_031_02",
+      "type": "scene",
+      "title": "姓名证物责任三木桩",
+      "url": "/api/assets/work_ghost_ledger_scene_031_02_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_031_03",
+      "type": "scene",
+      "title": "纸匣收集异格式材料",
+      "url": "/api/assets/work_ghost_ledger_scene_031_03_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_031_04",
+      "type": "scene",
+      "title": "三人拒绝替纸接收",
+      "url": "/api/assets/work_ghost_ledger_scene_031_04_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 19,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_031_05",
+      "type": "scene",
+      "title": "乙十七褪字纸城崩塌",
+      "url": "/api/assets/work_ghost_ledger_scene_031_05_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 25,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_032_01",
+      "type": "scene",
+      "title": "无旗骑兵停在护城河外",
+      "url": "/api/assets/work_ghost_ledger_scene_032_01_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_032_02",
+      "type": "scene",
+      "title": "关印窄纸缺三项",
+      "url": "/api/assets/work_ghost_ledger_scene_032_02_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_032_03",
+      "type": "scene",
+      "title": "白蜡轮痕与红线副本",
+      "url": "/api/assets/work_ghost_ledger_scene_032_03_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_032_04",
+      "type": "scene",
+      "title": "铜匣黑砂与耳后薄纸",
+      "url": "/api/assets/work_ghost_ledger_scene_032_04_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_032_05",
+      "type": "scene",
+      "title": "军令索功与骨笛铜匣",
+      "url": "/api/assets/work_ghost_ledger_scene_032_05_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 30,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_035_01",
+      "type": "scene",
+      "title": "碎令四分，不压官印",
+      "url": "/api/assets/work_ghost_ledger_scene_035_01_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_035_02",
+      "type": "scene",
+      "title": "车厢里的空匣与半笛",
+      "url": "/api/assets/work_ghost_ledger_scene_035_02_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_035_03",
+      "type": "scene",
+      "title": "撤杖之后，黑灰止于雪面",
+      "url": "/api/assets/work_ghost_ledger_scene_035_03_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_035_04",
+      "type": "scene",
+      "title": "石碑后的新铃，单独取样",
+      "url": "/api/assets/work_ghost_ledger_scene_035_04_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_035_05",
+      "type": "scene",
+      "title": "六格留白，交接不等于接令",
+      "url": "/api/assets/work_ghost_ledger_scene_035_05_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 26,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_036_01",
+      "type": "scene",
+      "title": "旧印可认，空栏不补",
+      "url": "/api/assets/work_ghost_ledger_scene_036_01_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_036_02",
+      "type": "scene",
+      "title": "木牌复核，撤回错认",
+      "url": "/api/assets/work_ghost_ledger_scene_036_02_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_036_03",
+      "type": "scene",
+      "title": "半音之后，只记录关系",
+      "url": "/api/assets/work_ghost_ledger_scene_036_03_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 13,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_036_04",
+      "type": "scene",
+      "title": "愿留证词，不替军令定性",
+      "url": "/api/assets/work_ghost_ledger_scene_036_04_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 17,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_036_05",
+      "type": "scene",
+      "title": "夜班分架，证物不作他用",
+      "url": "/api/assets/work_ghost_ledger_scene_036_05_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 26,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_037_01",
+      "type": "scene",
+      "title": "无名军牌的现场保管",
+      "url": "/api/assets/work_ghost_ledger_scene_037_01_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_037_02",
+      "type": "scene",
+      "title": "白火下的分项见证",
+      "url": "/api/assets/work_ghost_ledger_scene_037_02_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_037_03",
+      "type": "scene",
+      "title": "台门外拒签",
+      "url": "/api/assets/work_ghost_ledger_scene_037_03_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 18,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_037_04",
+      "type": "scene",
+      "title": "箭头改为扇形",
+      "url": "/api/assets/work_ghost_ledger_scene_037_04_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 25,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_037_05",
+      "type": "scene",
+      "title": "薄霜覆盖复量条件",
+      "url": "/api/assets/work_ghost_ledger_scene_037_05_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_038_01",
+      "type": "scene",
+      "title": "三路分别编号",
+      "url": "/api/assets/work_ghost_ledger_scene_038_01_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_038_02",
+      "type": "scene",
+      "title": "纸下灰铜扣",
+      "url": "/api/assets/work_ghost_ledger_scene_038_02_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_038_03",
+      "type": "scene",
+      "title": "药囊中的青竹牌",
+      "url": "/api/assets/work_ghost_ledger_scene_038_03_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_038_04",
+      "type": "scene",
+      "title": "三道绳线保留距离",
+      "url": "/api/assets/work_ghost_ledger_scene_038_04_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 16,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_038_05",
+      "type": "scene",
+      "title": "挡风而不移位",
+      "url": "/api/assets/work_ghost_ledger_scene_038_05_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 27,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_039_01",
+      "type": "scene",
+      "title": "石棚移尸与伤情复核",
+      "url": "/api/assets/work_ghost_ledger_scene_039_01_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_039_02",
+      "type": "scene",
+      "title": "四组物证与拒绝代认",
+      "url": "/api/assets/work_ghost_ledger_scene_039_02_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_039_03",
+      "type": "scene",
+      "title": "浸雪军医簿的分行拓录",
+      "url": "/api/assets/work_ghost_ledger_scene_039_03_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_039_04",
+      "type": "scene",
+      "title": "身份线索之外的责任选择",
+      "url": "/api/assets/work_ghost_ledger_scene_039_04_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 13,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_039_05",
+      "type": "scene",
+      "title": "空药袋与未盖印取药单",
+      "url": "/api/assets/work_ghost_ledger_scene_039_05_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_040_01",
+      "type": "scene",
+      "title": "药箱中的活脚转运物",
+      "url": "/api/assets/work_ghost_ledger_scene_040_01_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_040_02",
+      "type": "scene",
+      "title": "原笔与空回执分证",
+      "url": "/api/assets/work_ghost_ledger_scene_040_02_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 8,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_040_03",
+      "type": "scene",
+      "title": "交出保密单的有限承责",
+      "url": "/api/assets/work_ghost_ledger_scene_040_03_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 14,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_040_04",
+      "type": "scene",
+      "title": "亲属不直接接收木牌",
+      "url": "/api/assets/work_ghost_ledger_scene_040_04_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_040_05",
+      "type": "scene",
+      "title": "复核之后仍留空格",
+      "url": "/api/assets/work_ghost_ledger_scene_040_05_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 24,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_041_01",
+      "type": "scene",
+      "title": "雪桥两车相持",
+      "url": "/api/assets/work_ghost_ledger_scene_041_01_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_041_02",
+      "type": "scene",
+      "title": "药箱先行，旧册留存",
+      "url": "/api/assets/work_ghost_ledger_scene_041_02_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_041_03",
+      "type": "scene",
+      "title": "失痛中的桥绳责任",
+      "url": "/api/assets/work_ghost_ledger_scene_041_03_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_041_04",
+      "type": "scene",
+      "title": "三处验核，三方限责",
+      "url": "/api/assets/work_ghost_ledger_scene_041_04_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_041_05",
+      "type": "scene",
+      "title": "伤兵的选择与空位",
+      "url": "/api/assets/work_ghost_ledger_scene_041_05_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 22,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_075_01",
+      "type": "scene",
+      "title": "三路封令",
+      "url": "/api/assets/work_ghost_ledger_scene_075_01_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_075_02",
+      "type": "scene",
+      "title": "分柜收存",
+      "url": "/api/assets/work_ghost_ledger_scene_075_02_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_075_03",
+      "type": "scene",
+      "title": "门前待验",
+      "url": "/api/assets/work_ghost_ledger_scene_075_03_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_075_04",
+      "type": "scene",
+      "title": "西门分向",
+      "url": "/api/assets/work_ghost_ledger_scene_075_04_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 10,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_075_05",
+      "type": "scene",
+      "title": "雪沟拾证",
+      "url": "/api/assets/work_ghost_ledger_scene_075_05_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 16,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_076_01",
+      "type": "scene",
+      "title": "旧驿厅会盟",
+      "url": "/api/assets/work_ghost_ledger_scene_076_01_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_076_02",
+      "type": "scene",
+      "title": "九格分责",
+      "url": "/api/assets/work_ghost_ledger_scene_076_02_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_076_03",
+      "type": "scene",
+      "title": "桌下敲击",
+      "url": "/api/assets/work_ghost_ledger_scene_076_03_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 9,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_076_04",
+      "type": "scene",
+      "title": "空匣验封",
+      "url": "/api/assets/work_ghost_ledger_scene_076_04_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_076_05",
+      "type": "scene",
+      "title": "九牌归柜",
+      "url": "/api/assets/work_ghost_ledger_scene_076_05_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 22,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_042_01",
+      "type": "scene",
+      "title": "三方验线与旧印争议",
+      "url": "/api/assets/work_ghost_ledger_scene_042_01_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_042_02",
+      "type": "scene",
+      "title": "第三方复核许青岚身份",
+      "url": "/api/assets/work_ghost_ledger_scene_042_02_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_042_03",
+      "type": "scene",
+      "title": "受限听骨读取最后受力",
+      "url": "/api/assets/work_ghost_ledger_scene_042_03_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_042_04",
+      "type": "scene",
+      "title": "骨笛半音与沟中活人",
+      "url": "/api/assets/work_ghost_ledger_scene_042_04_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 15,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_042_05",
+      "type": "scene",
+      "title": "三方分责后的未决接台",
+      "url": "/api/assets/work_ghost_ledger_scene_042_05_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 21,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_043_01",
+      "type": "scene",
+      "title": "沟底三段见证线",
+      "url": "/api/assets/work_ghost_ledger_scene_043_01_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_043_02",
+      "type": "scene",
+      "title": "两名伤者的限定选择",
+      "url": "/api/assets/work_ghost_ledger_scene_043_02_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_043_03",
+      "type": "scene",
+      "title": "三袋分开的药物证据",
+      "url": "/api/assets/work_ghost_ledger_scene_043_03_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_043_04",
+      "type": "scene",
+      "title": "黑缝中的两张裁名木牌",
+      "url": "/api/assets/work_ghost_ledger_scene_043_04_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 16,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_043_05",
+      "type": "scene",
+      "title": "医棚留下的责任空白",
+      "url": "/api/assets/work_ghost_ledger_scene_043_05_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_044_01",
+      "type": "scene",
+      "title": "医棚外的三方责任板",
+      "url": "/api/assets/work_ghost_ledger_scene_044_01_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_044_02",
+      "type": "scene",
+      "title": "空铜匣中的两件残物",
+      "url": "/api/assets/work_ghost_ledger_scene_044_02_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_044_03",
+      "type": "scene",
+      "title": "石壁仿声与本人拒认",
+      "url": "/api/assets/work_ghost_ledger_scene_044_03_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 8,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_044_04",
+      "type": "scene",
+      "title": "黑簿上的未竟责任",
+      "url": "/api/assets/work_ghost_ledger_scene_044_04_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 16,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_044_05",
+      "type": "scene",
+      "title": "黑线与可溶残留",
+      "url": "/api/assets/work_ghost_ledger_scene_044_05_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 24,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_045_01",
+      "type": "scene",
+      "title": "先钉住七十息",
+      "url": "/api/assets/work_ghost_ledger_scene_045_01_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_045_02",
+      "type": "scene",
+      "title": "三份复制，各证一项",
+      "url": "/api/assets/work_ghost_ledger_scene_045_02_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_045_03",
+      "type": "scene",
+      "title": "铜钉隔粉，随即交接",
+      "url": "/api/assets/work_ghost_ledger_scene_045_03_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_045_04",
+      "type": "scene",
+      "title": "湿木牌下，三砂分取",
+      "url": "/api/assets/work_ghost_ledger_scene_045_04_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 16,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_045_05",
+      "type": "scene",
+      "title": "轮下小楔，位置仍待核",
+      "url": "/api/assets/work_ghost_ledger_scene_045_05_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_046_01",
+      "type": "scene",
+      "title": "未完成的乙九木牌",
+      "url": "/api/assets/work_ghost_ledger_scene_046_01_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_046_02",
+      "type": "scene",
+      "title": "医案只证明辨认边界",
+      "url": "/api/assets/work_ghost_ledger_scene_046_02_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_046_03",
+      "type": "scene",
+      "title": "封功刀解除线与门栓关系",
+      "url": "/api/assets/work_ghost_ledger_scene_046_03_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_046_04",
+      "type": "scene",
+      "title": "半框责任与错认反噬",
+      "url": "/api/assets/work_ghost_ledger_scene_046_04_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 15,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_046_05",
+      "type": "scene",
+      "title": "空铃作为下一案新证物",
+      "url": "/api/assets/work_ghost_ledger_scene_046_05_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 20,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_047_01",
+      "type": "scene",
+      "title": "三只分柜木匣",
+      "url": "/api/assets/work_ghost_ledger_scene_047_01_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_047_02",
+      "type": "scene",
+      "title": "唯一活人的有限见闻",
+      "url": "/api/assets/work_ghost_ledger_scene_047_02_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_047_03",
+      "type": "scene",
+      "title": "白布上的代记退淡",
+      "url": "/api/assets/work_ghost_ledger_scene_047_03_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 8,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_047_04",
+      "type": "scene",
+      "title": "第十浅孔与湿纸",
+      "url": "/api/assets/work_ghost_ledger_scene_047_04_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_047_05",
+      "type": "scene",
+      "title": "木楔摩擦造成的碰响",
+      "url": "/api/assets/work_ghost_ledger_scene_047_05_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 22,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_048_01",
+      "type": "scene",
+      "title": "三镇联书的空白格式",
+      "url": "/api/assets/work_ghost_ledger_scene_048_01_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_048_02",
+      "type": "scene",
+      "title": "灰线牵向共同承担",
+      "url": "/api/assets/work_ghost_ledger_scene_048_02_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_048_03",
+      "type": "scene",
+      "title": "分别封存，互相见证",
+      "url": "/api/assets/work_ghost_ledger_scene_048_03_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 9,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_048_04",
+      "type": "scene",
+      "title": "异常掌字被无字板遮住",
+      "url": "/api/assets/work_ghost_ledger_scene_048_04_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_048_05",
+      "type": "scene",
+      "title": "封柜之后只留未替",
+      "url": "/api/assets/work_ghost_ledger_scene_048_05_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 21,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_049_01",
+      "type": "scene",
+      "title": "两版夜报与改正私印",
+      "url": "/api/assets/work_ghost_ledger_scene_049_01_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_049_02",
+      "type": "scene",
+      "title": "两种纸裂分别待比",
+      "url": "/api/assets/work_ghost_ledger_scene_049_02_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_049_03",
+      "type": "scene",
+      "title": "编号板转正后的撤回",
+      "url": "/api/assets/work_ghost_ledger_scene_049_03_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_049_04",
+      "type": "scene",
+      "title": "收讫表划去越界条款",
+      "url": "/api/assets/work_ghost_ledger_scene_049_04_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_049_05",
+      "type": "scene",
+      "title": "统一尺度也须签认边界",
+      "url": "/api/assets/work_ghost_ledger_scene_049_05_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 18,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_050_01",
+      "type": "scene",
+      "title": "空粮台的三道门",
+      "url": "/api/assets/work_ghost_ledger_scene_050_01_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_050_02",
+      "type": "scene",
+      "title": "乙九灰甲的登记边界",
+      "url": "/api/assets/work_ghost_ledger_scene_050_02_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_050_03",
+      "type": "scene",
+      "title": "石满改回自己的见闻",
+      "url": "/api/assets/work_ghost_ledger_scene_050_03_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 6,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_050_04",
+      "type": "scene",
+      "title": "总表自行添出的接收行",
+      "url": "/api/assets/work_ghost_ledger_scene_050_04_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 11,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_050_05",
+      "type": "scene",
+      "title": "把风险写回自己名下",
+      "url": "/api/assets/work_ghost_ledger_scene_050_05_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 15,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_077_01",
+      "type": "scene",
+      "title": "六镇回传",
+      "url": "/api/assets/work_ghost_ledger_scene_077_01_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_077_02",
+      "type": "scene",
+      "title": "盲验分样",
+      "url": "/api/assets/work_ghost_ledger_scene_077_02_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_077_03",
+      "type": "scene",
+      "title": "空匣与封泥",
+      "url": "/api/assets/work_ghost_ledger_scene_077_03_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_077_04",
+      "type": "scene",
+      "title": "复述纠正",
+      "url": "/api/assets/work_ghost_ledger_scene_077_04_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 8,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_077_05",
+      "type": "scene",
+      "title": "雪下石槽",
+      "url": "/api/assets/work_ghost_ledger_scene_077_05_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 13,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_078_01",
+      "type": "scene",
+      "title": "黑匣抵达",
+      "url": "/api/assets/work_ghost_ledger_scene_078_01_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_078_02",
+      "type": "scene",
+      "title": "门外承责",
+      "url": "/api/assets/work_ghost_ledger_scene_078_02_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_078_03",
+      "type": "scene",
+      "title": "七张副页",
+      "url": "/api/assets/work_ghost_ledger_scene_078_03_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 8,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_078_04",
+      "type": "scene",
+      "title": "蜡粉接触线",
+      "url": "/api/assets/work_ghost_ledger_scene_078_04_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 16,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_078_05",
+      "type": "scene",
+      "title": "口供更正",
+      "url": "/api/assets/work_ghost_ledger_scene_078_05_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 24,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_079_01",
+      "type": "scene",
+      "title": "雪廊验封",
+      "url": "/api/assets/work_ghost_ledger_scene_079_01_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_079_02",
+      "type": "scene",
+      "title": "三件旧证",
+      "url": "/api/assets/work_ghost_ledger_scene_079_02_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_079_03",
+      "type": "scene",
+      "title": "分栏撤项",
+      "url": "/api/assets/work_ghost_ledger_scene_079_03_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 4,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_079_04",
+      "type": "scene",
+      "title": "老人只证所见",
+      "url": "/api/assets/work_ghost_ledger_scene_079_04_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 7,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_079_05",
+      "type": "scene",
+      "title": "木牌取样",
+      "url": "/api/assets/work_ghost_ledger_scene_079_05_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 9,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_080_01",
+      "type": "scene",
+      "title": "向内生长的霜",
+      "url": "/api/assets/work_ghost_ledger_scene_080_01_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_080_02",
+      "type": "scene",
+      "title": "收紧的铃绳",
+      "url": "/api/assets/work_ghost_ledger_scene_080_02_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_080_03",
+      "type": "scene",
+      "title": "四门四种高度",
+      "url": "/api/assets/work_ghost_ledger_scene_080_03_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 4,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_080_04",
+      "type": "scene",
+      "title": "远程盲验记录",
+      "url": "/api/assets/work_ghost_ledger_scene_080_04_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 9,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_080_05",
+      "type": "scene",
+      "title": "药车停线复核",
+      "url": "/api/assets/work_ghost_ledger_scene_080_05_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 18,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_081_01",
+      "type": "scene",
+      "title": "三日底线",
+      "url": "/api/assets/work_ghost_ledger_scene_081_01_media",
+      "chapterNumber": 81,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_081_02",
+      "type": "scene",
+      "title": "两袋旧粮",
+      "url": "/api/assets/work_ghost_ledger_scene_081_02_media",
+      "chapterNumber": 81,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_081_03",
+      "type": "scene",
+      "title": "沟中水痕",
+      "url": "/api/assets/work_ghost_ledger_scene_081_03_media",
+      "chapterNumber": 81,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_081_04",
+      "type": "scene",
+      "title": "门外三择",
+      "url": "/api/assets/work_ghost_ledger_scene_081_04_media",
+      "chapterNumber": 81,
+      "paragraphIndex": 7,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_081_05",
+      "type": "scene",
+      "title": "一人回城",
+      "url": "/api/assets/work_ghost_ledger_scene_081_05_media",
+      "chapterNumber": 81,
+      "paragraphIndex": 13,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_082_01",
+      "type": "scene",
+      "title": "浅痕入缝",
+      "url": "/api/assets/work_ghost_ledger_scene_082_01_media",
+      "chapterNumber": 82,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_082_02",
+      "type": "scene",
+      "title": "三条件复核",
+      "url": "/api/assets/work_ghost_ledger_scene_082_02_media",
+      "chapterNumber": 82,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_082_03",
+      "type": "scene",
+      "title": "四路撤民",
+      "url": "/api/assets/work_ghost_ledger_scene_082_03_media",
+      "chapterNumber": 82,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_082_04",
+      "type": "scene",
+      "title": "木片与铃声",
+      "url": "/api/assets/work_ghost_ledger_scene_082_04_media",
+      "chapterNumber": 82,
+      "paragraphIndex": 6,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_082_05",
+      "type": "scene",
+      "title": "未尽石槽",
+      "url": "/api/assets/work_ghost_ledger_scene_082_05_media",
+      "chapterNumber": 82,
+      "paragraphIndex": 11,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_083_01",
+      "type": "scene",
+      "title": "外仓验物厅",
+      "url": "/api/assets/work_ghost_ledger_scene_083_01_media",
+      "chapterNumber": 83,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_083_02",
+      "type": "scene",
+      "title": "停职旁听",
+      "url": "/api/assets/work_ghost_ledger_scene_083_02_media",
+      "chapterNumber": 83,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_083_03",
+      "type": "scene",
+      "title": "九袋粮损耗",
+      "url": "/api/assets/work_ghost_ledger_scene_083_03_media",
+      "chapterNumber": 83,
+      "paragraphIndex": 6,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_083_04",
+      "type": "scene",
+      "title": "只承接小名",
+      "url": "/api/assets/work_ghost_ledger_scene_083_04_media",
+      "chapterNumber": 83,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_083_05",
+      "type": "scene",
+      "title": "湿痕分项核对",
+      "url": "/api/assets/work_ghost_ledger_scene_083_05_media",
+      "chapterNumber": 83,
+      "paragraphIndex": 16,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_084_01",
+      "type": "scene",
+      "title": "霜线入厅",
+      "url": "/api/assets/work_ghost_ledger_scene_084_01_media",
+      "chapterNumber": 84,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_084_02",
+      "type": "scene",
+      "title": "无笔压字面",
+      "url": "/api/assets/work_ghost_ledger_scene_084_02_media",
+      "chapterNumber": 84,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_084_03",
+      "type": "scene",
+      "title": "姓名褪去",
+      "url": "/api/assets/work_ghost_ledger_scene_084_03_media",
+      "chapterNumber": 84,
+      "paragraphIndex": 13,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_084_04",
+      "type": "scene",
+      "title": "两条基线复测",
+      "url": "/api/assets/work_ghost_ledger_scene_084_04_media",
+      "chapterNumber": 84,
+      "paragraphIndex": 21,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_084_05",
+      "type": "scene",
+      "title": "原状封存",
+      "url": "/api/assets/work_ghost_ledger_scene_084_05_media",
+      "chapterNumber": 84,
+      "paragraphIndex": 22,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_051_01",
+      "type": "scene",
+      "title": "三门分流与旧功单",
+      "url": "/api/assets/work_ghost_ledger_scene_051_01_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_051_02",
+      "type": "scene",
+      "title": "三户撤民簿的分层封存",
+      "url": "/api/assets/work_ghost_ledger_scene_051_02_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_051_03",
+      "type": "scene",
+      "title": "路条背面的无笔压曹字",
+      "url": "/api/assets/work_ghost_ledger_scene_051_03_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 18,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_051_04",
+      "type": "scene",
+      "title": "三层结论与陆昭异议",
+      "url": "/api/assets/work_ghost_ledger_scene_051_04_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_051_05",
+      "type": "scene",
+      "title": "旧册页码复原而非删名",
+      "url": "/api/assets/work_ghost_ledger_scene_051_05_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 31,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_052_01",
+      "type": "scene",
+      "title": "卯时告示，三栏分读",
+      "url": "/api/assets/work_ghost_ledger_scene_052_01_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_052_02",
+      "type": "scene",
+      "title": "甲三药袋，限定见闻",
+      "url": "/api/assets/work_ghost_ledger_scene_052_02_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 8,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_052_03",
+      "type": "scene",
+      "title": "复测木牌，纠正留痕",
+      "url": "/api/assets/work_ghost_ledger_scene_052_03_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_052_04",
+      "type": "scene",
+      "title": "本人按印，白线两断",
+      "url": "/api/assets/work_ghost_ledger_scene_052_04_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 15,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_052_05",
+      "type": "scene",
+      "title": "封袋编号，选择有期",
+      "url": "/api/assets/work_ghost_ledger_scene_052_05_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 26,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_053_01",
+      "type": "scene",
+      "title": "冰渠白线外的无名发现",
+      "url": "/api/assets/work_ghost_ledger_scene_053_01_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_053_02",
+      "type": "scene",
+      "title": "三袋沉积物与验尸记录",
+      "url": "/api/assets/work_ghost_ledger_scene_053_02_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_053_03",
+      "type": "scene",
+      "title": "叔父的有限授权",
+      "url": "/api/assets/work_ghost_ledger_scene_053_03_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 13,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_053_04",
+      "type": "scene",
+      "title": "隔着玻璃的回执筹码",
+      "url": "/api/assets/work_ghost_ledger_scene_053_04_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_053_05",
+      "type": "scene",
+      "title": "三重待核的无名柜",
+      "url": "/api/assets/work_ghost_ledger_scene_053_05_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 26,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_054_01",
+      "type": "scene",
+      "title": "封袋之外的控制权",
+      "url": "/api/assets/work_ghost_ledger_scene_054_01_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_054_02",
+      "type": "scene",
+      "title": "黑筹片压向粮药",
+      "url": "/api/assets/work_ghost_ledger_scene_054_02_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_054_03",
+      "type": "scene",
+      "title": "候选索引中的有限同意",
+      "url": "/api/assets/work_ghost_ledger_scene_054_03_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 12,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_054_04",
+      "type": "scene",
+      "title": "双层玻璃后的蜡线",
+      "url": "/api/assets/work_ghost_ledger_scene_054_04_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_054_05",
+      "type": "scene",
+      "title": "不能省掉的空白",
+      "url": "/api/assets/work_ghost_ledger_scene_054_05_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 27,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_055_01",
+      "type": "scene",
+      "title": "旧渡停药的药车",
+      "url": "/api/assets/work_ghost_ledger_scene_055_01_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_055_02",
+      "type": "scene",
+      "title": "三项争执被拆开",
+      "url": "/api/assets/work_ghost_ledger_scene_055_02_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_055_03",
+      "type": "scene",
+      "title": "黑灰停在双钥之前",
+      "url": "/api/assets/work_ghost_ledger_scene_055_03_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_055_04",
+      "type": "scene",
+      "title": "外仓只开一箱",
+      "url": "/api/assets/work_ghost_ledger_scene_055_04_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 17,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_055_05",
+      "type": "scene",
+      "title": "木楔只列为待验",
+      "url": "/api/assets/work_ghost_ledger_scene_055_05_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 25,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_056_01",
+      "type": "scene",
+      "title": "油布上的淡黑点",
+      "url": "/api/assets/work_ghost_ledger_scene_056_01_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_056_02",
+      "type": "scene",
+      "title": "木箱夹层的无题黑账",
+      "url": "/api/assets/work_ghost_ledger_scene_056_02_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_056_03",
+      "type": "scene",
+      "title": "白线停在骨架图",
+      "url": "/api/assets/work_ghost_ledger_scene_056_03_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_056_04",
+      "type": "scene",
+      "title": "叔父的限定确认",
+      "url": "/api/assets/work_ghost_ledger_scene_056_04_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 13,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_056_05",
+      "type": "scene",
+      "title": "反证分列，仍留无名",
+      "url": "/api/assets/work_ghost_ledger_scene_056_05_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 24,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_057_01",
+      "type": "scene",
+      "title": "遮名齿图排除候选",
+      "url": "/api/assets/work_ghost_ledger_scene_057_01_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_057_02",
+      "type": "scene",
+      "title": "断开的黑线与杖上薄灰",
+      "url": "/api/assets/work_ghost_ledger_scene_057_02_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 13,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_057_03",
+      "type": "scene",
+      "title": "撤项结论上的两枚独立印",
+      "url": "/api/assets/work_ghost_ledger_scene_057_03_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 15,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_057_04",
+      "type": "scene",
+      "title": "傍晚送来的巡检板",
+      "url": "/api/assets/work_ghost_ledger_scene_057_04_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 17,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_057_05",
+      "type": "scene",
+      "title": "浮名之前先复测",
+      "url": "/api/assets/work_ghost_ledger_scene_057_05_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_058_01",
+      "type": "scene",
+      "title": "三声裂响",
+      "url": "/api/assets/work_ghost_ledger_scene_058_01_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_058_02",
+      "type": "scene",
+      "title": "共享旧编号",
+      "url": "/api/assets/work_ghost_ledger_scene_058_02_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_058_03",
+      "type": "scene",
+      "title": "先断连杆",
+      "url": "/api/assets/work_ghost_ledger_scene_058_03_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_058_04",
+      "type": "scene",
+      "title": "封功刀前的停手",
+      "url": "/api/assets/work_ghost_ledger_scene_058_04_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 10,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_058_05",
+      "type": "scene",
+      "title": "警戒线下的分责",
+      "url": "/api/assets/work_ghost_ledger_scene_058_05_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 21,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_085_01",
+      "type": "scene",
+      "title": "三簇浅坑",
+      "url": "/api/assets/work_ghost_ledger_scene_085_01_media",
+      "chapterNumber": 85,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_085_02",
+      "type": "scene",
+      "title": "老车夫绘路",
+      "url": "/api/assets/work_ghost_ledger_scene_085_02_media",
+      "chapterNumber": 85,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_085_03",
+      "type": "scene",
+      "title": "裂缝中的油布",
+      "url": "/api/assets/work_ghost_ledger_scene_085_03_media",
+      "chapterNumber": 85,
+      "paragraphIndex": 6,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_085_04",
+      "type": "scene",
+      "title": "拆钉验纸",
+      "url": "/api/assets/work_ghost_ledger_scene_085_04_media",
+      "chapterNumber": 85,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_085_05",
+      "type": "scene",
+      "title": "旧棚泄水与支撑",
+      "url": "/api/assets/work_ghost_ledger_scene_085_05_media",
+      "chapterNumber": 85,
+      "paragraphIndex": 17,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_086_01",
+      "type": "scene",
+      "title": "失真的转抄纸",
+      "url": "/api/assets/work_ghost_ledger_scene_086_01_media",
+      "chapterNumber": 86,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_086_02",
+      "type": "scene",
+      "title": "废渡开匣",
+      "url": "/api/assets/work_ghost_ledger_scene_086_02_media",
+      "chapterNumber": 86,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_086_03",
+      "type": "scene",
+      "title": "半张随尸联",
+      "url": "/api/assets/work_ghost_ledger_scene_086_03_media",
+      "chapterNumber": 86,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_086_04",
+      "type": "scene",
+      "title": "义冢不掘",
+      "url": "/api/assets/work_ghost_ledger_scene_086_04_media",
+      "chapterNumber": 86,
+      "paragraphIndex": 8,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_086_05",
+      "type": "scene",
+      "title": "三条待核线",
+      "url": "/api/assets/work_ghost_ledger_scene_086_05_media",
+      "chapterNumber": 86,
+      "paragraphIndex": 19,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_087_01",
+      "type": "scene",
+      "title": "验物厅的三件纸样",
+      "url": "/api/assets/work_ghost_ledger_scene_087_01_media",
+      "chapterNumber": 87,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_087_02",
+      "type": "scene",
+      "title": "盲检纸纤维",
+      "url": "/api/assets/work_ghost_ledger_scene_087_02_media",
+      "chapterNumber": 87,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_087_03",
+      "type": "scene",
+      "title": "第三联的空缺",
+      "url": "/api/assets/work_ghost_ledger_scene_087_03_media",
+      "chapterNumber": 87,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_087_04",
+      "type": "scene",
+      "title": "墙缝掉出的竹纸",
+      "url": "/api/assets/work_ghost_ledger_scene_087_04_media",
+      "chapterNumber": 87,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_087_05",
+      "type": "scene",
+      "title": "回执与止血布",
+      "url": "/api/assets/work_ghost_ledger_scene_087_05_media",
+      "chapterNumber": 87,
+      "paragraphIndex": 20,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_088_01",
+      "type": "scene",
+      "title": "临时核验例上桌",
+      "url": "/api/assets/work_ghost_ledger_scene_088_01_media",
+      "chapterNumber": 88,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_088_02",
+      "type": "scene",
+      "title": "先行的河堤救援",
+      "url": "/api/assets/work_ghost_ledger_scene_088_02_media",
+      "chapterNumber": 88,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_088_03",
+      "type": "scene",
+      "title": "三方封柜分权",
+      "url": "/api/assets/work_ghost_ledger_scene_088_03_media",
+      "chapterNumber": 88,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_088_04",
+      "type": "scene",
+      "title": "草鞋与断药绳",
+      "url": "/api/assets/work_ghost_ledger_scene_088_04_media",
+      "chapterNumber": 88,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_088_05",
+      "type": "scene",
+      "title": "错听后的退让",
+      "url": "/api/assets/work_ghost_ledger_scene_088_05_media",
+      "chapterNumber": 88,
+      "paragraphIndex": 21,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_089_01",
+      "type": "scene",
+      "title": "木牌远置",
+      "url": "/api/assets/work_ghost_ledger_scene_089_01_media",
+      "chapterNumber": 89,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_089_02",
+      "type": "scene",
+      "title": "后写小字",
+      "url": "/api/assets/work_ghost_ledger_scene_089_02_media",
+      "chapterNumber": 89,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_089_03",
+      "type": "scene",
+      "title": "分账核发",
+      "url": "/api/assets/work_ghost_ledger_scene_089_03_media",
+      "chapterNumber": 89,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_089_04",
+      "type": "scene",
+      "title": "证物分袋",
+      "url": "/api/assets/work_ghost_ledger_scene_089_04_media",
+      "chapterNumber": 89,
+      "paragraphIndex": 10,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_089_05",
+      "type": "scene",
+      "title": "门槛浅字",
+      "url": "/api/assets/work_ghost_ledger_scene_089_05_media",
+      "chapterNumber": 89,
+      "paragraphIndex": 15,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_059_01",
+      "type": "scene",
+      "title": "油车见底与旧井回声",
+      "url": "/api/assets/work_ghost_ledger_scene_059_01_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_059_02",
+      "type": "scene",
+      "title": "旧印与可执行的权限",
+      "url": "/api/assets/work_ghost_ledger_scene_059_02_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_059_03",
+      "type": "scene",
+      "title": "油粮选择分账",
+      "url": "/api/assets/work_ghost_ledger_scene_059_03_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_059_04",
+      "type": "scene",
+      "title": "医棚记录补足发粥人数",
+      "url": "/api/assets/work_ghost_ledger_scene_059_04_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 17,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_059_05",
+      "type": "scene",
+      "title": "错栏更正与暂缓草料",
+      "url": "/api/assets/work_ghost_ledger_scene_059_05_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 24,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_060_01",
+      "type": "scene",
+      "title": "无官印的复核台",
+      "url": "/api/assets/work_ghost_ledger_scene_060_01_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_060_02",
+      "type": "scene",
+      "title": "第一批授权边界",
+      "url": "/api/assets/work_ghost_ledger_scene_060_02_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_060_03",
+      "type": "scene",
+      "title": "霜样与骨片分柜",
+      "url": "/api/assets/work_ghost_ledger_scene_060_03_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_060_04",
+      "type": "scene",
+      "title": "白纸上的越界责任",
+      "url": "/api/assets/work_ghost_ledger_scene_060_04_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 10,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_060_05",
+      "type": "scene",
+      "title": "原件与副本不得单独改动",
+      "url": "/api/assets/work_ghost_ledger_scene_060_05_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 25,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_061_01",
+      "type": "scene",
+      "title": "保全令抵达北镇",
+      "url": "/api/assets/work_ghost_ledger_scene_061_01_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_061_02",
+      "type": "scene",
+      "title": "一纸拆成四项责任",
+      "url": "/api/assets/work_ghost_ledger_scene_061_02_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_061_03",
+      "type": "scene",
+      "title": "未替薄纸夹出",
+      "url": "/api/assets/work_ghost_ledger_scene_061_03_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_061_04",
+      "type": "scene",
+      "title": "原册暂留三日",
+      "url": "/api/assets/work_ghost_ledger_scene_061_04_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 15,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_061_05",
+      "type": "scene",
+      "title": "错认被写入复核单",
+      "url": "/api/assets/work_ghost_ledger_scene_061_05_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 26,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_062_01",
+      "type": "scene",
+      "title": "皇城问罪诏抵达",
+      "url": "/api/assets/work_ghost_ledger_scene_062_01_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_062_02",
+      "type": "scene",
+      "title": "玉印与空缺时辰",
+      "url": "/api/assets/work_ghost_ledger_scene_062_02_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_062_03",
+      "type": "scene",
+      "title": "旧井第四声与裂霜骨片",
+      "url": "/api/assets/work_ghost_ledger_scene_062_03_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 6,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_062_04",
+      "type": "scene",
+      "title": "南线与北线的本人选择",
+      "url": "/api/assets/work_ghost_ledger_scene_062_04_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 16,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_062_05",
+      "type": "scene",
+      "title": "草料差额与分栏记录",
+      "url": "/api/assets/work_ghost_ledger_scene_062_05_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 22,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_063_01",
+      "type": "scene",
+      "title": "罪功同卷的催问文书",
+      "url": "/api/assets/work_ghost_ledger_scene_063_01_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_063_02",
+      "type": "scene",
+      "title": "罪名单与四格空栏",
+      "url": "/api/assets/work_ghost_ledger_scene_063_02_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_063_03",
+      "type": "scene",
+      "title": "白线牵连与选择分界",
+      "url": "/api/assets/work_ghost_ledger_scene_063_03_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 12,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_063_04",
+      "type": "scene",
+      "title": "同卷拆为四卷",
+      "url": "/api/assets/work_ghost_ledger_scene_063_04_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 16,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_063_05",
+      "type": "scene",
+      "title": "受潮副本的独立说明",
+      "url": "/api/assets/work_ghost_ledger_scene_063_05_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 22,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_064_01",
+      "type": "scene",
+      "title": "空白责任表",
+      "url": "/api/assets/work_ghost_ledger_scene_064_01_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_064_02",
+      "type": "scene",
+      "title": "四柜会签",
+      "url": "/api/assets/work_ghost_ledger_scene_064_02_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 8,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_064_03",
+      "type": "scene",
+      "title": "西门封线与本人选择",
+      "url": "/api/assets/work_ghost_ledger_scene_064_03_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 9,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_064_04",
+      "type": "scene",
+      "title": "停职责任卷",
+      "url": "/api/assets/work_ghost_ledger_scene_064_04_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 16,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_064_05",
+      "type": "scene",
+      "title": "保留口误",
+      "url": "/api/assets/work_ghost_ledger_scene_064_05_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 21,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_065_01",
+      "type": "scene",
+      "title": "九封急报入中书省",
+      "url": "/api/assets/work_ghost_ledger_scene_065_01_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_065_02",
+      "type": "scene",
+      "title": "错听之后主动复核",
+      "url": "/api/assets/work_ghost_ledger_scene_065_02_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_065_03",
+      "type": "scene",
+      "title": "黑甲尸体退回传闻栏",
+      "url": "/api/assets/work_ghost_ledger_scene_065_03_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_065_04",
+      "type": "scene",
+      "title": "事实观察员的两条限制",
+      "url": "/api/assets/work_ghost_ledger_scene_065_04_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 10,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_065_05",
+      "type": "scene",
+      "title": "同时收到不等同一原因",
+      "url": "/api/assets/work_ghost_ledger_scene_065_05_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 15,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_066_01",
+      "type": "scene",
+      "title": "卯时的土沟",
+      "url": "/api/assets/work_ghost_ledger_scene_066_01_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_066_02",
+      "type": "scene",
+      "title": "无名尸的候选物证",
+      "url": "/api/assets/work_ghost_ledger_scene_066_02_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_066_03",
+      "type": "scene",
+      "title": "空袋中的三种路线",
+      "url": "/api/assets/work_ghost_ledger_scene_066_03_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 8,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_066_04",
+      "type": "scene",
+      "title": "留在井壁的铁环",
+      "url": "/api/assets/work_ghost_ledger_scene_066_04_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 13,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_066_05",
+      "type": "scene",
+      "title": "疲劳后的路线复核",
+      "url": "/api/assets/work_ghost_ledger_scene_066_05_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 20,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_091_01",
+      "type": "scene",
+      "title": "无骑印急递",
+      "url": "/api/assets/work_ghost_ledger_scene_091_01_media",
+      "chapterNumber": 91,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_091_02",
+      "type": "scene",
+      "title": "半印分样",
+      "url": "/api/assets/work_ghost_ledger_scene_091_02_media",
+      "chapterNumber": 91,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_091_03",
+      "type": "scene",
+      "title": "冻结结算权限",
+      "url": "/api/assets/work_ghost_ledger_scene_091_03_media",
+      "chapterNumber": 91,
+      "paragraphIndex": 3,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_091_04",
+      "type": "scene",
+      "title": "旧驿牌辨认",
+      "url": "/api/assets/work_ghost_ledger_scene_091_04_media",
+      "chapterNumber": 91,
+      "paragraphIndex": 5,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_091_05",
+      "type": "scene",
+      "title": "暂缓告示封存",
+      "url": "/api/assets/work_ghost_ledger_scene_091_05_media",
+      "chapterNumber": 91,
+      "paragraphIndex": 12,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_092_01",
+      "type": "scene",
+      "title": "六人到场",
+      "url": "/api/assets/work_ghost_ledger_scene_092_01_media",
+      "chapterNumber": 92,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_092_02",
+      "type": "scene",
+      "title": "编号询问",
+      "url": "/api/assets/work_ghost_ledger_scene_092_02_media",
+      "chapterNumber": 92,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_092_03",
+      "type": "scene",
+      "title": "伤情有限记录",
+      "url": "/api/assets/work_ghost_ledger_scene_092_03_media",
+      "chapterNumber": 92,
+      "paragraphIndex": 5,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_092_04",
+      "type": "scene",
+      "title": "异常字散开",
+      "url": "/api/assets/work_ghost_ledger_scene_092_04_media",
+      "chapterNumber": 92,
+      "paragraphIndex": 8,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_092_05",
+      "type": "scene",
+      "title": "选择范围确认",
+      "url": "/api/assets/work_ghost_ledger_scene_092_05_media",
+      "chapterNumber": 92,
+      "paragraphIndex": 9,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_093_01",
+      "type": "scene",
+      "title": "九匣分镇开封",
+      "url": "/api/assets/work_ghost_ledger_scene_093_01_media",
+      "chapterNumber": 93,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_093_02",
+      "type": "scene",
+      "title": "划去功名栏",
+      "url": "/api/assets/work_ghost_ledger_scene_093_02_media",
+      "chapterNumber": 93,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_093_03",
+      "type": "scene",
+      "title": "白线外纠错",
+      "url": "/api/assets/work_ghost_ledger_scene_093_03_media",
+      "chapterNumber": 93,
+      "paragraphIndex": 3,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_093_04",
+      "type": "scene",
+      "title": "旧总表退回",
+      "url": "/api/assets/work_ghost_ledger_scene_093_04_media",
+      "chapterNumber": 93,
+      "paragraphIndex": 6,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_093_05",
+      "type": "scene",
+      "title": "九柜各自封存",
+      "url": "/api/assets/work_ghost_ledger_scene_093_05_media",
+      "chapterNumber": 93,
+      "paragraphIndex": 11,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_094_01",
+      "type": "scene",
+      "title": "编号页看反",
+      "url": "/api/assets/work_ghost_ledger_scene_094_01_media",
+      "chapterNumber": 94,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_094_02",
+      "type": "scene",
+      "title": "盲辨木牌",
+      "url": "/api/assets/work_ghost_ledger_scene_094_02_media",
+      "chapterNumber": 94,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_094_03",
+      "type": "scene",
+      "title": "改为边界待定",
+      "url": "/api/assets/work_ghost_ledger_scene_094_03_media",
+      "chapterNumber": 94,
+      "paragraphIndex": 3,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_094_04",
+      "type": "scene",
+      "title": "门前救援暂停",
+      "url": "/api/assets/work_ghost_ledger_scene_094_04_media",
+      "chapterNumber": 94,
+      "paragraphIndex": 6,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_094_05",
+      "type": "scene",
+      "title": "空匣底板狭签",
+      "url": "/api/assets/work_ghost_ledger_scene_094_05_media",
+      "chapterNumber": 94,
+      "paragraphIndex": 10,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_095_01",
+      "type": "scene",
+      "title": "递回的空匣图",
+      "url": "/api/assets/work_ghost_ledger_scene_095_01_media",
+      "chapterNumber": 95,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_095_02",
+      "type": "scene",
+      "title": "白线外抄图",
+      "url": "/api/assets/work_ghost_ledger_scene_095_02_media",
+      "chapterNumber": 95,
+      "paragraphIndex": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_095_03",
+      "type": "scene",
+      "title": "待迁栏与缺失回执",
+      "url": "/api/assets/work_ghost_ledger_scene_095_03_media",
+      "chapterNumber": 95,
+      "paragraphIndex": 2,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_095_04",
+      "type": "scene",
+      "title": "危墙下先救人",
+      "url": "/api/assets/work_ghost_ledger_scene_095_04_media",
+      "chapterNumber": 95,
+      "paragraphIndex": 5,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_095_05",
+      "type": "scene",
+      "title": "首次露骨",
+      "url": "/api/assets/work_ghost_ledger_scene_095_05_media",
+      "chapterNumber": 95,
+      "paragraphIndex": 6,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_096_01",
+      "type": "scene",
+      "title": "命名表到达",
+      "url": "/api/assets/work_ghost_ledger_scene_096_01_media",
+      "chapterNumber": 96,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_096_02",
+      "type": "scene",
+      "title": "共棚见闻不代认",
+      "url": "/api/assets/work_ghost_ledger_scene_096_02_media",
+      "chapterNumber": 96,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_096_03",
+      "type": "scene",
+      "title": "口述与陶罐分项核验",
+      "url": "/api/assets/work_ghost_ledger_scene_096_03_media",
+      "chapterNumber": 96,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_096_04",
+      "type": "scene",
+      "title": "到点交图休息",
+      "url": "/api/assets/work_ghost_ledger_scene_096_04_media",
+      "chapterNumber": 96,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_096_05",
+      "type": "scene",
+      "title": "退文与责任分流",
+      "url": "/api/assets/work_ghost_ledger_scene_096_05_media",
+      "chapterNumber": 96,
+      "paragraphIndex": 15,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_097_01",
+      "type": "scene",
+      "title": "旧棚验物厅",
+      "url": "/api/assets/work_ghost_ledger_scene_097_01_media",
+      "chapterNumber": 97,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_097_02",
+      "type": "scene",
+      "title": "八名待搜分列",
+      "url": "/api/assets/work_ghost_ledger_scene_097_02_media",
+      "chapterNumber": 97,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_097_03",
+      "type": "scene",
+      "title": "两只水铃",
+      "url": "/api/assets/work_ghost_ledger_scene_097_03_media",
+      "chapterNumber": 97,
+      "paragraphIndex": 3,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_097_04",
+      "type": "scene",
+      "title": "旧棚骨原位",
+      "url": "/api/assets/work_ghost_ledger_scene_097_04_media",
+      "chapterNumber": 97,
+      "paragraphIndex": 4,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_097_05",
+      "type": "scene",
+      "title": "索引封存",
+      "url": "/api/assets/work_ghost_ledger_scene_097_05_media",
+      "chapterNumber": 97,
+      "paragraphIndex": 18,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_098_01",
+      "type": "scene",
+      "title": "议厅留异议",
+      "url": "/api/assets/work_ghost_ledger_scene_098_01_media",
+      "chapterNumber": 98,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_098_02",
+      "type": "scene",
+      "title": "四栏草案",
+      "url": "/api/assets/work_ghost_ledger_scene_098_02_media",
+      "chapterNumber": 98,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_098_03",
+      "type": "scene",
+      "title": "危墙先救",
+      "url": "/api/assets/work_ghost_ledger_scene_098_03_media",
+      "chapterNumber": 98,
+      "paragraphIndex": 4,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_098_04",
+      "type": "scene",
+      "title": "试行令通过",
+      "url": "/api/assets/work_ghost_ledger_scene_098_04_media",
+      "chapterNumber": 98,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_098_05",
+      "type": "scene",
+      "title": "铜牌边界",
+      "url": "/api/assets/work_ghost_ledger_scene_098_05_media",
+      "chapterNumber": 98,
+      "paragraphIndex": 20,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_099_01",
+      "type": "scene",
+      "title": "分袋交接",
+      "url": "/api/assets/work_ghost_ledger_scene_099_01_media",
+      "chapterNumber": 99,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_099_02",
+      "type": "scene",
+      "title": "闭柜归还",
+      "url": "/api/assets/work_ghost_ledger_scene_099_02_media",
+      "chapterNumber": 99,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_099_03",
+      "type": "scene",
+      "title": "铜牌入房",
+      "url": "/api/assets/work_ghost_ledger_scene_099_03_media",
+      "chapterNumber": 99,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_099_04",
+      "type": "scene",
+      "title": "湿图补证",
+      "url": "/api/assets/work_ghost_ledger_scene_099_04_media",
+      "chapterNumber": 99,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_099_05",
+      "type": "scene",
+      "title": "停笔复读",
+      "url": "/api/assets/work_ghost_ledger_scene_099_05_media",
+      "chapterNumber": 99,
+      "paragraphIndex": 19,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_100_01",
+      "type": "scene",
+      "title": "雪日分报",
+      "url": "/api/assets/work_ghost_ledger_scene_100_01_media",
+      "chapterNumber": 100,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_100_02",
+      "type": "scene",
+      "title": "有限承责",
+      "url": "/api/assets/work_ghost_ledger_scene_100_02_media",
+      "chapterNumber": 100,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_100_03",
+      "type": "scene",
+      "title": "迟送追责",
+      "url": "/api/assets/work_ghost_ledger_scene_100_03_media",
+      "chapterNumber": 100,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_100_04",
+      "type": "scene",
+      "title": "模糊待核",
+      "url": "/api/assets/work_ghost_ledger_scene_100_04_media",
+      "chapterNumber": 100,
+      "paragraphIndex": 17,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_100_05",
+      "type": "scene",
+      "title": "夜班未结",
+      "url": "/api/assets/work_ghost_ledger_scene_100_05_media",
+      "chapterNumber": 100,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_ghost_ledger_scene_090_01",
+      "type": "scene",
+      "title": "天亮验门",
+      "url": "/api/assets/work_ghost_ledger_scene_090_01_media",
+      "chapterNumber": 90,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_ghost_ledger_scene_090_02",
+      "type": "scene",
+      "title": "一人宽试开",
+      "url": "/api/assets/work_ghost_ledger_scene_090_02_media",
+      "chapterNumber": 90,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_ghost_ledger_scene_090_03",
+      "type": "scene",
+      "title": "旧图失准",
+      "url": "/api/assets/work_ghost_ledger_scene_090_03_media",
+      "chapterNumber": 90,
+      "paragraphIndex": 6,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_ghost_ledger_scene_090_04",
+      "type": "scene",
+      "title": "救援实耗",
+      "url": "/api/assets/work_ghost_ledger_scene_090_04_media",
+      "chapterNumber": 90,
+      "paragraphIndex": 9,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_ghost_ledger_scene_090_05",
+      "type": "scene",
+      "title": "定宽守门",
+      "url": "/api/assets/work_ghost_ledger_scene_090_05_media",
+      "chapterNumber": 90,
+      "paragraphIndex": 15,
+      "sortOrder": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "char_ghost_luzhao",
+      "name": "陆昭",
+      "role": "主角",
+      "relation": "黑水驿收尸役 · 22岁",
+      "publicSummary": "识骨、修车轴、记路极准的边镇收尸役，意外得到只记未结之功的黑色功簿。",
+      "privateProfile": {
+        "desire": "让每具无人认领的尸体都有可核验的结局",
+        "fear": "自己只是被功簿挑中的工具",
+        "voice": "少说判断，多报证据；紧张时会摸拇指旧茧",
+        "arcStart": "只求活过冬天",
+        "arcCurrent": "开始承担一镇人的生死调度"
+      },
+      "visualPrompt": "年轻中国古代边镇收尸役，灰黑短袍，木匣与旧车轴，风雪关城，写实东方玄幻电影感"
+    },
+    {
+      "id": "char_ghost_xuqingtang",
+      "name": "许青棠",
+      "role": "关键配角",
+      "relation": "北镇医官兼弩手 · 25岁",
+      "publicSummary": "能从伤情和箭痕拆穿伪证的北镇医官，正在追查弟弟的活祭案。",
+      "privateProfile": {
+        "desire": "查明弟弟被征为活祭的真实去向",
+        "fear": "证据最终指向自己曾签过的军令",
+        "voice": "句子利落，先报伤情再报情绪",
+        "arcStart": "只相信伤口",
+        "arcCurrent": "建立独立伤亡复核署"
+      },
+      "visualPrompt": "中国古代北境女医官兼弩手，青灰军医服，短弩与药囊，雪关，冷峻写实东方玄幻"
+    },
+    {
+      "id": "char_ghost_hetingzhou",
+      "name": "贺停舟",
+      "role": "重要配角",
+      "relation": "前镇诡卫 · 39岁",
+      "publicSummary": "失去一条腿的前镇诡卫，熟悉城防、粮道和功勋制度。",
+      "privateProfile": {
+        "desire": "保住北境百姓并完成一次不靠谎言的赎罪",
+        "fear": "旧日错误结算再次害死一城人",
+        "voice": "说话慢，习惯把风险写在地图上",
+        "arcStart": "只想守住一扇门",
+        "arcCurrent": "愿意把指挥权交给更年轻的人"
+      },
+      "visualPrompt": "中年中国古代残腿镇诡卫，旧铁甲与木杖，边城地图，风雪，克制写实东方玄幻"
+    },
+    {
+      "id": "char_ghost_sikongjin",
+      "name": "司空烬",
+      "role": "主要对手",
+      "relation": "功簿院掌院",
+      "publicSummary": "主张集中功簿与结算权的功簿院掌院，拥有完整法统和强大执行网络。",
+      "privateProfile": {
+        "desire": "用统一结算避免九镇私刑与灾变扩散",
+        "fear": "地方拥有独立功簿后再次出现失控战争",
+        "voice": "温和精确，把压制称为统一尺度",
+        "arcStart": "相信集中权力能减少牺牲",
+        "arcCurrent": "被迫承认自己也无法替所有人同意"
+      },
+      "visualPrompt": "中国古代功簿院掌院，深青官袍，黑色账册，冷峻宫城，理性危险，写实东方玄幻"
+    }
+  ]
+}

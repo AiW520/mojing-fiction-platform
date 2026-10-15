@@ -1,0 +1,70 @@
+<view class="page-shell library-page">
+  <view class="library-header">
+    <view class="library-brand"><view class="library-mark">墨</view><text>墨境</text></view>
+    <view class="library-header-actions"><button class="library-icon-button" bindtap="refreshLibrary" disabled="{{refreshing}}" aria-label="刷新书城" hover-class="control-pressed"><image class="{{refreshing ? 'refreshing-icon' : ''}}" src="/assets/icons/library/refresh-ink.png" /></button><button class="library-icon-button" bindtap="openMe" disabled="{{navigating}}" aria-label="我的" hover-class="control-pressed"><image src="/assets/icons/library/user-ink.png" /></button></view>
+  </view>
+  <view class="library-content">
+    <view class="library-intro"><view class="library-heading">书城</view><text class="library-count">{{loading ? '正在整理书页' : allBooks.length + ' 部小说'}}{{comics.length ? ' · ' + comics.length + ' 本漫画' : ''}}</text></view>
+    <button class="library-search" bindtap="openSearch" disabled="{{navigating}}" aria-label="搜索作品或作者" hover-class="control-pressed"><image src="/assets/icons/library/search-ink.png" /><text>搜索作品或作者</text><text class="search-arrow">›</text></button>
+    <view class="library-controls"><view class="category-tabs"><block wx:for="{{categories}}" wx:key="*this"><button class="category-tab {{category === item ? 'active' : ''}}" data-category="{{item}}" bindtap="chooseCategory" aria-selected="{{category === item}}" hover-class="control-pressed">{{item}}</button></block></view><text class="filtered-count">{{category === '漫画' ? (comicLoading ? '' : comics.length + ' 本') : (loading ? '' : visibleCount + ' 部')}}</text></view>
+    <view wx:if="{{category === '全部' || category === '漫画'}}" class="home-comics">
+      <view class="library-section-head"><view class="library-section-title">漫画书库</view><button class="comic-all" bindtap="openComics" disabled="{{navigating}}" aria-label="漫画书库"><text>全部{{comics.length ? ' ' + comics.length + ' 本' : ''}}</text><image src="/assets/icons/library/arrow-active.png" /></button></view>
+      <view wx:if="{{comicLoading}}" class="comic-status">正在载入漫画</view>
+      <view wx:elif="{{comicError}}" class="comic-status comic-warning"><text>{{comicOffline ? '当前显示缓存话目，阅读需联网' : comicError}}</text><button bindtap="refreshComics">重新连接漫画</button></view>
+      <view wx:elif="{{!comics.length}}" class="comic-status">暂无已发布的漫画</view>
+      <view wx:if="{{featuredComics.length}}" class="comic-preview-grid"><button wx:for="{{featuredComics}}" wx:key="id" class="home-comic-tile" data-id="{{item.id}}" bindtap="openComic" disabled="{{navigating}}" hover-class="book-pressed" aria-label="{{item.title}}">
+        <view class="home-comic-cover"><image wx:if="{{item.coverUrl}}" src="{{item.coverUrl}}" mode="aspectFill" lazy-load data-id="{{item.id}}" binderror="onComicCoverError" /><view wx:else class="comic-cover-fallback"><image src="/assets/icons/library/books-ink.png" /><text>{{item.title}}</text></view></view>
+        <view class="book-title">{{item.title}}</view><text class="home-comic-meta">{{item.episodeCount}} 话 · 条漫</text>
+      </button></view>
+    </view>
+    <block wx:if="{{category !== '漫画'}}">
+    <view wx:if="{{loading}}" class="library-loading"><view class="loading-section-title"></view><view class="book-grid"><block wx:for="{{skeletons}}" wx:key="*this"><view class="book-skeleton"><view class="skeleton-cover"></view><view class="skeleton-line"></view><view class="skeleton-line short"></view></view></block></view></view>
+    <view wx:elif="{{error}}" class="library-empty" role="alert"><image src="/assets/icons/library/books-ink.png" /><view>书城暂时无法连接</view><text>{{error}}</text><button bindtap="refreshLibrary" class="library-retry" disabled="{{refreshing}}">重新连接</button></view>
+    <block wx:else>
+      <view wx:if="{{offline}}" class="library-offline"><view><text class="offline-dot"></text><text>已载入离线书库</text></view><button bindtap="refreshLibrary" disabled="{{refreshing}}">重新连接</button></view>
+      <view wx:if="{{hasReading}}" class="resume-section"><view class="library-section-head"><view class="library-section-title">继续阅读</view><text>{{continueBook.chapter}}</text></view><button class="resume-row" bindtap="openReader" disabled="{{navigating}}" hover-class="book-pressed" aria-label="继续上次阅读">
+        <view class="resume-cover cover-{{continueBook.coverTone}}"><image wx:if="{{continueBook.coverImage}}" src="{{continueBook.coverImage}}" mode="aspectFill" data-id="{{continueBook.id}}" binderror="onCoverError" /><text wx:else>{{continueBook.title}}</text></view>
+        <view class="resume-info"><view class="resume-title">{{continueBook.title}}</view><view class="resume-byline">{{continueBook.author}} · {{continueBook.readingLabel}}</view><view class="resume-progress"><view class="resume-track"><view style="width: {{continueBook.progress}}%"></view></view><text>{{continueBook.progress}}%</text></view></view><image class="resume-arrow" src="/assets/icons/library/arrow-active.png" />
+      </button></view>
+      <view wx:if="{{longBooks.length}}" class="library-book-section longform-section"><view class="library-section-head"><view class="library-section-title">长篇书库</view><text>{{longBooks.length}} 部</text></view>
+        <view class="book-grid"><block wx:for="{{longBooks}}" wx:key="id">
+  <button class="book-tile pick-card" data-id="{{item.id}}" bindtap="openDetail" disabled="{{navigating}}" hover-class="book-pressed" aria-label="{{item.title}}">
+    <view class="book-cover cover-{{item.coverTone}}">
+      <view wx:if="{{!item.coverImage}}" class="type-cover"><text class="cover-imprint">墨境文库</text><view class="cover-rule"></view><text class="cover-name">{{item.title}}</text><view class="cover-footer"><text>{{item.genreLabel}}</text><text>{{item.author}}</text></view></view>
+      <image wx:else src="{{item.coverImage}}" mode="aspectFill" lazy-load data-id="{{item.id}}" binderror="onCoverError" />
+    </view>
+    <view class="book-title">{{item.title}}</view>
+    <view class="book-author">{{item.author}}</view>
+    <view class="book-summary">{{item.tagline || item.summary}}</view>
+    <view class="book-meta"><text class="book-status {{item.statusLabel === '连载中' ? 'serializing' : ''}}">{{item.statusLabel}}</text><text>{{item.readingLabel}}</text></view>
+    <view class="book-length">{{item.wordLabel}}<text> · </text>{{item.genreLabel}}</view>
+  </button>
+</block></view>
+      </view>
+      <view wx:if="{{shortBooks.length}}" class="library-book-section shortform-section"><view class="library-section-head"><view class="library-section-title">一口气读完</view><text>短篇 · {{shortBooks.length}} 部</text></view>
+        <view class="book-grid"><block wx:for="{{shortBooks}}" wx:key="id">
+  <button class="book-tile pick-card" data-id="{{item.id}}" bindtap="openDetail" disabled="{{navigating}}" hover-class="book-pressed" aria-label="{{item.title}}">
+    <view class="book-cover cover-{{item.coverTone}}">
+      <view wx:if="{{!item.coverImage}}" class="type-cover"><text class="cover-imprint">墨境文库</text><view class="cover-rule"></view><text class="cover-name">{{item.title}}</text><view class="cover-footer"><text>{{item.genreLabel}}</text><text>{{item.author}}</text></view></view>
+      <image wx:else src="{{item.coverImage}}" mode="aspectFill" lazy-load data-id="{{item.id}}" binderror="onCoverError" />
+    </view>
+    <view class="book-title">{{item.title}}</view>
+    <view class="book-author">{{item.author}}</view>
+    <view class="book-summary">{{item.tagline || item.summary}}</view>
+    <view class="book-meta"><text class="book-status {{item.statusLabel === '连载中' ? 'serializing' : ''}}">{{item.statusLabel}}</text><text>{{item.genreLabel}}</text></view>
+    <view class="book-length">{{item.wordLabel}}<text> · </text>{{item.readingLabel}}</view>
+  </button>
+</block></view>
+      </view>
+      <view wx:if="{{!visibleCount}}" class="library-empty"><image src="/assets/icons/library/read-ink.png" /><view>{{allBooks.length ? '这个分类暂时没有作品' : '书库还没有公开作品'}}</view><button wx:if="{{allBooks.length}}" class="library-retry" data-category="全部" bindtap="chooseCategory">查看全部</button></view>
+      <view wx:if="{{visibleCount}}" class="library-end"><view></view><text>书页之外，故事仍在继续</text><view></view></view>
+    </block>
+    </block>
+  </view>
+  <view class="library-nav"><view class="library-nav-inner">
+    <button class="library-nav-item active" aria-label="书城"><image src="/assets/icons/library/books-active.png" /><text>书城</text></button>
+    <button class="library-nav-item" bindtap="openCreate" disabled="{{navigating}}" aria-label="创作"><image src="/assets/icons/library/plus-ink.png" /><text>创作</text></button>
+    <button class="library-nav-item" bindtap="openShelf" disabled="{{navigating}}" aria-label="书架"><image src="/assets/icons/library/read-ink.png" /><text>书架</text></button>
+    <button class="library-nav-item" bindtap="openMe" disabled="{{navigating}}" aria-label="我的"><image src="/assets/icons/library/user-ink.png" /><text>我的</text></button>
+  </view></view>
+</view>

@@ -1,0 +1,107 @@
+import assert from 'node:assert/strict'
+import { createRequire } from 'node:module'
+import { mkdirSync } from 'node:fs'
+import { resolve } from 'node:path'
+
+const { chromium } = createRequire(resolve(process.env.PLAYWRIGHT_MODULE_ROOT || '.', 'package.json'))('playwright')
+const base = process.env.PREVIEW_URL || 'http://127.0.0.1:4174'
+const output = resolve(process.env.QA_OUTPUT || 'artifacts/comic-discovery-qa')
+mkdirSync(output, { recursive: true })
+const response = await fetch(`${base}/api/comic-series`)
+assert.equal(response.ok, true, 'Preview must expose the comic series API')
+const catalog = await response.json()
+assert.ok(Array.isArray(catalog.items) && catalog.items.length >= 2, 'Preview must expose at least two comic books')
+const redTide = catalog.items.find(series => series.title === '赤潮')
+const rain = catalog.items.find(series => series.title === '雨停之前，底片未干')
+assert.equal(redTide?.episodeCount, 8, 'Red Tide must be shown as one book with eight episodes')
+assert.equal(rain?.episodeCount, 5, 'Rain Before Film Must Be shown as one book with five published episodes')
+const selected = redTide
+const episode = selected.episodes[0]
+const episodeResponse = await fetch(`${base}/api/comics/${encodeURIComponent(episode.id)}`)
+assert.equal(episodeResponse.ok, true, 'First episode must open through the public reader API')
+const episodeContent = (await episodeResponse.json()).episode
+const browser = await chromium.launch({ headless: true, executablePath: process.env.CHROMIUM_EXECUTABLE })
+const home = `${base}/preview/?page=${encodeURIComponent('/pages/home/index')}`
+const library = `${base}/preview/?page=${encodeURIComponent('/pages/comics/index')}`
+try {
+  for (const width of [320, 390, 768, 1440]) {
+    const page = await browser.newPage({ viewport: { width, height: width >= 700 ? 900 : 844 } })
+    const errors = []
+    page.on('pageerror', error => errors.push(error.message))
+    const screenshot = async name => {
+      assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true, `${name} overflow at ${width}px`)
+      await page.screenshot({ path: resolve(output, `${name}-${width}.png`) })
+    }
+    await page.goto(home)
+    await page.locator('.home-comic-tile').first().waitFor()
+    assert.equal(await page.locator('.home-comic-tile').count(), Math.min(4, catalog.items.length))
+    await screenshot('home')
+    await page.getByRole('button', { name: '漫画', exact: true }).click()
+    assert.equal(await page.locator('.home-comic-tile').count(), catalog.items.length)
+    assert.equal(await page.locator('.book-tile').count(), 0)
+    await page.getByRole('button', { name: '漫画书库', exact: true }).click()
+    await page.locator('.comic-tile').first().waitFor()
+    assert.equal(await page.locator('.comic-tile').count(), catalog.items.length)
+    assert.match(await page.locator('.comic-tile').filter({ hasText:'赤潮' }).innerText(), /8 话/)
+    await screenshot('library')
+    await page.locator(`.comic-tile[data-id="${selected.id}"]`).click()
+    await page.locator('.comic-episode-row').first().waitFor()
+    assert.equal(await page.locator('.comic-episode-row').count(), selected.episodeCount)
+    assert.match(await page.locator('.comic-book-title').innerText(), /赤潮/)
+    await screenshot('episodes')
+    await page.locator(`.comic-episode-row[data-id="${episode.id}"]`).click()
+    await page.locator('.comic-panel img').first().waitFor()
+    assert.equal(await page.locator('.comic-panel').count(), episodeContent.panels.length)
+    await page.locator('.comic-panel img').first().evaluate(img => img.decode())
+    await screenshot('reader')
+    assert.equal(await page.locator('button[open-type="share"]').count(), 1)
+    await page.locator('.comic-panel img').first().click()
+    await page.locator('dialog[open] img').evaluate(img => img.decode())
+    await page.getByRole('button', { name: '下一张', exact: true }).click()
+    if (episodeContent.panels.length > 1) assert.ok((await page.locator('dialog[open] img').getAttribute('src')).includes(episodeContent.panels[1].imageId))
+    await page.keyboard.press('Escape')
+    await page.evaluate(() => scrollTo(0, 650))
+    await page.waitForFunction(() => Object.keys(localStorage).some(key => key.includes('comic-position-') && localStorage.getItem(key).includes('650')))
+    await page.getByRole('button', { name: '漫画目录' }).click()
+    await page.locator('.comic-episode-row').first().waitFor()
+    assert.match(await page.locator(`.comic-episode-row[data-id="${episode.id}"]`).innerText(), /继续阅读/)
+    await page.locator('.episode-cover img').first().dispatchEvent('error')
+    await page.locator('.episode-cover .comic-cover-placeholder').first().waitFor()
+    await page.route('**/api/comic-series', route => route.abort())
+    await page.getByRole('button', { name: '刷新话目' }).click()
+    await page.locator('.comic-library-notice').waitFor()
+    assert.equal(await page.locator('.comic-episode-row').count(), selected.episodeCount)
+    await screenshot('cached-episodes')
+    await page.unroute('**/api/comic-series')
+    await page.getByRole('button', { name: '返回漫画书库' }).click()
+    await page.locator('.comic-tile').first().waitFor()
+    await page.getByRole('button', { name: '返回书城', exact: true }).click()
+    await page.locator('.home-comic-tile').first().waitFor()
+    await page.goto(`${base}/comics`)
+    assert.equal(await page.locator('.library>a').count(), catalog.items.length)
+    await page.locator(`.library>a[href="/comics/series/${selected.id}"]`).click()
+    await page.locator('.series-episodes>a').first().waitFor()
+    assert.equal(await page.locator('.series-episodes>a').count(), selected.episodeCount)
+    await page.locator('.series-episodes>a').first().click()
+    await page.getByText('本话完', { exact:true }).waitFor()
+    assert.equal(await page.locator('.end-actions a[href^="/comics/"]').count(), 2)
+    await screenshot('web-reader')
+    assert.deepEqual(errors, [])
+    await page.close()
+    console.log(`PASS ${width}px: books, episode directory, reading, viewer, progress, share, fallback and navigation`)
+  }
+
+  const empty = await browser.newPage()
+  await empty.route('**/api/comic-series', route => route.fulfill({ json:{ items:[], partial:false } }))
+  await empty.goto(library)
+  await empty.getByText('暂无已发布的漫画', { exact:true }).waitFor()
+  await empty.close()
+
+  const disconnected = await browser.newPage()
+  await disconnected.route('**/api/comic-series', route => route.abort())
+  await disconnected.goto(home)
+  await disconnected.locator('.book-tile').first().waitFor()
+  await disconnected.getByRole('button', { name:'重新连接漫画', exact:true }).waitFor()
+  await disconnected.close()
+  console.log('PASS empty library and independent comic source failure')
+} finally { await browser.close() }

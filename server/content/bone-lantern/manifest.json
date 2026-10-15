@@ -1,0 +1,3710 @@
+{
+  "id": "work_bone_lantern",
+  "title": "照骨灯",
+  "author": "唐渡",
+  "type": "东方志怪 · 悬疑",
+  "summary": "大胤奉安城接连出现死而无影的尸体。女仵作沈青崖继承一盏能照见亡者未言之事的青铜灯，与巡夜司校尉裴照川追查十八年前被焚毁的《百骨簿》。每点一次灯，她就要交出一段自己的记忆；而所有死者最后指向的，竟是她从未存在过的童年。",
+  "tagline": "灯照的是骨，也是活人不敢承认的那一部分自己。",
+  "cover": "/assets/books/bone-lantern/cover.webp",
+  "status": "complete",
+  "targetWords": 220000,
+  "plannedChapters": 80,
+  "reads": "新作连载",
+  "score": "9.4",
+  "volumes": [
+    {
+      "id": "bone-volume-01",
+      "title": "卷一 · 雨骨",
+      "sortOrder": 0,
+      "plannedChapters": 16
+    },
+    {
+      "id": "bone-volume-02",
+      "title": "卷二 · 镜城",
+      "sortOrder": 1,
+      "plannedChapters": 16
+    },
+    {
+      "id": "bone-volume-03",
+      "title": "卷三 · 河图",
+      "sortOrder": 2,
+      "plannedChapters": 16
+    },
+    {
+      "id": "bone-volume-04",
+      "title": "卷四 · 无名",
+      "sortOrder": 3,
+      "plannedChapters": 16
+    },
+    {
+      "id": "bone-volume-05",
+      "title": "卷五 · 人间灯",
+      "sortOrder": 4,
+      "plannedChapters": 16
+    }
+  ],
+  "assets": [
+    {
+      "id": "work_bone_lantern_scene_mirror_gate",
+      "type": "scene",
+      "title": "镜城 · 北门雨界",
+      "url": "/assets/books/bone-lantern/mirror-city-volume.webp",
+      "chapterNumber": 17,
+      "sortOrder": 10,
+      "paragraphIndex": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_002_01",
+      "type": "scene",
+      "title": "师父遗物",
+      "url": "/api/assets/work_bone_lantern_scene_002_01_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_002_02",
+      "type": "scene",
+      "title": "半枚铜齿",
+      "url": "/api/assets/work_bone_lantern_scene_002_02_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 36,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_002_03",
+      "type": "scene",
+      "title": "往生扣钥匙",
+      "url": "/api/assets/work_bone_lantern_scene_002_03_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 78,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_002_04",
+      "type": "scene",
+      "title": "铜灯初明",
+      "url": "/api/assets/work_bone_lantern_scene_002_04_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 92,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_002_05",
+      "type": "scene",
+      "title": "灯灭失忆",
+      "url": "/api/assets/work_bone_lantern_scene_002_05_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 107,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_004_01",
+      "type": "scene",
+      "title": "两色铜屑",
+      "url": "/api/assets/work_bone_lantern_scene_004_01_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 16,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_004_02",
+      "type": "scene",
+      "title": "第二十八格",
+      "url": "/api/assets/work_bone_lantern_scene_004_02_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 25,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_004_03",
+      "type": "scene",
+      "title": "冯匠人记起",
+      "url": "/api/assets/work_bone_lantern_scene_004_03_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 43,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_004_04",
+      "type": "scene",
+      "title": "第七轮副齿",
+      "url": "/api/assets/work_bone_lantern_scene_004_04_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 56,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_004_05",
+      "type": "scene",
+      "title": "夜半湿棺",
+      "url": "/api/assets/work_bone_lantern_scene_004_05_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 76,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_007_01",
+      "type": "scene",
+      "title": "第八把空椅",
+      "url": "/api/assets/work_bone_lantern_scene_007_01_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_007_02",
+      "type": "scene",
+      "title": "太史局纸料",
+      "url": "/api/assets/work_bone_lantern_scene_007_02_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 34,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_007_03",
+      "type": "scene",
+      "title": "耳药瓷瓶",
+      "url": "/api/assets/work_bone_lantern_scene_007_03_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 48,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_007_04",
+      "type": "scene",
+      "title": "墙内钥匙室",
+      "url": "/api/assets/work_bone_lantern_scene_007_04_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 60,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_007_05",
+      "type": "scene",
+      "title": "旧刀与调令",
+      "url": "/api/assets/work_bone_lantern_scene_007_05_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 69,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_008_01",
+      "type": "scene",
+      "title": "调令双封",
+      "url": "/api/assets/work_bone_lantern_scene_008_01_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 8,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_008_02",
+      "type": "scene",
+      "title": "身份撤回",
+      "url": "/api/assets/work_bone_lantern_scene_008_02_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 33,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_008_03",
+      "type": "scene",
+      "title": "墨粉与红线",
+      "url": "/api/assets/work_bone_lantern_scene_008_03_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 48,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_008_04",
+      "type": "scene",
+      "title": "黑蜡入瓷瓶",
+      "url": "/api/assets/work_bone_lantern_scene_008_04_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 57,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_008_05",
+      "type": "scene",
+      "title": "茶碗下的新纸",
+      "url": "/api/assets/work_bone_lantern_scene_008_05_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 65,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_009_01",
+      "type": "scene",
+      "title": "鱼市下的白灯",
+      "url": "/api/assets/work_bone_lantern_scene_009_01_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_009_02",
+      "type": "scene",
+      "title": "木梳的来处",
+      "url": "/api/assets/work_bone_lantern_scene_009_02_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 18,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_009_03",
+      "type": "scene",
+      "title": "五钥木面具",
+      "url": "/api/assets/work_bone_lantern_scene_009_03_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 28,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_009_04",
+      "type": "scene",
+      "title": "母亲的布鞋",
+      "url": "/api/assets/work_bone_lantern_scene_009_04_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 39,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_009_05",
+      "type": "scene",
+      "title": "青石缺半齿",
+      "url": "/api/assets/work_bone_lantern_scene_009_05_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 72,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_010_01",
+      "type": "scene",
+      "title": "湿契金粉",
+      "url": "/api/assets/work_bone_lantern_scene_010_01_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_010_02",
+      "type": "scene",
+      "title": "卖梦人自述",
+      "url": "/api/assets/work_bone_lantern_scene_010_02_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_010_03",
+      "type": "scene",
+      "title": "契约里的陷阱",
+      "url": "/api/assets/work_bone_lantern_scene_010_03_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 31,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_010_04",
+      "type": "scene",
+      "title": "只看相关部分",
+      "url": "/api/assets/work_bone_lantern_scene_010_04_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 59,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_010_05",
+      "type": "scene",
+      "title": "融冰打碎半脸",
+      "url": "/api/assets/work_bone_lantern_scene_010_05_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 73,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_011_01",
+      "type": "scene",
+      "title": "各持半齿",
+      "url": "/api/assets/work_bone_lantern_scene_011_01_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_011_02",
+      "type": "scene",
+      "title": "暗渠新灰",
+      "url": "/api/assets/work_bone_lantern_scene_011_02_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 17,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_011_03",
+      "type": "scene",
+      "title": "母钟地下",
+      "url": "/api/assets/work_bone_lantern_scene_011_03_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 23,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_011_04",
+      "type": "scene",
+      "title": "十三名录",
+      "url": "/api/assets/work_bone_lantern_scene_011_04_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 40,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_011_05",
+      "type": "scene",
+      "title": "少监走入",
+      "url": "/api/assets/work_bone_lantern_scene_011_05_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 55,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_012_01",
+      "type": "scene",
+      "title": "第二十级陷洞",
+      "url": "/api/assets/work_bone_lantern_scene_012_01_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 33,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_012_02",
+      "type": "scene",
+      "title": "半齿合开铜门",
+      "url": "/api/assets/work_bone_lantern_scene_012_02_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 48,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_012_03",
+      "type": "scene",
+      "title": "幼童掌印",
+      "url": "/api/assets/work_bone_lantern_scene_012_03_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 55,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_012_04",
+      "type": "scene",
+      "title": "回声铜簧",
+      "url": "/api/assets/work_bone_lantern_scene_012_04_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 64,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_012_05",
+      "type": "scene",
+      "title": "三方封存焦纸",
+      "url": "/api/assets/work_bone_lantern_scene_012_05_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 85,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_014_01",
+      "type": "scene",
+      "title": "冷水隐字",
+      "url": "/api/assets/work_bone_lantern_scene_014_01_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_014_02",
+      "type": "scene",
+      "title": "司簿交印",
+      "url": "/api/assets/work_bone_lantern_scene_014_02_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 14,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_014_03",
+      "type": "scene",
+      "title": "四十七组齿痕",
+      "url": "/api/assets/work_bone_lantern_scene_014_03_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 26,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_014_04",
+      "type": "scene",
+      "title": "路线避开宋延",
+      "url": "/api/assets/work_bone_lantern_scene_014_04_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 36,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_014_05",
+      "type": "scene",
+      "title": "雨停前的承认",
+      "url": "/api/assets/work_bone_lantern_scene_014_05_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 70,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_015_01",
+      "type": "scene",
+      "title": "右侧活眼结",
+      "url": "/api/assets/work_bone_lantern_scene_015_01_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 5,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_015_02",
+      "type": "scene",
+      "title": "车中分清责任",
+      "url": "/api/assets/work_bone_lantern_scene_015_02_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 22,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_015_03",
+      "type": "scene",
+      "title": "倒钟升起三寸",
+      "url": "/api/assets/work_bone_lantern_scene_015_03_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 30,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_015_04",
+      "type": "scene",
+      "title": "反装七孔盘",
+      "url": "/api/assets/work_bone_lantern_scene_015_04_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 39,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_015_05",
+      "type": "scene",
+      "title": "双齿压盘",
+      "url": "/api/assets/work_bone_lantern_scene_015_05_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 41,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_016_01",
+      "type": "scene",
+      "title": "裁纸刀撑盘",
+      "url": "/api/assets/work_bone_lantern_scene_016_01_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_016_02",
+      "type": "scene",
+      "title": "双齿相逆",
+      "url": "/api/assets/work_bone_lantern_scene_016_02_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_016_03",
+      "type": "scene",
+      "title": "薄片比对旧掌印",
+      "url": "/api/assets/work_bone_lantern_scene_016_03_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 32,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_016_04",
+      "type": "scene",
+      "title": "蜡管分层针晶",
+      "url": "/api/assets/work_bone_lantern_scene_016_04_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 44,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_016_05",
+      "type": "scene",
+      "title": "封存原名证据",
+      "url": "/api/assets/work_bone_lantern_scene_016_05_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 56,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_003_01",
+      "type": "scene",
+      "title": "无花椒薄饼",
+      "url": "/api/assets/work_bone_lantern_scene_003_01_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 24,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_003_02",
+      "type": "scene",
+      "title": "桐油雨痕",
+      "url": "/api/assets/work_bone_lantern_scene_003_02_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 34,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_003_03",
+      "type": "scene",
+      "title": "三张面孔",
+      "url": "/api/assets/work_bone_lantern_scene_003_03_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 43,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_003_04",
+      "type": "scene",
+      "title": "铜尺下新墨",
+      "url": "/api/assets/work_bone_lantern_scene_003_04_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 81,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_003_05",
+      "type": "scene",
+      "title": "七声钟间",
+      "url": "/api/assets/work_bone_lantern_scene_003_05_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 97,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_005_01",
+      "type": "scene",
+      "title": "石缝盐霜",
+      "url": "/api/assets/work_bone_lantern_scene_005_01_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 11,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_005_02",
+      "type": "scene",
+      "title": "方向反了",
+      "url": "/api/assets/work_bone_lantern_scene_005_02_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 21,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_005_03",
+      "type": "scene",
+      "title": "棺盖的假雨",
+      "url": "/api/assets/work_bone_lantern_scene_005_03_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 48,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_005_04",
+      "type": "scene",
+      "title": "染坊干井",
+      "url": "/api/assets/work_bone_lantern_scene_005_04_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 57,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_005_05",
+      "type": "scene",
+      "title": "没有写完的姓名",
+      "url": "/api/assets/work_bone_lantern_scene_005_05_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 74,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_006_01",
+      "type": "scene",
+      "title": "墙上留手印",
+      "url": "/api/assets/work_bone_lantern_scene_006_01_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_006_02",
+      "type": "scene",
+      "title": "认领做过的事",
+      "url": "/api/assets/work_bone_lantern_scene_006_02_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 31,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_006_03",
+      "type": "scene",
+      "title": "银盒已空",
+      "url": "/api/assets/work_bone_lantern_scene_006_03_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 63,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_006_04",
+      "type": "scene",
+      "title": "两册线脚",
+      "url": "/api/assets/work_bone_lantern_scene_006_04_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 75,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_006_05",
+      "type": "scene",
+      "title": "黑册点下一个",
+      "url": "/api/assets/work_bone_lantern_scene_006_05_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 82,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_013_01",
+      "type": "scene",
+      "title": "西库证物入册",
+      "url": "/api/assets/work_bone_lantern_scene_013_01_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 10,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_013_02",
+      "type": "scene",
+      "title": "缺口茶碗的长发",
+      "url": "/api/assets/work_bone_lantern_scene_013_02_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 12,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_013_03",
+      "type": "scene",
+      "title": "水面借来的声音",
+      "url": "/api/assets/work_bone_lantern_scene_013_03_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 30,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_013_04",
+      "type": "scene",
+      "title": "先查来源",
+      "url": "/api/assets/work_bone_lantern_scene_013_04_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 46,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_013_05",
+      "type": "scene",
+      "title": "暗令周谨印",
+      "url": "/api/assets/work_bone_lantern_scene_013_05_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 62,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_017_02",
+      "type": "scene",
+      "title": "三碗验雨",
+      "url": "/api/assets/work_bone_lantern_scene_017_02_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_017_03",
+      "type": "scene",
+      "title": "补丁左手线脚",
+      "url": "/api/assets/work_bone_lantern_scene_017_03_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 24,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_017_04",
+      "type": "scene",
+      "title": "两双鞋的来路",
+      "url": "/api/assets/work_bone_lantern_scene_017_04_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 40,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_017_05",
+      "type": "scene",
+      "title": "门条两种铜屑",
+      "url": "/api/assets/work_bone_lantern_scene_017_05_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 49,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_018_01",
+      "type": "scene",
+      "title": "白布三组足迹",
+      "url": "/api/assets/work_bone_lantern_scene_018_01_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 10,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_018_02",
+      "type": "scene",
+      "title": "营造册双工钱",
+      "url": "/api/assets/work_bone_lantern_scene_018_02_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 20,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_018_03",
+      "type": "scene",
+      "title": "青瓷扣合断口",
+      "url": "/api/assets/work_bone_lantern_scene_018_03_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 22,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_018_04",
+      "type": "scene",
+      "title": "鞋底拼缝",
+      "url": "/api/assets/work_bone_lantern_scene_018_04_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 37,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_018_05",
+      "type": "scene",
+      "title": "铜扣右侧活眼",
+      "url": "/api/assets/work_bone_lantern_scene_018_05_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 40,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_019_01",
+      "type": "scene",
+      "title": "遮纸拆开镜景",
+      "url": "/api/assets/work_bone_lantern_scene_019_01_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_019_02",
+      "type": "scene",
+      "title": "四线标观看角度",
+      "url": "/api/assets/work_bone_lantern_scene_019_02_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_019_03",
+      "type": "scene",
+      "title": "三份供词笔顺",
+      "url": "/api/assets/work_bone_lantern_scene_019_03_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_019_04",
+      "type": "scene",
+      "title": "旧桌角朱砂指纹",
+      "url": "/api/assets/work_bone_lantern_scene_019_04_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 31,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_019_05",
+      "type": "scene",
+      "title": "四十七份旧供纸",
+      "url": "/api/assets/work_bone_lantern_scene_019_05_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 45,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_020_01",
+      "type": "scene",
+      "title": "两年份生死纸",
+      "url": "/api/assets/work_bone_lantern_scene_020_01_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_020_02",
+      "type": "scene",
+      "title": "西屋三只药罐",
+      "url": "/api/assets/work_bone_lantern_scene_020_02_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 14,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_020_03",
+      "type": "scene",
+      "title": "七片关系格",
+      "url": "/api/assets/work_bone_lantern_scene_020_03_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 22,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_020_04",
+      "type": "scene",
+      "title": "照护分记行为",
+      "url": "/api/assets/work_bone_lantern_scene_020_04_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 39,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_020_05",
+      "type": "scene",
+      "title": "出生纸旧水印",
+      "url": "/api/assets/work_bone_lantern_scene_020_05_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 44,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_022_01",
+      "type": "scene",
+      "title": "湿玉板上的旧纸",
+      "url": "/api/assets/work_bone_lantern_scene_022_01_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_022_02",
+      "type": "scene",
+      "title": "废井两种鞋印",
+      "url": "/api/assets/work_bone_lantern_scene_022_02_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 13,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_022_03",
+      "type": "scene",
+      "title": "斜光分层描线",
+      "url": "/api/assets/work_bone_lantern_scene_022_03_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_022_04",
+      "type": "scene",
+      "title": "三处复讯凭据",
+      "url": "/api/assets/work_bone_lantern_scene_022_04_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 24,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_022_05",
+      "type": "scene",
+      "title": "封存衣带夹层",
+      "url": "/api/assets/work_bone_lantern_scene_022_05_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 27,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_023_01",
+      "type": "scene",
+      "title": "半碗清水",
+      "url": "/api/assets/work_bone_lantern_scene_023_01_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_023_02",
+      "type": "scene",
+      "title": "木板四短一长",
+      "url": "/api/assets/work_bone_lantern_scene_023_02_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_023_03",
+      "type": "scene",
+      "title": "门牌两层刮痕",
+      "url": "/api/assets/work_bone_lantern_scene_023_03_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 29,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_023_04",
+      "type": "scene",
+      "title": "铜片翻面封匣",
+      "url": "/api/assets/work_bone_lantern_scene_023_04_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 38,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_023_05",
+      "type": "scene",
+      "title": "三案独立封存",
+      "url": "/api/assets/work_bone_lantern_scene_023_05_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 53,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_024_01",
+      "type": "scene",
+      "title": "冷水围住黑蜡",
+      "url": "/api/assets/work_bone_lantern_scene_024_01_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_024_02",
+      "type": "scene",
+      "title": "木板三道门闩",
+      "url": "/api/assets/work_bone_lantern_scene_024_02_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_024_03",
+      "type": "scene",
+      "title": "门外量影",
+      "url": "/api/assets/work_bone_lantern_scene_024_03_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_024_04",
+      "type": "scene",
+      "title": "旧印刻痕进锈",
+      "url": "/api/assets/work_bone_lantern_scene_024_04_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 28,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_024_05",
+      "type": "scene",
+      "title": "蜡缝里的无名船",
+      "url": "/api/assets/work_bone_lantern_scene_024_05_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 36,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_026_01",
+      "type": "scene",
+      "title": "粗盐碎瓦冷水",
+      "url": "/api/assets/work_bone_lantern_scene_026_01_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_026_02",
+      "type": "scene",
+      "title": "七列空粮场",
+      "url": "/api/assets/work_bone_lantern_scene_026_02_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_026_03",
+      "type": "scene",
+      "title": "分仓独立问话",
+      "url": "/api/assets/work_bone_lantern_scene_026_03_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 8,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_026_04",
+      "type": "scene",
+      "title": "黑线碗与粗陶碗",
+      "url": "/api/assets/work_bone_lantern_scene_026_04_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 16,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_026_05",
+      "type": "scene",
+      "title": "鱼鳔河图膜",
+      "url": "/api/assets/work_bone_lantern_scene_026_05_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 33,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_027_01",
+      "type": "scene",
+      "title": "封井观察缝",
+      "url": "/api/assets/work_bone_lantern_scene_027_01_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_027_02",
+      "type": "scene",
+      "title": "鱼鳔胶暗渠",
+      "url": "/api/assets/work_bone_lantern_scene_027_02_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_027_03",
+      "type": "scene",
+      "title": "铜碗细管网络",
+      "url": "/api/assets/work_bone_lantern_scene_027_03_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_027_04",
+      "type": "scene",
+      "title": "七扇窄门",
+      "url": "/api/assets/work_bone_lantern_scene_027_04_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_027_05",
+      "type": "scene",
+      "title": "七只黑蜡管",
+      "url": "/api/assets/work_bone_lantern_scene_027_05_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 27,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_028_01",
+      "type": "scene",
+      "title": "倒置界碑双层断面",
+      "url": "/api/assets/work_bone_lantern_scene_028_01_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_028_02",
+      "type": "scene",
+      "title": "十二份转运令",
+      "url": "/api/assets/work_bone_lantern_scene_028_02_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_028_03",
+      "type": "scene",
+      "title": "禁姓名的未寄信",
+      "url": "/api/assets/work_bone_lantern_scene_028_03_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_028_04",
+      "type": "scene",
+      "title": "两块白牌",
+      "url": "/api/assets/work_bone_lantern_scene_028_04_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 31,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_028_05",
+      "type": "scene",
+      "title": "指印与针孔",
+      "url": "/api/assets/work_bone_lantern_scene_028_05_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 34,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_029_01",
+      "type": "scene",
+      "title": "薛穗的旧木屐",
+      "url": "/api/assets/work_bone_lantern_scene_029_01_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_029_02",
+      "type": "scene",
+      "title": "二十七份不同供词",
+      "url": "/api/assets/work_bone_lantern_scene_029_02_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_029_03",
+      "type": "scene",
+      "title": "旧军扣三角锉纹",
+      "url": "/api/assets/work_bone_lantern_scene_029_03_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_029_04",
+      "type": "scene",
+      "title": "六段抵门动作图",
+      "url": "/api/assets/work_bone_lantern_scene_029_04_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 23,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_029_05",
+      "type": "scene",
+      "title": "拒绝记录",
+      "url": "/api/assets/work_bone_lantern_scene_029_05_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 44,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_030_01",
+      "type": "scene",
+      "title": "城砖黑蜡三层",
+      "url": "/api/assets/work_bone_lantern_scene_030_01_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_030_02",
+      "type": "scene",
+      "title": "三种锚物方向",
+      "url": "/api/assets/work_bone_lantern_scene_030_02_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_030_03",
+      "type": "scene",
+      "title": "七门黑线交叉",
+      "url": "/api/assets/work_bone_lantern_scene_030_03_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_030_04",
+      "type": "scene",
+      "title": "蜂房封蜡管",
+      "url": "/api/assets/work_bone_lantern_scene_030_04_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 19,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_030_05",
+      "type": "scene",
+      "title": "白牌与第七槽",
+      "url": "/api/assets/work_bone_lantern_scene_030_05_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 50,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_033_01",
+      "type": "scene",
+      "title": "空白船单七孔印",
+      "url": "/api/assets/work_bone_lantern_scene_033_01_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_033_02",
+      "type": "scene",
+      "title": "信使泥样三包",
+      "url": "/api/assets/work_bone_lantern_scene_033_02_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_033_03",
+      "type": "scene",
+      "title": "废渡口七根木柱",
+      "url": "/api/assets/work_bone_lantern_scene_033_03_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_033_04",
+      "type": "scene",
+      "title": "木箱铜扣七号",
+      "url": "/api/assets/work_bone_lantern_scene_033_04_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_033_05",
+      "type": "scene",
+      "title": "沉城石碑与白灯",
+      "url": "/api/assets/work_bone_lantern_scene_033_05_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_034_01",
+      "type": "scene",
+      "title": "三层河底沉积",
+      "url": "/api/assets/work_bone_lantern_scene_034_01_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_034_02",
+      "type": "scene",
+      "title": "县衙七枚白瓷片",
+      "url": "/api/assets/work_bone_lantern_scene_034_02_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_034_03",
+      "type": "scene",
+      "title": "四十七块编号木牌",
+      "url": "/api/assets/work_bone_lantern_scene_034_03_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 9,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_034_04",
+      "type": "scene",
+      "title": "七只空竹筐",
+      "url": "/api/assets/work_bone_lantern_scene_034_04_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 12,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_034_05",
+      "type": "scene",
+      "title": "花开之前的县志补遗",
+      "url": "/api/assets/work_bone_lantern_scene_034_05_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_031_01",
+      "type": "scene",
+      "title": "三面选择白牌",
+      "url": "/api/assets/work_bone_lantern_scene_031_01_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_031_02",
+      "type": "scene",
+      "title": "六位被救者选择",
+      "url": "/api/assets/work_bone_lantern_scene_031_02_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_031_03",
+      "type": "scene",
+      "title": "拒绝承接的凹点",
+      "url": "/api/assets/work_bone_lantern_scene_031_03_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_031_04",
+      "type": "scene",
+      "title": "未完成的沈字",
+      "url": "/api/assets/work_bone_lantern_scene_031_04_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 19,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_031_05",
+      "type": "scene",
+      "title": "三层冷水取样",
+      "url": "/api/assets/work_bone_lantern_scene_031_05_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 32,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_032_01",
+      "type": "scene",
+      "title": "记忆回流的早晨",
+      "url": "/api/assets/work_bone_lantern_scene_032_01_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_032_02",
+      "type": "scene",
+      "title": "镜城白雾塌陷",
+      "url": "/api/assets/work_bone_lantern_scene_032_02_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_032_03",
+      "type": "scene",
+      "title": "北门身份争执隔离",
+      "url": "/api/assets/work_bone_lantern_scene_032_03_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 6,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_032_04",
+      "type": "scene",
+      "title": "三类证据印记",
+      "url": "/api/assets/work_bone_lantern_scene_032_04_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 28,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_032_05",
+      "type": "scene",
+      "title": "空白船单与七灯",
+      "url": "/api/assets/work_bone_lantern_scene_032_05_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 32,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_035_01",
+      "type": "scene",
+      "title": "忘尘花三朵花冠",
+      "url": "/api/assets/work_bone_lantern_scene_035_01_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_035_02",
+      "type": "scene",
+      "title": "半塌井三处水样",
+      "url": "/api/assets/work_bone_lantern_scene_035_02_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_035_03",
+      "type": "scene",
+      "title": "破陶罐紫黑浆膜",
+      "url": "/api/assets/work_bone_lantern_scene_035_03_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_035_04",
+      "type": "scene",
+      "title": "水草绳带孔木牌",
+      "url": "/api/assets/work_bone_lantern_scene_035_04_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 9,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_035_05",
+      "type": "scene",
+      "title": "七节竹管报时器",
+      "url": "/api/assets/work_bone_lantern_scene_035_05_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 21,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_036_01",
+      "type": "scene",
+      "title": "铜丝缝补白瓷片",
+      "url": "/api/assets/work_bone_lantern_scene_036_01_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_036_02",
+      "type": "scene",
+      "title": "石床木板模型",
+      "url": "/api/assets/work_bone_lantern_scene_036_02_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_036_03",
+      "type": "scene",
+      "title": "湿户册与青布鞋",
+      "url": "/api/assets/work_bone_lantern_scene_036_03_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 31,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_036_04",
+      "type": "scene",
+      "title": "七列动作目录",
+      "url": "/api/assets/work_bone_lantern_scene_036_04_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 32,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_036_05",
+      "type": "scene",
+      "title": "三处独立水位标记",
+      "url": "/api/assets/work_bone_lantern_scene_036_05_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 38,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_037_01",
+      "type": "scene",
+      "title": "三处水位异常",
+      "url": "/api/assets/work_bone_lantern_scene_037_01_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_037_02",
+      "type": "scene",
+      "title": "白布棚与独立证物",
+      "url": "/api/assets/work_bone_lantern_scene_037_02_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_037_03",
+      "type": "scene",
+      "title": "棺底铜片与青布",
+      "url": "/api/assets/work_bone_lantern_scene_037_03_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 26,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_037_04",
+      "type": "scene",
+      "title": "灵棚竹管磁粉",
+      "url": "/api/assets/work_bone_lantern_scene_037_04_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_037_05",
+      "type": "scene",
+      "title": "两组鞋印与鱼鳔囊",
+      "url": "/api/assets/work_bone_lantern_scene_037_05_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_038_01",
+      "type": "scene",
+      "title": "庙前十二双湿鞋",
+      "url": "/api/assets/work_bone_lantern_scene_038_01_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_038_02",
+      "type": "scene",
+      "title": "神像后的七根竹管",
+      "url": "/api/assets/work_bone_lantern_scene_038_02_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 12,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_038_03",
+      "type": "scene",
+      "title": "七日日期木匣",
+      "url": "/api/assets/work_bone_lantern_scene_038_03_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 27,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_038_04",
+      "type": "scene",
+      "title": "十四只敲筒铜片",
+      "url": "/api/assets/work_bone_lantern_scene_038_04_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 32,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_038_05",
+      "type": "scene",
+      "title": "漂来的七号青布鞋",
+      "url": "/api/assets/work_bone_lantern_scene_038_05_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 46,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_001_01",
+      "type": "scene",
+      "title": "雨夜铺前灯影",
+      "url": "/api/assets/work_bone_lantern_scene_001_01_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_001_02",
+      "type": "scene",
+      "title": "鞋缝黄泥",
+      "url": "/api/assets/work_bone_lantern_scene_001_02_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 19,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_001_03",
+      "type": "scene",
+      "title": "历纸出水",
+      "url": "/api/assets/work_bone_lantern_scene_001_03_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 56,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_001_04",
+      "type": "scene",
+      "title": "棺底骨屑",
+      "url": "/api/assets/work_bone_lantern_scene_001_04_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 67,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_001_05",
+      "type": "scene",
+      "title": "棺水苍焰",
+      "url": "/api/assets/work_bone_lantern_scene_001_05_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 76,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_039_01",
+      "type": "scene",
+      "title": "泥埂九行脚印",
+      "url": "/api/assets/work_bone_lantern_scene_039_01_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_039_02",
+      "type": "scene",
+      "title": "晏九鞋跟月形缺口",
+      "url": "/api/assets/work_bone_lantern_scene_039_02_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_039_03",
+      "type": "scene",
+      "title": "九块动作板与空椅",
+      "url": "/api/assets/work_bone_lantern_scene_039_03_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 14,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_039_04",
+      "type": "scene",
+      "title": "足印蜡片与分音匣",
+      "url": "/api/assets/work_bone_lantern_scene_039_04_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 22,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_039_05",
+      "type": "scene",
+      "title": "九只旧鞋与修补收据",
+      "url": "/api/assets/work_bone_lantern_scene_039_05_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_040_01",
+      "type": "scene",
+      "title": "白蜡面模与南陵税钱",
+      "url": "/api/assets/work_bone_lantern_scene_040_01_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 5,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_040_02",
+      "type": "scene",
+      "title": "盐账与修补旧篮",
+      "url": "/api/assets/work_bone_lantern_scene_040_02_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 15,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_040_03",
+      "type": "scene",
+      "title": "九枚簧片的分音匣",
+      "url": "/api/assets/work_bone_lantern_scene_040_03_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_040_04",
+      "type": "scene",
+      "title": "两页身份记录与自主落笔",
+      "url": "/api/assets/work_bone_lantern_scene_040_04_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 25,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_040_05",
+      "type": "scene",
+      "title": "第九面板后的九行病历",
+      "url": "/api/assets/work_bone_lantern_scene_040_05_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 40,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_021_01",
+      "type": "scene",
+      "title": "三处火源",
+      "url": "/api/assets/work_bone_lantern_scene_021_01_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_021_02",
+      "type": "scene",
+      "title": "西廊湿绳与水桶",
+      "url": "/api/assets/work_bone_lantern_scene_021_02_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_021_03",
+      "type": "scene",
+      "title": "白布遮住柜帖",
+      "url": "/api/assets/work_bone_lantern_scene_021_03_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 13,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_021_04",
+      "type": "scene",
+      "title": "食槽背面药量纸",
+      "url": "/api/assets/work_bone_lantern_scene_021_04_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_021_05",
+      "type": "scene",
+      "title": "新铜牌的孔缘",
+      "url": "/api/assets/work_bone_lantern_scene_021_05_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 46,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_025_01",
+      "type": "scene",
+      "title": "岸边湿足迹",
+      "url": "/api/assets/work_bone_lantern_scene_025_01_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_025_02",
+      "type": "scene",
+      "title": "七筐与仿灯",
+      "url": "/api/assets/work_bone_lantern_scene_025_02_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_025_03",
+      "type": "scene",
+      "title": "四种针脚与袖口铜镜",
+      "url": "/api/assets/work_bone_lantern_scene_025_03_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_025_04",
+      "type": "scene",
+      "title": "新旧缆痕螺壳",
+      "url": "/api/assets/work_bone_lantern_scene_025_04_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 22,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_025_05",
+      "type": "scene",
+      "title": "木牌与旧闸簿",
+      "url": "/api/assets/work_bone_lantern_scene_025_05_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 27,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_041_01",
+      "type": "scene",
+      "title": "细网之间的九行脉案",
+      "url": "/api/assets/work_bone_lantern_scene_041_01_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_041_02",
+      "type": "scene",
+      "title": "回廊旧水路与新反坡",
+      "url": "/api/assets/work_bone_lantern_scene_041_02_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_041_03",
+      "type": "scene",
+      "title": "开放水槽与封闭水槽",
+      "url": "/api/assets/work_bone_lantern_scene_041_03_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 13,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_041_04",
+      "type": "scene",
+      "title": "竹筹盒两组孔位",
+      "url": "/api/assets/work_bone_lantern_scene_041_04_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 15,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_041_05",
+      "type": "scene",
+      "title": "石女保留的小石鸟",
+      "url": "/api/assets/work_bone_lantern_scene_041_05_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_042_01",
+      "type": "scene",
+      "title": "清水机关浮出黑木匣",
+      "url": "/api/assets/work_bone_lantern_scene_042_01_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_042_02",
+      "type": "scene",
+      "title": "三层封口分工开匣",
+      "url": "/api/assets/work_bone_lantern_scene_042_02_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 4,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_042_03",
+      "type": "scene",
+      "title": "手札副页与空白选择牌",
+      "url": "/api/assets/work_bone_lantern_scene_042_03_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 6,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_042_04",
+      "type": "scene",
+      "title": "夹页侧光辨改写",
+      "url": "/api/assets/work_bone_lantern_scene_042_04_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 17,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_042_05",
+      "type": "scene",
+      "title": "缺半页手札与调灯申请",
+      "url": "/api/assets/work_bone_lantern_scene_042_05_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 35,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_043_01",
+      "type": "scene",
+      "title": "双箱三道封记",
+      "url": "/api/assets/work_bone_lantern_scene_043_01_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_043_02",
+      "type": "scene",
+      "title": "祝衡遗骨身份链",
+      "url": "/api/assets/work_bone_lantern_scene_043_02_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_043_03",
+      "type": "scene",
+      "title": "双锁与空栏约定",
+      "url": "/api/assets/work_bone_lantern_scene_043_03_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 6,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_043_04",
+      "type": "scene",
+      "title": "黑蜡三方锁匣",
+      "url": "/api/assets/work_bone_lantern_scene_043_04_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 28,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_043_05",
+      "type": "scene",
+      "title": "闸痕与墨线物证",
+      "url": "/api/assets/work_bone_lantern_scene_043_05_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 34,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_044_01",
+      "type": "scene",
+      "title": "门外核验句",
+      "url": "/api/assets/work_bone_lantern_scene_044_01_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_044_02",
+      "type": "scene",
+      "title": "声音能力检查",
+      "url": "/api/assets/work_bone_lantern_scene_044_02_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_044_03",
+      "type": "scene",
+      "title": "水闸白袖三种针脚",
+      "url": "/api/assets/work_bone_lantern_scene_044_03_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 15,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_044_04",
+      "type": "scene",
+      "title": "祝衡肋骨铜针与回声簧片",
+      "url": "/api/assets/work_bone_lantern_scene_044_04_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 21,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_044_05",
+      "type": "scene",
+      "title": "分装的四件旧物",
+      "url": "/api/assets/work_bone_lantern_scene_044_05_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 47,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_045_01",
+      "type": "scene",
+      "title": "四案分存的初见物证",
+      "url": "/api/assets/work_bone_lantern_scene_045_01_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_045_02",
+      "type": "scene",
+      "title": "栈桥复验听水动作",
+      "url": "/api/assets/work_bone_lantern_scene_045_02_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_045_03",
+      "type": "scene",
+      "title": "石闸铜片与旧收尸结",
+      "url": "/api/assets/work_bone_lantern_scene_045_03_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_045_04",
+      "type": "scene",
+      "title": "旧驿簿与后填压痕",
+      "url": "/api/assets/work_bone_lantern_scene_045_04_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 22,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_045_05",
+      "type": "scene",
+      "title": "石闸上的两半水线图",
+      "url": "/api/assets/work_bone_lantern_scene_045_05_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 39,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_046_01",
+      "type": "scene",
+      "title": "错开的两张河道描图",
+      "url": "/api/assets/work_bone_lantern_scene_046_01_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_046_02",
+      "type": "scene",
+      "title": "石女保留石鸟原物",
+      "url": "/api/assets/work_bone_lantern_scene_046_02_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_046_03",
+      "type": "scene",
+      "title": "染蓝坊七线动作",
+      "url": "/api/assets/work_bone_lantern_scene_046_03_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_046_04",
+      "type": "scene",
+      "title": "撤回线结与副本剪角",
+      "url": "/api/assets/work_bone_lantern_scene_046_04_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 15,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_046_05",
+      "type": "scene",
+      "title": "无名女遗留的动作布条",
+      "url": "/api/assets/work_bone_lantern_scene_046_05_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 20,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_047_01",
+      "type": "scene",
+      "title": "三份动作记录分开比对",
+      "url": "/api/assets/work_bone_lantern_scene_047_01_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_047_02",
+      "type": "scene",
+      "title": "窄铁盒里的选择木片",
+      "url": "/api/assets/work_bone_lantern_scene_047_02_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 14,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_047_03",
+      "type": "scene",
+      "title": "并列空格的两种针脚",
+      "url": "/api/assets/work_bone_lantern_scene_047_03_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_047_04",
+      "type": "scene",
+      "title": "晏九自主落笔的河图",
+      "url": "/api/assets/work_bone_lantern_scene_047_04_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 21,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_047_05",
+      "type": "scene",
+      "title": "河图两份分别保管",
+      "url": "/api/assets/work_bone_lantern_scene_047_05_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 33,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_048_01",
+      "type": "scene",
+      "title": "船上侧光复核撤回刮痕",
+      "url": "/api/assets/work_bone_lantern_scene_048_01_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_048_02",
+      "type": "scene",
+      "title": "转车棚三处旧水渍",
+      "url": "/api/assets/work_bone_lantern_scene_048_02_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_048_03",
+      "type": "scene",
+      "title": "改造木板与半烂薄纸",
+      "url": "/api/assets/work_bone_lantern_scene_048_03_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 14,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_048_04",
+      "type": "scene",
+      "title": "四栏目录与可撤回签条",
+      "url": "/api/assets/work_bone_lantern_scene_048_04_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 33,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_048_05",
+      "type": "scene",
+      "title": "春祭告示最后的刮白",
+      "url": "/api/assets/work_bone_lantern_scene_048_05_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 45,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_049_01",
+      "type": "scene",
+      "title": "三条空姓名栏",
+      "url": "/api/assets/work_bone_lantern_scene_049_01_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_049_02",
+      "type": "scene",
+      "title": "封存刮痕与鱼鳔印泥",
+      "url": "/api/assets/work_bone_lantern_scene_049_02_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_049_03",
+      "type": "scene",
+      "title": "断铜钉与青布纤维",
+      "url": "/api/assets/work_bone_lantern_scene_049_03_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_049_04",
+      "type": "scene",
+      "title": "三只拆封木匣",
+      "url": "/api/assets/work_bone_lantern_scene_049_04_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_049_05",
+      "type": "scene",
+      "title": "不存在的钥匙与白牌",
+      "url": "/api/assets/work_bone_lantern_scene_049_05_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_050_01",
+      "type": "scene",
+      "title": "黑石与侧匣空腔",
+      "url": "/api/assets/work_bone_lantern_scene_050_01_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_050_02",
+      "type": "scene",
+      "title": "侧匣三件残留物",
+      "url": "/api/assets/work_bone_lantern_scene_050_02_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_050_03",
+      "type": "scene",
+      "title": "棺内骨骼局部比对",
+      "url": "/api/assets/work_bone_lantern_scene_050_03_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 12,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_050_04",
+      "type": "scene",
+      "title": "两组骨测量与牙模",
+      "url": "/api/assets/work_bone_lantern_scene_050_04_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_050_05",
+      "type": "scene",
+      "title": "三种身份状态记录",
+      "url": "/api/assets/work_bone_lantern_scene_050_05_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 42,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_051_01",
+      "type": "scene",
+      "title": "铜尺旁逐年动作记录",
+      "url": "/api/assets/work_bone_lantern_scene_051_01_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_051_02",
+      "type": "scene",
+      "title": "三张分开的掌印拓样",
+      "url": "/api/assets/work_bone_lantern_scene_051_02_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_051_03",
+      "type": "scene",
+      "title": "旧布鞋与七道纸毛口",
+      "url": "/api/assets/work_bone_lantern_scene_051_03_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_051_04",
+      "type": "scene",
+      "title": "折叠纸上的交接空圈",
+      "url": "/api/assets/work_bone_lantern_scene_051_04_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 32,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_051_05",
+      "type": "scene",
+      "title": "分别保管的三份阶段结论",
+      "url": "/api/assets/work_bone_lantern_scene_051_05_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 43,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_052_01",
+      "type": "scene",
+      "title": "三份称谓栏并列核对",
+      "url": "/api/assets/work_bone_lantern_scene_052_01_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_052_02",
+      "type": "scene",
+      "title": "两副棺旁分放的旧物",
+      "url": "/api/assets/work_bone_lantern_scene_052_02_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_052_03",
+      "type": "scene",
+      "title": "白牌与不完整调令",
+      "url": "/api/assets/work_bone_lantern_scene_052_03_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 13,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_052_04",
+      "type": "scene",
+      "title": "无碑的第二场纪念",
+      "url": "/api/assets/work_bone_lantern_scene_052_04_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 23,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_052_05",
+      "type": "scene",
+      "title": "相反方向的封泥裂缝",
+      "url": "/api/assets/work_bone_lantern_scene_052_05_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_053_01",
+      "type": "scene",
+      "title": "三道灰纸封条",
+      "url": "/api/assets/work_bone_lantern_scene_053_01_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_053_02",
+      "type": "scene",
+      "title": "空椅抽屉与两种钥匙痕",
+      "url": "/api/assets/work_bone_lantern_scene_053_02_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_053_03",
+      "type": "scene",
+      "title": "薄铜板五个日期栏",
+      "url": "/api/assets/work_bone_lantern_scene_053_03_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 12,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_053_04",
+      "type": "scene",
+      "title": "后门水沟的窄匣刮痕",
+      "url": "/api/assets/work_bone_lantern_scene_053_04_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 18,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_053_05",
+      "type": "scene",
+      "title": "四袋分开的封门证物",
+      "url": "/api/assets/work_bone_lantern_scene_053_05_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 42,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_054_01",
+      "type": "scene",
+      "title": "祠堂夹墙的换砖痕",
+      "url": "/api/assets/work_bone_lantern_scene_054_01_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_054_02",
+      "type": "scene",
+      "title": "长匣与三个空格",
+      "url": "/api/assets/work_bone_lantern_scene_054_02_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_054_03",
+      "type": "scene",
+      "title": "七匣入六匣出的转运表",
+      "url": "/api/assets/work_bone_lantern_scene_054_03_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 8,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_054_04",
+      "type": "scene",
+      "title": "六处缝线对应衣物拓片",
+      "url": "/api/assets/work_bone_lantern_scene_054_04_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_054_05",
+      "type": "scene",
+      "title": "三份拓印与封存钥匙",
+      "url": "/api/assets/work_bone_lantern_scene_054_05_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 37,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_055_01",
+      "type": "scene",
+      "title": "白蜡锁孔与锁泥取样",
+      "url": "/api/assets/work_bone_lantern_scene_055_01_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 6,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_055_02",
+      "type": "scene",
+      "title": "药箱里的三枚空瓶",
+      "url": "/api/assets/work_bone_lantern_scene_055_02_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 17,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_055_03",
+      "type": "scene",
+      "title": "布角旧铜钱与三层墨色",
+      "url": "/api/assets/work_bone_lantern_scene_055_03_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 29,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_055_04",
+      "type": "scene",
+      "title": "空匣中的撕纸与弯簪",
+      "url": "/api/assets/work_bone_lantern_scene_055_04_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 38,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_055_05",
+      "type": "scene",
+      "title": "房门封条旁的确认记录",
+      "url": "/api/assets/work_bone_lantern_scene_055_05_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 50,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_056_01",
+      "type": "scene",
+      "title": "药圃里的分土与线头",
+      "url": "/api/assets/work_bone_lantern_scene_056_01_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_056_02",
+      "type": "scene",
+      "title": "证词纸边留下撤回线",
+      "url": "/api/assets/work_bone_lantern_scene_056_02_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 16,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_056_03",
+      "type": "scene",
+      "title": "本人保留的木勺铜片红线",
+      "url": "/api/assets/work_bone_lantern_scene_056_03_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 27,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_056_04",
+      "type": "scene",
+      "title": "晒药房东门的可拔木栓",
+      "url": "/api/assets/work_bone_lantern_scene_056_04_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 42,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_056_05",
+      "type": "scene",
+      "title": "钥匙归本人木勺挂门内",
+      "url": "/api/assets/work_bone_lantern_scene_056_05_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 58,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_057_01",
+      "type": "scene",
+      "title": "名单第四列的刮白",
+      "url": "/api/assets/work_bone_lantern_scene_057_01_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_057_02",
+      "type": "scene",
+      "title": "白浆前停下的拖痕",
+      "url": "/api/assets/work_bone_lantern_scene_057_02_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_057_03",
+      "type": "scene",
+      "title": "空匣与浸水收条分放",
+      "url": "/api/assets/work_bone_lantern_scene_057_03_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 23,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_057_04",
+      "type": "scene",
+      "title": "访问簿原页回到本人手中",
+      "url": "/api/assets/work_bone_lantern_scene_057_04_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 28,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_057_05",
+      "type": "scene",
+      "title": "掌印红线与告示纸分存",
+      "url": "/api/assets/work_bone_lantern_scene_057_05_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 40,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_058_01",
+      "type": "scene",
+      "title": "证词与本人选择两份纸",
+      "url": "/api/assets/work_bone_lantern_scene_058_01_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 5,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_058_02",
+      "type": "scene",
+      "title": "旧鞋上的红线补缝",
+      "url": "/api/assets/work_bone_lantern_scene_058_02_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_058_03",
+      "type": "scene",
+      "title": "半片木牌隔纸核对线色",
+      "url": "/api/assets/work_bone_lantern_scene_058_03_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 14,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_058_04",
+      "type": "scene",
+      "title": "撤回公开证词后封存物证",
+      "url": "/api/assets/work_bone_lantern_scene_058_04_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_058_05",
+      "type": "scene",
+      "title": "本人确认封条保留副签",
+      "url": "/api/assets/work_bone_lantern_scene_058_05_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 42,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_059_01",
+      "type": "scene",
+      "title": "裁空户档与旧掌印",
+      "url": "/api/assets/work_bone_lantern_scene_059_01_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_059_02",
+      "type": "scene",
+      "title": "两份掌印分封核纸",
+      "url": "/api/assets/work_bone_lantern_scene_059_02_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 16,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_059_03",
+      "type": "scene",
+      "title": "第四栏由本人落笔",
+      "url": "/api/assets/work_bone_lantern_scene_059_03_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 27,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_059_04",
+      "type": "scene",
+      "title": "原件保留只交拓本",
+      "url": "/api/assets/work_bone_lantern_scene_059_04_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 31,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_059_05",
+      "type": "scene",
+      "title": "未点灯前的新锁匣",
+      "url": "/api/assets/work_bone_lantern_scene_059_05_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 47,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_060_01",
+      "type": "scene",
+      "title": "三方验看完整封记",
+      "url": "/api/assets/work_bone_lantern_scene_060_01_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_060_02",
+      "type": "scene",
+      "title": "麻布垫底隔振对照",
+      "url": "/api/assets/work_bone_lantern_scene_060_02_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_060_03",
+      "type": "scene",
+      "title": "三份感知记录各自保留",
+      "url": "/api/assets/work_bone_lantern_scene_060_03_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_060_04",
+      "type": "scene",
+      "title": "指尖停在未开匣盖",
+      "url": "/api/assets/work_bone_lantern_scene_060_04_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 25,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_060_05",
+      "type": "scene",
+      "title": "三份说明与空白窄签",
+      "url": "/api/assets/work_bone_lantern_scene_060_05_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 43,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_061_01",
+      "type": "scene",
+      "title": "三种叙述分别记录",
+      "url": "/api/assets/work_bone_lantern_scene_061_01_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_061_02",
+      "type": "scene",
+      "title": "入城簿姓名栏被细刮",
+      "url": "/api/assets/work_bone_lantern_scene_061_02_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_061_03",
+      "type": "scene",
+      "title": "车辙拓图分开比对",
+      "url": "/api/assets/work_bone_lantern_scene_061_03_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_061_04",
+      "type": "scene",
+      "title": "拒绝脸部描述的证词",
+      "url": "/api/assets/work_bone_lantern_scene_061_04_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 10,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_061_05",
+      "type": "scene",
+      "title": "第七空位留撤回线",
+      "url": "/api/assets/work_bone_lantern_scene_061_05_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 17,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_062_01",
+      "type": "scene",
+      "title": "官印署名处变白",
+      "url": "/api/assets/work_bone_lantern_scene_062_01_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_062_02",
+      "type": "scene",
+      "title": "三种朱料试印对照",
+      "url": "/api/assets/work_bone_lantern_scene_062_02_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_062_03",
+      "type": "scene",
+      "title": "封袋分装三瓶盲试液",
+      "url": "/api/assets/work_bone_lantern_scene_062_03_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_062_04",
+      "type": "scene",
+      "title": "三处药局选择分栏",
+      "url": "/api/assets/work_bone_lantern_scene_062_04_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 13,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_062_05",
+      "type": "scene",
+      "title": "新印独立收入档室",
+      "url": "/api/assets/work_bone_lantern_scene_062_05_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 27,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_063_01",
+      "type": "scene",
+      "title": "长纸分列三项动作",
+      "url": "/api/assets/work_bone_lantern_scene_063_01_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_063_02",
+      "type": "scene",
+      "title": "油铺纸角与铜钱动作",
+      "url": "/api/assets/work_bone_lantern_scene_063_02_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_063_03",
+      "type": "scene",
+      "title": "结法图与红线各自分袋",
+      "url": "/api/assets/work_bone_lantern_scene_063_03_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 15,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_063_04",
+      "type": "scene",
+      "title": "裁下代答条单独封存",
+      "url": "/api/assets/work_bone_lantern_scene_063_04_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_063_05",
+      "type": "scene",
+      "title": "门留一指宽等待答复",
+      "url": "/api/assets/work_bone_lantern_scene_063_05_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 28,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_064_01",
+      "type": "scene",
+      "title": "无风院门内的细尘",
+      "url": "/api/assets/work_bone_lantern_scene_064_01_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_064_02",
+      "type": "scene",
+      "title": "七孔铜片同尺比对",
+      "url": "/api/assets/work_bone_lantern_scene_064_02_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_064_03",
+      "type": "scene",
+      "title": "白灯不刮取整盏封存",
+      "url": "/api/assets/work_bone_lantern_scene_064_03_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_064_04",
+      "type": "scene",
+      "title": "红线与灰手套线分放",
+      "url": "/api/assets/work_bone_lantern_scene_064_04_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 13,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_064_05",
+      "type": "scene",
+      "title": "五份证据各自编号封存",
+      "url": "/api/assets/work_bone_lantern_scene_064_05_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 33,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_065_01",
+      "type": "scene",
+      "title": "本人编结与两张选择纸",
+      "url": "/api/assets/work_bone_lantern_scene_065_01_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_065_02",
+      "type": "scene",
+      "title": "木尺测量红线交叉处",
+      "url": "/api/assets/work_bone_lantern_scene_065_02_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_065_03",
+      "type": "scene",
+      "title": "新绳木箱保持合闭",
+      "url": "/api/assets/work_bone_lantern_scene_065_03_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_065_04",
+      "type": "scene",
+      "title": "当面拆结保留撤回",
+      "url": "/api/assets/work_bone_lantern_scene_065_04_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_065_05",
+      "type": "scene",
+      "title": "空白墙保留未答绳结",
+      "url": "/api/assets/work_bone_lantern_scene_065_05_media",
+      "chapterNumber": 65,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_066_01",
+      "type": "scene",
+      "title": "口述簿先记选择栏",
+      "url": "/api/assets/work_bone_lantern_scene_066_01_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_066_02",
+      "type": "scene",
+      "title": "三堆伞骨与新削竹片",
+      "url": "/api/assets/work_bone_lantern_scene_066_02_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_066_03",
+      "type": "scene",
+      "title": "茶碗右侧静置铜钱",
+      "url": "/api/assets/work_bone_lantern_scene_066_03_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_066_04",
+      "type": "scene",
+      "title": "残句页与重述记录分开",
+      "url": "/api/assets/work_bone_lantern_scene_066_04_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 19,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_066_05",
+      "type": "scene",
+      "title": "簿脊夹层的未打结麻线",
+      "url": "/api/assets/work_bone_lantern_scene_066_05_media",
+      "chapterNumber": 66,
+      "paragraphIndex": 29,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_067_01",
+      "type": "scene",
+      "title": "藤篮中的静态遗体",
+      "url": "/api/assets/work_bone_lantern_scene_067_01_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_067_02",
+      "type": "scene",
+      "title": "三孔木牌与新刻短线",
+      "url": "/api/assets/work_bone_lantern_scene_067_02_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_067_03",
+      "type": "scene",
+      "title": "四折纸条不朗读",
+      "url": "/api/assets/work_bone_lantern_scene_067_03_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 4,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_067_04",
+      "type": "scene",
+      "title": "木棱与膝部擦痕仅作比对",
+      "url": "/api/assets/work_bone_lantern_scene_067_04_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 7,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_067_05",
+      "type": "scene",
+      "title": "五类物证分别封存",
+      "url": "/api/assets/work_bone_lantern_scene_067_05_media",
+      "chapterNumber": 67,
+      "paragraphIndex": 16,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_068_01",
+      "type": "scene",
+      "title": "三桌分区的公开归还",
+      "url": "/api/assets/work_bone_lantern_scene_068_01_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_068_02",
+      "type": "scene",
+      "title": "旧伞匣与半页修伞账",
+      "url": "/api/assets/work_bone_lantern_scene_068_02_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 3,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_068_03",
+      "type": "scene",
+      "title": "三种物证与四栏选择",
+      "url": "/api/assets/work_bone_lantern_scene_068_03_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 4,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_068_04",
+      "type": "scene",
+      "title": "湿痕作为环境现象",
+      "url": "/api/assets/work_bone_lantern_scene_068_04_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 13,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_068_05",
+      "type": "scene",
+      "title": "五袋关系证据与白灯另封",
+      "url": "/api/assets/work_bone_lantern_scene_068_05_media",
+      "chapterNumber": 68,
+      "paragraphIndex": 22,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_069_01",
+      "type": "scene",
+      "title": "三圈人群先核验脚下",
+      "url": "/api/assets/work_bone_lantern_scene_069_01_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_069_02",
+      "type": "scene",
+      "title": "绳结与门牌后白灰分开取样",
+      "url": "/api/assets/work_bone_lantern_scene_069_02_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_069_03",
+      "type": "scene",
+      "title": "敲墙回声与声音补全分开记录",
+      "url": "/api/assets/work_bone_lantern_scene_069_03_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 9,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_069_04",
+      "type": "scene",
+      "title": "铜尺五凹口由本人决定查看",
+      "url": "/api/assets/work_bone_lantern_scene_069_04_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 11,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_069_05",
+      "type": "scene",
+      "title": "三十二条口述按四栏重排",
+      "url": "/api/assets/work_bone_lantern_scene_069_05_media",
+      "chapterNumber": 69,
+      "paragraphIndex": 14,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_070_01",
+      "type": "scene",
+      "title": "门留一指宽先记四种证词",
+      "url": "/api/assets/work_bone_lantern_scene_070_01_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_070_02",
+      "type": "scene",
+      "title": "陶盒与三种蜡样隔离",
+      "url": "/api/assets/work_bone_lantern_scene_070_02_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_070_03",
+      "type": "scene",
+      "title": "三名承接者各写范围",
+      "url": "/api/assets/work_bone_lantern_scene_070_03_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_070_04",
+      "type": "scene",
+      "title": "三息前后身体状态对照",
+      "url": "/api/assets/work_bone_lantern_scene_070_04_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 22,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_070_05",
+      "type": "scene",
+      "title": "三息记录与空白续页封存",
+      "url": "/api/assets/work_bone_lantern_scene_070_05_media",
+      "chapterNumber": 70,
+      "paragraphIndex": 24,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_071_01",
+      "type": "scene",
+      "title": "空白墙前见陌生人",
+      "url": "/api/assets/work_bone_lantern_scene_071_01_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 6,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_071_02",
+      "type": "scene",
+      "title": "断齿木梳孔距比对",
+      "url": "/api/assets/work_bone_lantern_scene_071_02_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 14,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_071_03",
+      "type": "scene",
+      "title": "潮湿麻线半结盲编",
+      "url": "/api/assets/work_bone_lantern_scene_071_03_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 23,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_071_04",
+      "type": "scene",
+      "title": "灰膜缺心纸先放独立托",
+      "url": "/api/assets/work_bone_lantern_scene_071_04_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_071_05",
+      "type": "scene",
+      "title": "口述物证本人判断三袋封存",
+      "url": "/api/assets/work_bone_lantern_scene_071_05_media",
+      "chapterNumber": 71,
+      "paragraphIndex": 39,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_072_01",
+      "type": "scene",
+      "title": "九枚动作木片摆开",
+      "url": "/api/assets/work_bone_lantern_scene_072_01_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_072_02",
+      "type": "scene",
+      "title": "小册子空白页三角缺口",
+      "url": "/api/assets/work_bone_lantern_scene_072_02_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_072_03",
+      "type": "scene",
+      "title": "门板左下方振动比对",
+      "url": "/api/assets/work_bone_lantern_scene_072_03_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_072_04",
+      "type": "scene",
+      "title": "三份证言抄本分别分装",
+      "url": "/api/assets/work_bone_lantern_scene_072_04_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 25,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_072_05",
+      "type": "scene",
+      "title": "夜半收回木片保留三份记录",
+      "url": "/api/assets/work_bone_lantern_scene_072_05_media",
+      "chapterNumber": 72,
+      "paragraphIndex": 34,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_073_01",
+      "type": "scene",
+      "title": "皇城西门水线取样",
+      "url": "/api/assets/work_bone_lantern_scene_073_01_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_073_02",
+      "type": "scene",
+      "title": "祭器库三十七级窄阶",
+      "url": "/api/assets/work_bone_lantern_scene_073_02_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_073_03",
+      "type": "scene",
+      "title": "七根短柱与浅碗水纹",
+      "url": "/api/assets/work_bone_lantern_scene_073_03_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 13,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_073_04",
+      "type": "scene",
+      "title": "青布纤维孔内取样",
+      "url": "/api/assets/work_bone_lantern_scene_073_04_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_073_05",
+      "type": "scene",
+      "title": "封灰柱蜡屑原位罩存",
+      "url": "/api/assets/work_bone_lantern_scene_073_05_media",
+      "chapterNumber": 73,
+      "paragraphIndex": 25,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_075_01",
+      "type": "scene",
+      "title": "无印请帖与不愿被问范围",
+      "url": "/api/assets/work_bone_lantern_scene_075_01_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_075_02",
+      "type": "scene",
+      "title": "观星台四面无名表",
+      "url": "/api/assets/work_bone_lantern_scene_075_02_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_075_03",
+      "type": "scene",
+      "title": "三张错抄访问单隔离",
+      "url": "/api/assets/work_bone_lantern_scene_075_03_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 28,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_075_04",
+      "type": "scene",
+      "title": "解释栏移到纸背",
+      "url": "/api/assets/work_bone_lantern_scene_075_04_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 33,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_075_05",
+      "type": "scene",
+      "title": "本人限定交付与白粉取样",
+      "url": "/api/assets/work_bone_lantern_scene_075_05_media",
+      "chapterNumber": 75,
+      "paragraphIndex": 45,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_076_01",
+      "type": "scene",
+      "title": "四张长桌的无印审理",
+      "url": "/api/assets/work_bone_lantern_scene_076_01_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_076_02",
+      "type": "scene",
+      "title": "三份公文帘纹对照",
+      "url": "/api/assets/work_bone_lantern_scene_076_02_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_076_03",
+      "type": "scene",
+      "title": "旁听者未留称谓入空白桌",
+      "url": "/api/assets/work_bone_lantern_scene_076_03_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 27,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_076_04",
+      "type": "scene",
+      "title": "晏九三枚动作木片",
+      "url": "/api/assets/work_bone_lantern_scene_076_04_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 34,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_076_05",
+      "type": "scene",
+      "title": "无胜负封口与旧告示",
+      "url": "/api/assets/work_bone_lantern_scene_076_05_media",
+      "chapterNumber": 76,
+      "paragraphIndex": 51,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_074_01",
+      "type": "scene",
+      "title": "新木牌背面残印",
+      "url": "/api/assets/work_bone_lantern_scene_074_01_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_074_02",
+      "type": "scene",
+      "title": "白印公文门外递交",
+      "url": "/api/assets/work_bone_lantern_scene_074_02_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_074_03",
+      "type": "scene",
+      "title": "五类物证独立分排",
+      "url": "/api/assets/work_bone_lantern_scene_074_03_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 11,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_074_04",
+      "type": "scene",
+      "title": "三条断线时间线",
+      "url": "/api/assets/work_bone_lantern_scene_074_04_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 25,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_074_05",
+      "type": "scene",
+      "title": "匿名纸与三孔木牌封存",
+      "url": "/api/assets/work_bone_lantern_scene_074_05_media",
+      "chapterNumber": 74,
+      "paragraphIndex": 30,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_077_01",
+      "type": "scene",
+      "title": "七孔空木匣量孔比振动",
+      "url": "/api/assets/work_bone_lantern_scene_077_01_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_077_02",
+      "type": "scene",
+      "title": "保管章程门口停笔",
+      "url": "/api/assets/work_bone_lantern_scene_077_02_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_077_03",
+      "type": "scene",
+      "title": "裴家副本命令动作结果三叠",
+      "url": "/api/assets/work_bone_lantern_scene_077_03_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 13,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_077_04",
+      "type": "scene",
+      "title": "三套目录纸袋分列",
+      "url": "/api/assets/work_bone_lantern_scene_077_04_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 20,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_077_05",
+      "type": "scene",
+      "title": "顾鸿木架目录与值夜交接",
+      "url": "/api/assets/work_bone_lantern_scene_077_05_media",
+      "chapterNumber": 77,
+      "paragraphIndex": 38,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_078_01",
+      "type": "scene",
+      "title": "外封蜡细裂与灰线取样",
+      "url": "/api/assets/work_bone_lantern_scene_078_01_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_078_02",
+      "type": "scene",
+      "title": "开库确认未燃小铜灯",
+      "url": "/api/assets/work_bone_lantern_scene_078_02_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_078_03",
+      "type": "scene",
+      "title": "白陶片固定灯身不点火",
+      "url": "/api/assets/work_bone_lantern_scene_078_03_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_078_04",
+      "type": "scene",
+      "title": "灯芯硬结与铆钉拆分记录",
+      "url": "/api/assets/work_bone_lantern_scene_078_04_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 25,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_078_05",
+      "type": "scene",
+      "title": "灯身灯芯残件六袋封存",
+      "url": "/api/assets/work_bone_lantern_scene_078_05_media",
+      "chapterNumber": 78,
+      "paragraphIndex": 31,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_079_01",
+      "type": "scene",
+      "title": "卖炭妇人限定证言",
+      "url": "/api/assets/work_bone_lantern_scene_079_01_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_079_02",
+      "type": "scene",
+      "title": "裹席麻袋的拖行试验",
+      "url": "/api/assets/work_bone_lantern_scene_079_02_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 8,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_079_03",
+      "type": "scene",
+      "title": "断绳蓝线独立取样",
+      "url": "/api/assets/work_bone_lantern_scene_079_03_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 10,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_079_04",
+      "type": "scene",
+      "title": "半枚铁车牌与分袋记录",
+      "url": "/api/assets/work_bone_lantern_scene_079_04_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 14,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_079_05",
+      "type": "scene",
+      "title": "报告附四方独立交接单",
+      "url": "/api/assets/work_bone_lantern_scene_079_05_media",
+      "chapterNumber": 79,
+      "paragraphIndex": 23,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_bone_lantern_scene_080_01",
+      "type": "scene",
+      "title": "三只陶盆分别接雨",
+      "url": "/api/assets/work_bone_lantern_scene_080_01_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_bone_lantern_scene_080_02",
+      "type": "scene",
+      "title": "老人中止查阅归还木筹",
+      "url": "/api/assets/work_bone_lantern_scene_080_02_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 6,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_bone_lantern_scene_080_03",
+      "type": "scene",
+      "title": "晏九只允许两页抄录",
+      "url": "/api/assets/work_bone_lantern_scene_080_03_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 8,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_bone_lantern_scene_080_04",
+      "type": "scene",
+      "title": "两枚铆钉限定查看",
+      "url": "/api/assets/work_bone_lantern_scene_080_04_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 15,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_bone_lantern_scene_080_05",
+      "type": "scene",
+      "title": "义庄门前留一盏纸灯",
+      "url": "/api/assets/work_bone_lantern_scene_080_05_media",
+      "chapterNumber": 80,
+      "paragraphIndex": 22,
+      "sortOrder": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "char_bone_qingya",
+      "name": "沈青崖",
+      "role": "主角",
+      "relation": "女仵作 · 23岁",
+      "publicSummary": "奉安城义庄仵作，善验微痕，左手掌心有一道从不愈合的灯焰伤。",
+      "privateProfile": {
+        "desire": "查清师父之死与自己被抹去的童年",
+        "fear": "真相需要以忘记所爱之人为代价",
+        "voice": "观察先于判断，极少使用绝对词；紧张时会默数骨节",
+        "arcStart": "相信尸骨不会说谎，活人不值得信任",
+        "arcCurrent": "学会分辨看见的片段与完整真相，并允许他人共同承担记忆"
+      },
+      "visualPrompt": "年轻中国女仵作，深色旧官服，木质验尸箱，冷静克制，雨夜古城，东方写实电影感"
+    },
+    {
+      "id": "char_bone_zhaochuan",
+      "name": "裴照川",
+      "role": "共同主角",
+      "relation": "巡夜司校尉 · 27岁",
+      "publicSummary": "以玩笑遮掩锋芒的巡夜司校尉，右耳听不见钟声，却能从脚步辨认来人。",
+      "privateProfile": {
+        "desire": "证明父亲并非十八年前皇城火案的纵火者",
+        "fear": "自己追求翻案只是不能接受父亲有罪",
+        "voice": "表面散漫，审讯时问题极短；从不许诺做不到的事",
+        "arcStart": "把人与关系都当成可以交换的线索",
+        "arcCurrent": "愿意让自己的名誉、家族与前途成为证据的一部分"
+      },
+      "visualPrompt": "年轻中国古代巡夜司校尉，黑色窄袖官服，旧刀，雨巷灯影，聪明疲惫，写实电影肖像"
+    },
+    {
+      "id": "char_bone_yanjiu",
+      "name": "晏九",
+      "role": "重要配角",
+      "relation": "棺材铺学徒 · 16岁",
+      "publicSummary": "能替死人记住姓名的棺材铺学徒，随身带着一本字迹不断消失的小册子。",
+      "privateProfile": {
+        "desire": "替所有无名尸留下不会被官府抹掉的名字",
+        "fear": "自己其实也是《百骨簿》制造出的假身份",
+        "voice": "话多且快，遇到真正害怕的事反而异常安静",
+        "arcStart": "相信写下名字就等于救下一个人",
+        "arcCurrent": "理解姓名、记忆和人的存在不能互相替代"
+      },
+      "visualPrompt": "十六岁中国棺材铺学徒，麻布短衣，墨迹手指，小册子，机灵倔强，东方志怪写实"
+    },
+    {
+      "id": "char_bone_wenru",
+      "name": "闻如晦",
+      "role": "关键人物",
+      "relation": "太史局少监",
+      "publicSummary": "主持修订历法的清贵官员，认为一个王朝的安定依赖人们共同相信同一段过去。",
+      "privateProfile": {
+        "desire": "完成没有灾异、叛乱与错误记忆的新国史",
+        "fear": "真相一旦全部归还，天下会重新陷入十八年前的混乱",
+        "voice": "温和周全，从不提高声音，习惯把伤害称作代价",
+        "arcStart": "以秩序为名编辑他人记忆",
+        "arcCurrent": "最终必须面对被删去的人仍有拒绝牺牲的权利"
+      },
+      "visualPrompt": "四十岁中国古代文官，白色官服，观星台，温和危险，烛光与星图，克制写实"
+    }
+  ]
+}

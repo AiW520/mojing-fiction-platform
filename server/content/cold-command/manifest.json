@@ -1,0 +1,3053 @@
+{
+  "id": "work_cold_command",
+  "title": "寒门掌兵",
+  "author": "唐渡",
+  "type": "架空历史 · 军旅争霸",
+  "summary": "落榜书生顾沉舟被征入北境边军，凭一册被火燎掉三分之一的军粮账，从伙房文书查出整条防线正在被内部掏空，并在练兵、守城与经营领地中掌住一支军队的命脉。",
+  "tagline": "账上少一石，城下就多一具尸。",
+  "cover": "/assets/books/cold-command/cover.webp",
+  "status": "serializing",
+  "targetWords": 350000,
+  "plannedChapters": 120,
+  "reads": "新作连载",
+  "score": "新作",
+  "volumes": [
+    {
+      "id": "cold-volume-01",
+      "title": "卷一 · 落榜入营",
+      "sortOrder": 0,
+      "plannedChapters": 15
+    },
+    {
+      "id": "cold-volume-02",
+      "title": "卷二 · 断粮练兵",
+      "sortOrder": 1,
+      "plannedChapters": 15
+    },
+    {
+      "id": "cold-volume-03",
+      "title": "卷三 · 三关风雪",
+      "sortOrder": 2,
+      "plannedChapters": 15
+    },
+    {
+      "id": "cold-volume-04",
+      "title": "卷四 · 以城换粮",
+      "sortOrder": 3,
+      "plannedChapters": 15
+    },
+    {
+      "id": "cold-volume-05",
+      "title": "卷五 · 京营问罪",
+      "sortOrder": 4,
+      "plannedChapters": 15
+    },
+    {
+      "id": "cold-volume-06",
+      "title": "卷六 · 北地称锋",
+      "sortOrder": 5,
+      "plannedChapters": 15
+    },
+    {
+      "id": "cold-volume-07",
+      "title": "卷七 · 山河易主",
+      "sortOrder": 6,
+      "plannedChapters": 15
+    },
+    {
+      "id": "cold-volume-08",
+      "title": "卷八 · 寒门掌兵",
+      "sortOrder": 7,
+      "plannedChapters": 15
+    }
+  ],
+  "assets": [
+    {
+      "id": "work_cold_command_scene_065_01",
+      "type": "scene",
+      "title": "西库阅案",
+      "url": "/assets/books/cold-command/chapter-065/01-archive-table.webp",
+      "chapterNumber": 65,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_065_02",
+      "type": "scene",
+      "title": "三处联核",
+      "url": "/assets/books/cold-command/chapter-065/02-three-ledgers.webp",
+      "chapterNumber": 65,
+      "paragraphIndex": 17,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_065_03",
+      "type": "scene",
+      "title": "残页未平",
+      "url": "/assets/books/cold-command/chapter-065/03-thirty-jin-gap.webp",
+      "chapterNumber": 65,
+      "paragraphIndex": 37,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_065_04",
+      "type": "scene",
+      "title": "院中倾架",
+      "url": "/assets/books/cold-command/chapter-065/04-courtyard-cart.webp",
+      "chapterNumber": 65,
+      "paragraphIndex": 48,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_065_05",
+      "type": "scene",
+      "title": "逐束清点",
+      "url": "/assets/books/cold-command/chapter-065/05-arrow-bundles.webp",
+      "chapterNumber": 65,
+      "paragraphIndex": 53,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_003_01",
+      "type": "scene",
+      "title": "三锅复称",
+      "url": "/api/assets/work_cold_command_scene_003_01_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 10,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_003_02",
+      "type": "scene",
+      "title": "只证封存",
+      "url": "/api/assets/work_cold_command_scene_003_02_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 24,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_003_03",
+      "type": "scene",
+      "title": "灶后立规",
+      "url": "/api/assets/work_cold_command_scene_003_03_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 36,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_003_04",
+      "type": "scene",
+      "title": "铜权校秤",
+      "url": "/api/assets/work_cold_command_scene_003_04_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 51,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_003_05",
+      "type": "scene",
+      "title": "西墙量辙",
+      "url": "/api/assets/work_cold_command_scene_003_05_media",
+      "chapterNumber": 3,
+      "paragraphIndex": 59,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_001_01",
+      "type": "scene",
+      "title": "落榜出贡院",
+      "url": "/api/assets/work_cold_command_scene_001_01_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_001_02",
+      "type": "scene",
+      "title": "收牌察砂",
+      "url": "/api/assets/work_cold_command_scene_001_02_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 19,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_001_03",
+      "type": "scene",
+      "title": "灯下察残账",
+      "url": "/api/assets/work_cold_command_scene_001_03_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 39,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_001_04",
+      "type": "scene",
+      "title": "雪坡察粮车",
+      "url": "/api/assets/work_cold_command_scene_001_04_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 48,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_001_05",
+      "type": "scene",
+      "title": "伙房留样",
+      "url": "/api/assets/work_cold_command_scene_001_05_media",
+      "chapterNumber": 1,
+      "paragraphIndex": 62,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_002_01",
+      "type": "scene",
+      "title": "伙房拒签",
+      "url": "/api/assets/work_cold_command_scene_002_01_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_002_02",
+      "type": "scene",
+      "title": "夹页露异",
+      "url": "/api/assets/work_cold_command_scene_002_02_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 21,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_002_03",
+      "type": "scene",
+      "title": "三秤校准",
+      "url": "/api/assets/work_cold_command_scene_002_03_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 32,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_002_04",
+      "type": "scene",
+      "title": "为赵七补记",
+      "url": "/api/assets/work_cold_command_scene_002_04_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 63,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_002_05",
+      "type": "scene",
+      "title": "两枚封泥分验",
+      "url": "/api/assets/work_cold_command_scene_002_05_media",
+      "chapterNumber": 2,
+      "paragraphIndex": 78,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_033_01",
+      "type": "scene",
+      "title": "官车入关",
+      "url": "/api/assets/work_cold_command_scene_033_01_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_033_02",
+      "type": "scene",
+      "title": "三册分栏",
+      "url": "/api/assets/work_cold_command_scene_033_02_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 13,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_033_03",
+      "type": "scene",
+      "title": "八十斤可动",
+      "url": "/api/assets/work_cold_command_scene_033_03_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_033_04",
+      "type": "scene",
+      "title": "药车先过",
+      "url": "/api/assets/work_cold_command_scene_033_04_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 47,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_033_05",
+      "type": "scene",
+      "title": "断箍留灯下",
+      "url": "/api/assets/work_cold_command_scene_033_05_media",
+      "chapterNumber": 33,
+      "paragraphIndex": 63,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_034_01",
+      "type": "scene",
+      "title": "断箍取泥",
+      "url": "/api/assets/work_cold_command_scene_034_01_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_034_02",
+      "type": "scene",
+      "title": "三处分泥",
+      "url": "/api/assets/work_cold_command_scene_034_02_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_034_03",
+      "type": "scene",
+      "title": "雪线外窄车",
+      "url": "/api/assets/work_cold_command_scene_034_03_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 24,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_034_04",
+      "type": "scene",
+      "title": "先救落沟人",
+      "url": "/api/assets/work_cold_command_scene_034_04_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 32,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_034_05",
+      "type": "scene",
+      "title": "回关分项上报",
+      "url": "/api/assets/work_cold_command_scene_034_05_media",
+      "chapterNumber": 34,
+      "paragraphIndex": 50,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_035_01",
+      "type": "scene",
+      "title": "侧门验还车",
+      "url": "/api/assets/work_cold_command_scene_035_01_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_035_02",
+      "type": "scene",
+      "title": "堤外举骨牌",
+      "url": "/api/assets/work_cold_command_scene_035_02_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 22,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_035_03",
+      "type": "scene",
+      "title": "杆尖解橇绳",
+      "url": "/api/assets/work_cold_command_scene_035_03_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 32,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_035_04",
+      "type": "scene",
+      "title": "骨牌与红砂",
+      "url": "/api/assets/work_cold_command_scene_035_04_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 45,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_035_05",
+      "type": "scene",
+      "title": "税棚新横木",
+      "url": "/api/assets/work_cold_command_scene_035_05_media",
+      "chapterNumber": 35,
+      "paragraphIndex": 54,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_036_01",
+      "type": "scene",
+      "title": "横木拦粮",
+      "url": "/api/assets/work_cold_command_scene_036_01_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_036_02",
+      "type": "scene",
+      "title": "还粮待发",
+      "url": "/api/assets/work_cold_command_scene_036_02_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_036_03",
+      "type": "scene",
+      "title": "报轮缘距离",
+      "url": "/api/assets/work_cold_command_scene_036_03_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 19,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_036_04",
+      "type": "scene",
+      "title": "首拨入棚",
+      "url": "/api/assets/work_cold_command_scene_036_04_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 36,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_036_05",
+      "type": "scene",
+      "title": "北楼断绳",
+      "url": "/api/assets/work_cold_command_scene_036_05_media",
+      "chapterNumber": 36,
+      "paragraphIndex": 44,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_037_01",
+      "type": "scene",
+      "title": "空车核回执",
+      "url": "/api/assets/work_cold_command_scene_037_01_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_037_02",
+      "type": "scene",
+      "title": "雪盒辨蹄印",
+      "url": "/api/assets/work_cold_command_scene_037_02_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_037_03",
+      "type": "scene",
+      "title": "黑砂分样",
+      "url": "/api/assets/work_cold_command_scene_037_03_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 19,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_037_04",
+      "type": "scene",
+      "title": "短哨停试车",
+      "url": "/api/assets/work_cold_command_scene_037_04_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 38,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_037_05",
+      "type": "scene",
+      "title": "三份材料分存",
+      "url": "/api/assets/work_cold_command_scene_037_05_media",
+      "chapterNumber": 37,
+      "paragraphIndex": 40,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_038_01",
+      "type": "scene",
+      "title": "空车停试",
+      "url": "/api/assets/work_cold_command_scene_038_01_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_038_02",
+      "type": "scene",
+      "title": "车板议退路",
+      "url": "/api/assets/work_cold_command_scene_038_02_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 8,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_038_03",
+      "type": "scene",
+      "title": "医棚接伤骑",
+      "url": "/api/assets/work_cold_command_scene_038_03_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 25,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_038_04",
+      "type": "scene",
+      "title": "三处分证",
+      "url": "/api/assets/work_cold_command_scene_038_04_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 32,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_038_05",
+      "type": "scene",
+      "title": "急报分账",
+      "url": "/api/assets/work_cold_command_scene_038_05_media",
+      "chapterNumber": 38,
+      "paragraphIndex": 36,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_039_01",
+      "type": "scene",
+      "title": "粮案定守",
+      "url": "/api/assets/work_cold_command_scene_039_01_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_039_02",
+      "type": "scene",
+      "title": "槽尾留痕",
+      "url": "/api/assets/work_cold_command_scene_039_02_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_039_03",
+      "type": "scene",
+      "title": "医棚候担",
+      "url": "/api/assets/work_cold_command_scene_039_03_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 18,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_039_04",
+      "type": "scene",
+      "title": "北楼观火",
+      "url": "/api/assets/work_cold_command_scene_039_04_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 26,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_039_05",
+      "type": "scene",
+      "title": "瓷片取样",
+      "url": "/api/assets/work_cold_command_scene_039_05_media",
+      "chapterNumber": 39,
+      "paragraphIndex": 31,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_040_01",
+      "type": "scene",
+      "title": "返车分账",
+      "url": "/api/assets/work_cold_command_scene_040_01_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_040_02",
+      "type": "scene",
+      "title": "侧棚验轮",
+      "url": "/api/assets/work_cold_command_scene_040_02_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 12,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_040_03",
+      "type": "scene",
+      "title": "墙影退医车",
+      "url": "/api/assets/work_cold_command_scene_040_03_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 21,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_040_04",
+      "type": "scene",
+      "title": "干棚逐袋秤",
+      "url": "/api/assets/work_cold_command_scene_040_04_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 26,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_040_05",
+      "type": "scene",
+      "title": "暮色留担架",
+      "url": "/api/assets/work_cold_command_scene_040_05_media",
+      "chapterNumber": 40,
+      "paragraphIndex": 34,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_041_01",
+      "type": "scene",
+      "title": "标杆量水",
+      "url": "/api/assets/work_cold_command_scene_041_01_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_041_02",
+      "type": "scene",
+      "title": "水样禁饮",
+      "url": "/api/assets/work_cold_command_scene_041_02_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 14,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_041_03",
+      "type": "scene",
+      "title": "六类分存",
+      "url": "/api/assets/work_cold_command_scene_041_03_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 18,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_041_04",
+      "type": "scene",
+      "title": "木楔撑管",
+      "url": "/api/assets/work_cold_command_scene_041_04_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 33,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_041_05",
+      "type": "scene",
+      "title": "半量核耗",
+      "url": "/api/assets/work_cold_command_scene_041_05_media",
+      "chapterNumber": 41,
+      "paragraphIndex": 37,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_042_01",
+      "type": "scene",
+      "title": "旧单与伤手",
+      "url": "/api/assets/work_cold_command_scene_042_01_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_042_02",
+      "type": "scene",
+      "title": "红砂随条保留",
+      "url": "/api/assets/work_cold_command_scene_042_02_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 12,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_042_03",
+      "type": "scene",
+      "title": "废纸暂停送火",
+      "url": "/api/assets/work_cold_command_scene_042_03_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 26,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_042_04",
+      "type": "scene",
+      "title": "两项检验未合",
+      "url": "/api/assets/work_cold_command_scene_042_04_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 35,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_042_05",
+      "type": "scene",
+      "title": "槽尾恢复守水",
+      "url": "/api/assets/work_cold_command_scene_042_05_media",
+      "chapterNumber": 42,
+      "paragraphIndex": 38,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_043_01",
+      "type": "scene",
+      "title": "水口实报",
+      "url": "/api/assets/work_cold_command_scene_043_01_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_043_02",
+      "type": "scene",
+      "title": "三方结功",
+      "url": "/api/assets/work_cold_command_scene_043_02_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 7,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_043_03",
+      "type": "scene",
+      "title": "旧案开卷",
+      "url": "/api/assets/work_cold_command_scene_043_03_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_043_04",
+      "type": "scene",
+      "title": "粮车改位",
+      "url": "/api/assets/work_cold_command_scene_043_04_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 23,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_043_05",
+      "type": "scene",
+      "title": "伤员登记",
+      "url": "/api/assets/work_cold_command_scene_043_05_media",
+      "chapterNumber": 43,
+      "paragraphIndex": 30,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_044_01",
+      "type": "scene",
+      "title": "北楼辨敌",
+      "url": "/api/assets/work_cold_command_scene_044_01_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_044_02",
+      "type": "scene",
+      "title": "转角让杆",
+      "url": "/api/assets/work_cold_command_scene_044_02_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_044_03",
+      "type": "scene",
+      "title": "内槽截火",
+      "url": "/api/assets/work_cold_command_scene_044_03_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 23,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_044_04",
+      "type": "scene",
+      "title": "医棚接伤",
+      "url": "/api/assets/work_cold_command_scene_044_04_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_044_05",
+      "type": "scene",
+      "title": "盾交副手",
+      "url": "/api/assets/work_cold_command_scene_044_05_media",
+      "chapterNumber": 44,
+      "paragraphIndex": 30,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_045_01",
+      "type": "scene",
+      "title": "雪夜急报",
+      "url": "/api/assets/work_cold_command_scene_045_01_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_045_02",
+      "type": "scene",
+      "title": "木片截官道",
+      "url": "/api/assets/work_cold_command_scene_045_02_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 16,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_045_03",
+      "type": "scene",
+      "title": "灰窑分载",
+      "url": "/api/assets/work_cold_command_scene_045_03_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 28,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_045_04",
+      "type": "scene",
+      "title": "石弯护伤",
+      "url": "/api/assets/work_cold_command_scene_045_04_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 32,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_045_05",
+      "type": "scene",
+      "title": "接过南仓图",
+      "url": "/api/assets/work_cold_command_scene_045_05_media",
+      "chapterNumber": 45,
+      "paragraphIndex": 46,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_046_01",
+      "type": "scene",
+      "title": "旧矛守门",
+      "url": "/api/assets/work_cold_command_scene_046_01_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_046_02",
+      "type": "scene",
+      "title": "塌梁救人",
+      "url": "/api/assets/work_cold_command_scene_046_02_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 14,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_046_03",
+      "type": "scene",
+      "title": "分路送医",
+      "url": "/api/assets/work_cold_command_scene_046_03_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_046_04",
+      "type": "scene",
+      "title": "秤房试存",
+      "url": "/api/assets/work_cold_command_scene_046_04_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 31,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_046_05",
+      "type": "scene",
+      "title": "红角空票",
+      "url": "/api/assets/work_cold_command_scene_046_05_media",
+      "chapterNumber": 46,
+      "paragraphIndex": 43,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_047_01",
+      "type": "scene",
+      "title": "缓坡入秤房",
+      "url": "/api/assets/work_cold_command_scene_047_01_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_047_02",
+      "type": "scene",
+      "title": "河滩分栏登记",
+      "url": "/api/assets/work_cold_command_scene_047_02_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 8,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_047_03",
+      "type": "scene",
+      "title": "票与铜钱分存",
+      "url": "/api/assets/work_cold_command_scene_047_03_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 16,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_047_04",
+      "type": "scene",
+      "title": "脚行伙计留驿",
+      "url": "/api/assets/work_cold_command_scene_047_04_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_047_05",
+      "type": "scene",
+      "title": "薄粥入两锅",
+      "url": "/api/assets/work_cold_command_scene_047_05_media",
+      "chapterNumber": 47,
+      "paragraphIndex": 34,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_048_01",
+      "type": "scene",
+      "title": "冰裂渠岸",
+      "url": "/api/assets/work_cold_command_scene_048_01_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_048_02",
+      "type": "scene",
+      "title": "红线分存",
+      "url": "/api/assets/work_cold_command_scene_048_02_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 8,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_048_03",
+      "type": "scene",
+      "title": "浅淤停工",
+      "url": "/api/assets/work_cold_command_scene_048_03_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 25,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_048_04",
+      "type": "scene",
+      "title": "试工结算",
+      "url": "/api/assets/work_cold_command_scene_048_04_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 32,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_048_05",
+      "type": "scene",
+      "title": "三项签押",
+      "url": "/api/assets/work_cold_command_scene_048_05_media",
+      "chapterNumber": 48,
+      "paragraphIndex": 35,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_049_01",
+      "type": "scene",
+      "title": "工赈分锅",
+      "url": "/api/assets/work_cold_command_scene_049_01_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_049_02",
+      "type": "scene",
+      "title": "长票只抄号",
+      "url": "/api/assets/work_cold_command_scene_049_02_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 18,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_049_03",
+      "type": "scene",
+      "title": "半斤盐四钱",
+      "url": "/api/assets/work_cold_command_scene_049_03_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 36,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_049_04",
+      "type": "scene",
+      "title": "押钱逐户退",
+      "url": "/api/assets/work_cold_command_scene_049_04_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 40,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_049_05",
+      "type": "scene",
+      "title": "西缺口新令",
+      "url": "/api/assets/work_cold_command_scene_049_05_media",
+      "chapterNumber": 49,
+      "paragraphIndex": 46,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_050_01",
+      "type": "scene",
+      "title": "西缺口隔车",
+      "url": "/api/assets/work_cold_command_scene_050_01_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_050_02",
+      "type": "scene",
+      "title": "护场分守",
+      "url": "/api/assets/work_cold_command_scene_050_02_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_050_03",
+      "type": "scene",
+      "title": "旧棚验路",
+      "url": "/api/assets/work_cold_command_scene_050_03_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 23,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_050_04",
+      "type": "scene",
+      "title": "桥裂暂缓运粮",
+      "url": "/api/assets/work_cold_command_scene_050_04_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 34,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_050_05",
+      "type": "scene",
+      "title": "夜收排程牌",
+      "url": "/api/assets/work_cold_command_scene_050_05_media",
+      "chapterNumber": 50,
+      "paragraphIndex": 41,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_051_01",
+      "type": "scene",
+      "title": "桥南停拆",
+      "url": "/api/assets/work_cold_command_scene_051_01_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_051_02",
+      "type": "scene",
+      "title": "岸上报尺",
+      "url": "/api/assets/work_cold_command_scene_051_02_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_051_03",
+      "type": "scene",
+      "title": "滑车退岸",
+      "url": "/api/assets/work_cold_command_scene_051_03_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 22,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_051_04",
+      "type": "scene",
+      "title": "六袋封存",
+      "url": "/api/assets/work_cold_command_scene_051_04_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 29,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_051_05",
+      "type": "scene",
+      "title": "车痕留案",
+      "url": "/api/assets/work_cold_command_scene_051_05_media",
+      "chapterNumber": 51,
+      "paragraphIndex": 37,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_052_01",
+      "type": "scene",
+      "title": "冻草断箭",
+      "url": "/api/assets/work_cold_command_scene_052_01_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_052_02",
+      "type": "scene",
+      "title": "旧坑禁线",
+      "url": "/api/assets/work_cold_command_scene_052_02_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 11,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_052_03",
+      "type": "scene",
+      "title": "三组练车",
+      "url": "/api/assets/work_cold_command_scene_052_03_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 18,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_052_04",
+      "type": "scene",
+      "title": "盐车止滑",
+      "url": "/api/assets/work_cold_command_scene_052_04_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 30,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_052_05",
+      "type": "scene",
+      "title": "石秤房转存",
+      "url": "/api/assets/work_cold_command_scene_052_05_media",
+      "chapterNumber": 52,
+      "paragraphIndex": 40,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_004_01",
+      "type": "scene",
+      "title": "西墙待称",
+      "url": "/api/assets/work_cold_command_scene_004_01_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 15,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_004_02",
+      "type": "scene",
+      "title": "霉麦取样",
+      "url": "/api/assets/work_cold_command_scene_004_02_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 28,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_004_03",
+      "type": "scene",
+      "title": "东灶借粮",
+      "url": "/api/assets/work_cold_command_scene_004_03_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 42,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_004_04",
+      "type": "scene",
+      "title": "风雪留痕",
+      "url": "/api/assets/work_cold_command_scene_004_04_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 49,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_004_05",
+      "type": "scene",
+      "title": "回执定责",
+      "url": "/api/assets/work_cold_command_scene_004_05_media",
+      "chapterNumber": 4,
+      "paragraphIndex": 53,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_005_01",
+      "type": "scene",
+      "title": "营门接验",
+      "url": "/api/assets/work_cold_command_scene_005_01_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 18,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_005_02",
+      "type": "scene",
+      "title": "门洞护脚",
+      "url": "/api/assets/work_cold_command_scene_005_02_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 28,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_005_03",
+      "type": "scene",
+      "title": "净麦复验",
+      "url": "/api/assets/work_cold_command_scene_005_03_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 55,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_005_04",
+      "type": "scene",
+      "title": "锅底见麦",
+      "url": "/api/assets/work_cold_command_scene_005_04_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 62,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_005_05",
+      "type": "scene",
+      "title": "油纸分封",
+      "url": "/api/assets/work_cold_command_scene_005_05_media",
+      "chapterNumber": 5,
+      "paragraphIndex": 76,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_006_01",
+      "type": "scene",
+      "title": "北路夜哨图",
+      "url": "/api/assets/work_cold_command_scene_006_01_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_006_02",
+      "type": "scene",
+      "title": "渡口封存布片",
+      "url": "/api/assets/work_cold_command_scene_006_02_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 17,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_006_03",
+      "type": "scene",
+      "title": "伤民撤离废渡",
+      "url": "/api/assets/work_cold_command_scene_006_03_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 41,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_006_04",
+      "type": "scene",
+      "title": "北门先行接诊",
+      "url": "/api/assets/work_cold_command_scene_006_04_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 46,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_006_05",
+      "type": "scene",
+      "title": "伙房分记活人",
+      "url": "/api/assets/work_cold_command_scene_006_05_media",
+      "chapterNumber": 6,
+      "paragraphIndex": 62,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_007_01",
+      "type": "scene",
+      "title": "拒签收粮单",
+      "url": "/api/assets/work_cold_command_scene_007_01_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_007_02",
+      "type": "scene",
+      "title": "拆分两笔交割",
+      "url": "/api/assets/work_cold_command_scene_007_02_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 13,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_007_03",
+      "type": "scene",
+      "title": "分取黑硬皮样本",
+      "url": "/api/assets/work_cold_command_scene_007_03_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 34,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_007_04",
+      "type": "scene",
+      "title": "并列核对两张单",
+      "url": "/api/assets/work_cold_command_scene_007_04_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 45,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_007_05",
+      "type": "scene",
+      "title": "南沟石碑待查",
+      "url": "/api/assets/work_cold_command_scene_007_05_media",
+      "chapterNumber": 7,
+      "paragraphIndex": 66,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_008_01",
+      "type": "scene",
+      "title": "石槽分取水样",
+      "url": "/api/assets/work_cold_command_scene_008_01_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 5,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_008_02",
+      "type": "scene",
+      "title": "芦草旧碑拓字",
+      "url": "/api/assets/work_cold_command_scene_008_02_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 20,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_008_03",
+      "type": "scene",
+      "title": "封箱逐项交接",
+      "url": "/api/assets/work_cold_command_scene_008_03_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 30,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_008_04",
+      "type": "scene",
+      "title": "医棚撤销离营",
+      "url": "/api/assets/work_cold_command_scene_008_04_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 44,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_008_05",
+      "type": "scene",
+      "title": "旧碗先认活人",
+      "url": "/api/assets/work_cold_command_scene_008_05_media",
+      "chapterNumber": 8,
+      "paragraphIndex": 54,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_009_01",
+      "type": "scene",
+      "title": "医棚分账",
+      "url": "/api/assets/work_cold_command_scene_009_01_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_009_02",
+      "type": "scene",
+      "title": "死册待核",
+      "url": "/api/assets/work_cold_command_scene_009_02_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 16,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_009_03",
+      "type": "scene",
+      "title": "三百二十斤复秤",
+      "url": "/api/assets/work_cold_command_scene_009_03_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 24,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_009_04",
+      "type": "scene",
+      "title": "柴车夹袋",
+      "url": "/api/assets/work_cold_command_scene_009_04_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 44,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_009_05",
+      "type": "scene",
+      "title": "代领一段",
+      "url": "/api/assets/work_cold_command_scene_009_05_media",
+      "chapterNumber": 9,
+      "paragraphIndex": 54,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_010_01",
+      "type": "scene",
+      "title": "空碗议粮",
+      "url": "/api/assets/work_cold_command_scene_010_01_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_010_02",
+      "type": "scene",
+      "title": "乙袋追回",
+      "url": "/api/assets/work_cold_command_scene_010_02_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 13,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_010_03",
+      "type": "scene",
+      "title": "分案复验",
+      "url": "/api/assets/work_cold_command_scene_010_03_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 28,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_010_04",
+      "type": "scene",
+      "title": "六袋入灶",
+      "url": "/api/assets/work_cold_command_scene_010_04_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 54,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_010_05",
+      "type": "scene",
+      "title": "歇车牌归来",
+      "url": "/api/assets/work_cold_command_scene_010_05_media",
+      "chapterNumber": 10,
+      "paragraphIndex": 64,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_011_01",
+      "type": "scene",
+      "title": "账房起火",
+      "url": "/api/assets/work_cold_command_scene_011_01_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_011_02",
+      "type": "scene",
+      "title": "火场止伤",
+      "url": "/api/assets/work_cold_command_scene_011_02_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 15,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_011_03",
+      "type": "scene",
+      "title": "灰烬分存",
+      "url": "/api/assets/work_cold_command_scene_011_03_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 23,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_011_04",
+      "type": "scene",
+      "title": "账册分管",
+      "url": "/api/assets/work_cold_command_scene_011_04_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 36,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_011_05",
+      "type": "scene",
+      "title": "木楔待核",
+      "url": "/api/assets/work_cold_command_scene_011_05_media",
+      "chapterNumber": 11,
+      "paragraphIndex": 60,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_012_01",
+      "type": "scene",
+      "title": "马料另案",
+      "url": "/api/assets/work_cold_command_scene_012_01_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_012_02",
+      "type": "scene",
+      "title": "活人与医册",
+      "url": "/api/assets/work_cold_command_scene_012_02_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 19,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_012_03",
+      "type": "scene",
+      "title": "两条押运路",
+      "url": "/api/assets/work_cold_command_scene_012_03_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 30,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_012_04",
+      "type": "scene",
+      "title": "铁匣留验",
+      "url": "/api/assets/work_cold_command_scene_012_04_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 49,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_012_05",
+      "type": "scene",
+      "title": "承担代领",
+      "url": "/api/assets/work_cold_command_scene_012_05_media",
+      "chapterNumber": 12,
+      "paragraphIndex": 67,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_013_01",
+      "type": "scene",
+      "title": "雪中报袋",
+      "url": "/api/assets/work_cold_command_scene_013_01_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 9,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_013_02",
+      "type": "scene",
+      "title": "停队换袋",
+      "url": "/api/assets/work_cold_command_scene_013_02_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 15,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_013_03",
+      "type": "scene",
+      "title": "仓门留证",
+      "url": "/api/assets/work_cold_command_scene_013_03_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 30,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_013_04",
+      "type": "scene",
+      "title": "学针记耗",
+      "url": "/api/assets/work_cold_command_scene_013_04_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 43,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_013_05",
+      "type": "scene",
+      "title": "换防前夜",
+      "url": "/api/assets/work_cold_command_scene_013_05_media",
+      "chapterNumber": 13,
+      "paragraphIndex": 58,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_014_01",
+      "type": "scene",
+      "title": "伤员补录",
+      "url": "/api/assets/work_cold_command_scene_014_01_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_014_02",
+      "type": "scene",
+      "title": "半额票疑点",
+      "url": "/api/assets/work_cold_command_scene_014_02_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 24,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_014_03",
+      "type": "scene",
+      "title": "三件分别封存",
+      "url": "/api/assets/work_cold_command_scene_014_03_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 38,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_014_04",
+      "type": "scene",
+      "title": "原簿未交",
+      "url": "/api/assets/work_cold_command_scene_014_04_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 41,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_014_05",
+      "type": "scene",
+      "title": "裂板添三格",
+      "url": "/api/assets/work_cold_command_scene_014_05_media",
+      "chapterNumber": 14,
+      "paragraphIndex": 54,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_015_01",
+      "type": "scene",
+      "title": "受潮票匣入营",
+      "url": "/api/assets/work_cold_command_scene_015_01_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_015_02",
+      "type": "scene",
+      "title": "辨纸不定案",
+      "url": "/api/assets/work_cold_command_scene_015_02_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 12,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_015_03",
+      "type": "scene",
+      "title": "分封留经手",
+      "url": "/api/assets/work_cold_command_scene_015_03_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 18,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_015_04",
+      "type": "scene",
+      "title": "黑墙前受职",
+      "url": "/api/assets/work_cold_command_scene_015_04_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 31,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_015_05",
+      "type": "scene",
+      "title": "夜信硬皮分存",
+      "url": "/api/assets/work_cold_command_scene_015_05_media",
+      "chapterNumber": 15,
+      "paragraphIndex": 49,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_016_01",
+      "type": "scene",
+      "title": "分栏清人数",
+      "url": "/api/assets/work_cold_command_scene_016_01_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_016_02",
+      "type": "scene",
+      "title": "三类抽九袋",
+      "url": "/api/assets/work_cold_command_scene_016_02_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 19,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_016_03",
+      "type": "scene",
+      "title": "午后筛粟",
+      "url": "/api/assets/work_cold_command_scene_016_03_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 32,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_016_04",
+      "type": "scene",
+      "title": "空栏不代签",
+      "url": "/api/assets/work_cold_command_scene_016_04_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 39,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_016_05",
+      "type": "scene",
+      "title": "雪夜待军议",
+      "url": "/api/assets/work_cold_command_scene_016_05_media",
+      "chapterNumber": 16,
+      "paragraphIndex": 44,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_017_01",
+      "type": "scene",
+      "title": "半日勘渠",
+      "url": "/api/assets/work_cold_command_scene_017_01_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_017_02",
+      "type": "scene",
+      "title": "石槽复量",
+      "url": "/api/assets/work_cold_command_scene_017_02_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_017_03",
+      "type": "scene",
+      "title": "土坎分样",
+      "url": "/api/assets/work_cold_command_scene_017_03_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_017_04",
+      "type": "scene",
+      "title": "工食脚钱分开",
+      "url": "/api/assets/work_cold_command_scene_017_04_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 44,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_017_05",
+      "type": "scene",
+      "title": "三表待核",
+      "url": "/api/assets/work_cold_command_scene_017_05_media",
+      "chapterNumber": 17,
+      "paragraphIndex": 54,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_018_01",
+      "type": "scene",
+      "title": "药柜清点",
+      "url": "/api/assets/work_cold_command_scene_018_01_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_018_02",
+      "type": "scene",
+      "title": "伤情分栏",
+      "url": "/api/assets/work_cold_command_scene_018_02_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_018_03",
+      "type": "scene",
+      "title": "药材封存",
+      "url": "/api/assets/work_cold_command_scene_018_03_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 18,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_018_04",
+      "type": "scene",
+      "title": "军议分粮",
+      "url": "/api/assets/work_cold_command_scene_018_04_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 39,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_018_05",
+      "type": "scene",
+      "title": "回执钉柜",
+      "url": "/api/assets/work_cold_command_scene_018_05_media",
+      "chapterNumber": 18,
+      "paragraphIndex": 43,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_019_01",
+      "type": "scene",
+      "title": "火棚安置驿卒",
+      "url": "/api/assets/work_cold_command_scene_019_01_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_019_02",
+      "type": "scene",
+      "title": "握缰后停试",
+      "url": "/api/assets/work_cold_command_scene_019_02_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 17,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_019_03",
+      "type": "scene",
+      "title": "陈六分栏登记",
+      "url": "/api/assets/work_cold_command_scene_019_03_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 25,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_019_04",
+      "type": "scene",
+      "title": "营门步态复查",
+      "url": "/api/assets/work_cold_command_scene_019_04_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 35,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_019_05",
+      "type": "scene",
+      "title": "营门复核霜粮",
+      "url": "/api/assets/work_cold_command_scene_019_05_media",
+      "chapterNumber": 19,
+      "paragraphIndex": 44,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_020_01",
+      "type": "scene",
+      "title": "牛棚失牛",
+      "url": "/api/assets/work_cold_command_scene_020_01_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_020_02",
+      "type": "scene",
+      "title": "沿高地追查",
+      "url": "/api/assets/work_cold_command_scene_020_02_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 18,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_020_03",
+      "type": "scene",
+      "title": "石闸截住牛车",
+      "url": "/api/assets/work_cold_command_scene_020_03_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 25,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_020_04",
+      "type": "scene",
+      "title": "借条交军法核查",
+      "url": "/api/assets/work_cold_command_scene_020_04_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 43,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_020_05",
+      "type": "scene",
+      "title": "报损暂撤",
+      "url": "/api/assets/work_cold_command_scene_020_05_media",
+      "chapterNumber": 20,
+      "paragraphIndex": 47,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_021_01",
+      "type": "scene",
+      "title": "结霜粮复验",
+      "url": "/api/assets/work_cold_command_scene_021_01_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 14,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_021_02",
+      "type": "scene",
+      "title": "民夫试编",
+      "url": "/api/assets/work_cold_command_scene_021_02_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 21,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_021_03",
+      "type": "scene",
+      "title": "北门短运",
+      "url": "/api/assets/work_cold_command_scene_021_03_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 39,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_021_04",
+      "type": "scene",
+      "title": "护运筹办牌",
+      "url": "/api/assets/work_cold_command_scene_021_04_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 49,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_021_05",
+      "type": "scene",
+      "title": "把路交给更多人",
+      "url": "/api/assets/work_cold_command_scene_021_05_media",
+      "chapterNumber": 21,
+      "paragraphIndex": 55,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_022_01",
+      "type": "scene",
+      "title": "解辕保牛",
+      "url": "/api/assets/work_cold_command_scene_022_01_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 14,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_022_02",
+      "type": "scene",
+      "title": "八袋出弯",
+      "url": "/api/assets/work_cold_command_scene_022_02_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 25,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_022_03",
+      "type": "scene",
+      "title": "盾缘留证",
+      "url": "/api/assets/work_cold_command_scene_022_03_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 39,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_022_04",
+      "type": "scene",
+      "title": "医棚停工",
+      "url": "/api/assets/work_cold_command_scene_022_04_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 42,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_022_05",
+      "type": "scene",
+      "title": "灶门改线",
+      "url": "/api/assets/work_cold_command_scene_022_05_media",
+      "chapterNumber": 22,
+      "paragraphIndex": 53,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_023_01",
+      "type": "scene",
+      "title": "避风棚查马",
+      "url": "/api/assets/work_cold_command_scene_023_01_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 8,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_023_02",
+      "type": "scene",
+      "title": "三日换养",
+      "url": "/api/assets/work_cold_command_scene_023_02_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 22,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_023_03",
+      "type": "scene",
+      "title": "高处清淤",
+      "url": "/api/assets/work_cold_command_scene_023_03_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 32,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_023_04",
+      "type": "scene",
+      "title": "旧箭分存",
+      "url": "/api/assets/work_cold_command_scene_023_04_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 42,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_023_05",
+      "type": "scene",
+      "title": "木管分期交接",
+      "url": "/api/assets/work_cold_command_scene_023_05_media",
+      "chapterNumber": 23,
+      "paragraphIndex": 50,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_024_01",
+      "type": "scene",
+      "title": "西坡弩影",
+      "url": "/api/assets/work_cold_command_scene_024_01_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_024_02",
+      "type": "scene",
+      "title": "沙沟取粮",
+      "url": "/api/assets/work_cold_command_scene_024_02_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 14,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_024_03",
+      "type": "scene",
+      "title": "护粮撤退",
+      "url": "/api/assets/work_cold_command_scene_024_03_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 22,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_024_04",
+      "type": "scene",
+      "title": "营门复秤",
+      "url": "/api/assets/work_cold_command_scene_024_04_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 34,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_024_05",
+      "type": "scene",
+      "title": "短牌入案",
+      "url": "/api/assets/work_cold_command_scene_024_05_media",
+      "chapterNumber": 24,
+      "paragraphIndex": 52,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_025_01",
+      "type": "scene",
+      "title": "医棚暂止问讯",
+      "url": "/api/assets/work_cold_command_scene_025_01_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_025_02",
+      "type": "scene",
+      "title": "三本门簿互校",
+      "url": "/api/assets/work_cold_command_scene_025_02_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 12,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_025_03",
+      "type": "scene",
+      "title": "证物分别封存",
+      "url": "/api/assets/work_cold_command_scene_025_03_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 25,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_025_04",
+      "type": "scene",
+      "title": "急条暂不出粮",
+      "url": "/api/assets/work_cold_command_scene_025_04_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 32,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_025_05",
+      "type": "scene",
+      "title": "先保明早热粥",
+      "url": "/api/assets/work_cold_command_scene_025_05_media",
+      "chapterNumber": 25,
+      "paragraphIndex": 42,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_026_01",
+      "type": "scene",
+      "title": "营门核身",
+      "url": "/api/assets/work_cold_command_scene_026_01_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_026_02",
+      "type": "scene",
+      "title": "四袋封存",
+      "url": "/api/assets/work_cold_command_scene_026_02_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_026_03",
+      "type": "scene",
+      "title": "北沟查验",
+      "url": "/api/assets/work_cold_command_scene_026_03_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 7,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_026_04",
+      "type": "scene",
+      "title": "空车遇袭",
+      "url": "/api/assets/work_cold_command_scene_026_04_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 21,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_026_05",
+      "type": "scene",
+      "title": "封存留账",
+      "url": "/api/assets/work_cold_command_scene_026_05_media",
+      "chapterNumber": 26,
+      "paragraphIndex": 34,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_027_01",
+      "type": "scene",
+      "title": "东仓分袋",
+      "url": "/api/assets/work_cold_command_scene_027_01_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 7,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_027_02",
+      "type": "scene",
+      "title": "旧石坎验车",
+      "url": "/api/assets/work_cold_command_scene_027_02_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 15,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_027_03",
+      "type": "scene",
+      "title": "西墙分栏交粮",
+      "url": "/api/assets/work_cold_command_scene_027_03_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 24,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_027_04",
+      "type": "scene",
+      "title": "烽墩收队",
+      "url": "/api/assets/work_cold_command_scene_027_04_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 30,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_027_05",
+      "type": "scene",
+      "title": "伙房复查空袋",
+      "url": "/api/assets/work_cold_command_scene_027_05_media",
+      "chapterNumber": 27,
+      "paragraphIndex": 38,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_028_01",
+      "type": "scene",
+      "title": "西北高地救援令",
+      "url": "/api/assets/work_cold_command_scene_028_01_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_028_02",
+      "type": "scene",
+      "title": "雪坡救出伤者",
+      "url": "/api/assets/work_cold_command_scene_028_02_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 16,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_028_03",
+      "type": "scene",
+      "title": "袋角暂不取证",
+      "url": "/api/assets/work_cold_command_scene_028_03_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_028_04",
+      "type": "scene",
+      "title": "封闭雪崩现场",
+      "url": "/api/assets/work_cold_command_scene_028_04_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 28,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_028_05",
+      "type": "scene",
+      "title": "按实耗结算回营",
+      "url": "/api/assets/work_cold_command_scene_028_05_media",
+      "chapterNumber": 28,
+      "paragraphIndex": 40,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_029_01",
+      "type": "scene",
+      "title": "高地取证令",
+      "url": "/api/assets/work_cold_command_scene_029_01_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_029_02",
+      "type": "scene",
+      "title": "旧袋出雪",
+      "url": "/api/assets/work_cold_command_scene_029_02_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_029_03",
+      "type": "scene",
+      "title": "烟下护粮",
+      "url": "/api/assets/work_cold_command_scene_029_03_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 18,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_029_04",
+      "type": "scene",
+      "title": "弃袋保人",
+      "url": "/api/assets/work_cold_command_scene_029_04_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 26,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_029_05",
+      "type": "scene",
+      "title": "弃粮入账",
+      "url": "/api/assets/work_cold_command_scene_029_05_media",
+      "chapterNumber": 29,
+      "paragraphIndex": 36,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_030_01",
+      "type": "scene",
+      "title": "清晨分记粮差",
+      "url": "/api/assets/work_cold_command_scene_030_01_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_030_02",
+      "type": "scene",
+      "title": "河坡分粮",
+      "url": "/api/assets/work_cold_command_scene_030_02_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_030_03",
+      "type": "scene",
+      "title": "医棚分录口供",
+      "url": "/api/assets/work_cold_command_scene_030_03_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 15,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_030_04",
+      "type": "scene",
+      "title": "换授粮路新牌",
+      "url": "/api/assets/work_cold_command_scene_030_04_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 28,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_030_05",
+      "type": "scene",
+      "title": "仓门索取分栏",
+      "url": "/api/assets/work_cold_command_scene_030_05_media",
+      "chapterNumber": 30,
+      "paragraphIndex": 36,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_031_01",
+      "type": "scene",
+      "title": "借调宣令",
+      "url": "/api/assets/work_cold_command_scene_031_01_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 2,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_031_02",
+      "type": "scene",
+      "title": "营门点队",
+      "url": "/api/assets/work_cold_command_scene_031_02_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 16,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_031_03",
+      "type": "scene",
+      "title": "坡边医治",
+      "url": "/api/assets/work_cold_command_scene_031_03_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 36,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_031_04",
+      "type": "scene",
+      "title": "柳沟过坎",
+      "url": "/api/assets/work_cold_command_scene_031_04_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 46,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_031_05",
+      "type": "scene",
+      "title": "雁回接车",
+      "url": "/api/assets/work_cold_command_scene_031_05_media",
+      "chapterNumber": 31,
+      "paragraphIndex": 57,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_032_01",
+      "type": "scene",
+      "title": "转运棚校秤",
+      "url": "/api/assets/work_cold_command_scene_032_01_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 6,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_032_02",
+      "type": "scene",
+      "title": "医棚分列人数",
+      "url": "/api/assets/work_cold_command_scene_032_02_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 17,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_032_03",
+      "type": "scene",
+      "title": "守将签认借拨",
+      "url": "/api/assets/work_cold_command_scene_032_03_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 38,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_032_04",
+      "type": "scene",
+      "title": "侧面稳住惊牛",
+      "url": "/api/assets/work_cold_command_scene_032_04_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 51,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_032_05",
+      "type": "scene",
+      "title": "暮色接官筒",
+      "url": "/api/assets/work_cold_command_scene_032_05_media",
+      "chapterNumber": 32,
+      "paragraphIndex": 62,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_053_01",
+      "type": "scene",
+      "title": "东门湿痕",
+      "url": "/api/assets/work_cold_command_scene_053_01_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_053_02",
+      "type": "scene",
+      "title": "伤工分册",
+      "url": "/api/assets/work_cold_command_scene_053_02_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_053_03",
+      "type": "scene",
+      "title": "盐票短条",
+      "url": "/api/assets/work_cold_command_scene_053_03_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_053_04",
+      "type": "scene",
+      "title": "浅槽试水",
+      "url": "/api/assets/work_cold_command_scene_053_04_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 30,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_053_05",
+      "type": "scene",
+      "title": "断旗急报",
+      "url": "/api/assets/work_cold_command_scene_053_05_media",
+      "chapterNumber": 53,
+      "paragraphIndex": 35,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_056_01",
+      "type": "scene",
+      "title": "停索护退路",
+      "url": "/api/assets/work_cold_command_scene_056_01_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 3,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_056_02",
+      "type": "scene",
+      "title": "旁挡松一指",
+      "url": "/api/assets/work_cold_command_scene_056_02_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 13,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_056_03",
+      "type": "scene",
+      "title": "旧坑停试车",
+      "url": "/api/assets/work_cold_command_scene_056_03_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_056_04",
+      "type": "scene",
+      "title": "井沿先取样",
+      "url": "/api/assets/work_cold_command_scene_056_04_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_056_05",
+      "type": "scene",
+      "title": "伤工照付钱",
+      "url": "/api/assets/work_cold_command_scene_056_05_media",
+      "chapterNumber": 56,
+      "paragraphIndex": 36,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_057_01",
+      "type": "scene",
+      "title": "雨报分栏",
+      "url": "/api/assets/work_cold_command_scene_057_01_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 8,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_057_02",
+      "type": "scene",
+      "title": "三尺查水",
+      "url": "/api/assets/work_cold_command_scene_057_02_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 16,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_057_03",
+      "type": "scene",
+      "title": "借板救工",
+      "url": "/api/assets/work_cold_command_scene_057_03_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 24,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_057_04",
+      "type": "scene",
+      "title": "半票连泥",
+      "url": "/api/assets/work_cold_command_scene_057_04_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 28,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_057_05",
+      "type": "scene",
+      "title": "先报后看",
+      "url": "/api/assets/work_cold_command_scene_057_05_media",
+      "chapterNumber": 57,
+      "paragraphIndex": 36,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_061_01",
+      "type": "scene",
+      "title": "雁回核令",
+      "url": "/api/assets/work_cold_command_scene_061_01_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_061_02",
+      "type": "scene",
+      "title": "七人出南门",
+      "url": "/api/assets/work_cold_command_scene_061_02_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 15,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_061_03",
+      "type": "scene",
+      "title": "水尺验桥",
+      "url": "/api/assets/work_cold_command_scene_061_03_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 23,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_061_04",
+      "type": "scene",
+      "title": "药包小载过脊",
+      "url": "/api/assets/work_cold_command_scene_061_04_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 33,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_061_05",
+      "type": "scene",
+      "title": "驿内代抄",
+      "url": "/api/assets/work_cold_command_scene_061_05_media",
+      "chapterNumber": 61,
+      "paragraphIndex": 42,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_062_01",
+      "type": "scene",
+      "title": "北门分列",
+      "url": "/api/assets/work_cold_command_scene_062_01_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_062_02",
+      "type": "scene",
+      "title": "副页入库",
+      "url": "/api/assets/work_cold_command_scene_062_02_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 10,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_062_03",
+      "type": "scene",
+      "title": "家门扶肩",
+      "url": "/api/assets/work_cold_command_scene_062_03_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 20,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_062_04",
+      "type": "scene",
+      "title": "巷口核役",
+      "url": "/api/assets/work_cold_command_scene_062_04_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 37,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_062_05",
+      "type": "scene",
+      "title": "驿医复查",
+      "url": "/api/assets/work_cold_command_scene_062_05_media",
+      "chapterNumber": 62,
+      "paragraphIndex": 51,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_063_01",
+      "type": "scene",
+      "title": "北廊卸箭",
+      "url": "/api/assets/work_cold_command_scene_063_01_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_063_02",
+      "type": "scene",
+      "title": "验兵分栏",
+      "url": "/api/assets/work_cold_command_scene_063_02_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 25,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_063_03",
+      "type": "scene",
+      "title": "事故粮另案",
+      "url": "/api/assets/work_cold_command_scene_063_03_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 41,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_063_04",
+      "type": "scene",
+      "title": "后廊分担",
+      "url": "/api/assets/work_cold_command_scene_063_04_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 50,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_063_05",
+      "type": "scene",
+      "title": "夜核调卷牌",
+      "url": "/api/assets/work_cold_command_scene_063_05_media",
+      "chapterNumber": 63,
+      "paragraphIndex": 58,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_064_01",
+      "type": "scene",
+      "title": "错号移卷",
+      "url": "/api/assets/work_cold_command_scene_064_01_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_064_02",
+      "type": "scene",
+      "title": "潮纸获回",
+      "url": "/api/assets/work_cold_command_scene_064_02_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 12,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_064_03",
+      "type": "scene",
+      "title": "三十斤缺口",
+      "url": "/api/assets/work_cold_command_scene_064_03_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 22,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_064_04",
+      "type": "scene",
+      "title": "南北灾记",
+      "url": "/api/assets/work_cold_command_scene_064_04_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 36,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_064_05",
+      "type": "scene",
+      "title": "原册留台",
+      "url": "/api/assets/work_cold_command_scene_064_05_media",
+      "chapterNumber": 64,
+      "paragraphIndex": 43,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_054_01",
+      "type": "scene",
+      "title": "秤房封粮",
+      "url": "/api/assets/work_cold_command_scene_054_01_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_054_02",
+      "type": "scene",
+      "title": "甲九上岸",
+      "url": "/api/assets/work_cold_command_scene_054_02_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 12,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_054_03",
+      "type": "scene",
+      "title": "甲十待检",
+      "url": "/api/assets/work_cold_command_scene_054_03_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 21,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_054_04",
+      "type": "scene",
+      "title": "急条留存",
+      "url": "/api/assets/work_cold_command_scene_054_04_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 27,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_054_05",
+      "type": "scene",
+      "title": "短函报存",
+      "url": "/api/assets/work_cold_command_scene_054_05_media",
+      "chapterNumber": 54,
+      "paragraphIndex": 40,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_055_01",
+      "type": "scene",
+      "title": "门前验票",
+      "url": "/api/assets/work_cold_command_scene_055_01_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 0,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_055_02",
+      "type": "scene",
+      "title": "浅槽取物",
+      "url": "/api/assets/work_cold_command_scene_055_02_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 9,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_055_03",
+      "type": "scene",
+      "title": "索板救伤",
+      "url": "/api/assets/work_cold_command_scene_055_03_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 15,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_055_04",
+      "type": "scene",
+      "title": "只护这一截",
+      "url": "/api/assets/work_cold_command_scene_055_04_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 24,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_055_05",
+      "type": "scene",
+      "title": "三项待办",
+      "url": "/api/assets/work_cold_command_scene_055_05_media",
+      "chapterNumber": 55,
+      "paragraphIndex": 35,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_058_01",
+      "type": "scene",
+      "title": "雨棚议排程",
+      "url": "/api/assets/work_cold_command_scene_058_01_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 4,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_058_02",
+      "type": "scene",
+      "title": "欠款逐人核付",
+      "url": "/api/assets/work_cold_command_scene_058_02_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 21,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_058_03",
+      "type": "scene",
+      "title": "裂板分算新旧",
+      "url": "/api/assets/work_cold_command_scene_058_03_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 22,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_058_04",
+      "type": "scene",
+      "title": "盐车让出通道",
+      "url": "/api/assets/work_cold_command_scene_058_04_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 31,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_058_05",
+      "type": "scene",
+      "title": "军县分别落印",
+      "url": "/api/assets/work_cold_command_scene_058_05_media",
+      "chapterNumber": 58,
+      "paragraphIndex": 36,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_059_01",
+      "type": "scene",
+      "title": "东门空车",
+      "url": "/api/assets/work_cold_command_scene_059_01_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_059_02",
+      "type": "scene",
+      "title": "栅前争地",
+      "url": "/api/assets/work_cold_command_scene_059_02_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 2,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_059_03",
+      "type": "scene",
+      "title": "旧图复量",
+      "url": "/api/assets/work_cold_command_scene_059_03_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 24,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_059_04",
+      "type": "scene",
+      "title": "窄口过车",
+      "url": "/api/assets/work_cold_command_scene_059_04_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 33,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_059_05",
+      "type": "scene",
+      "title": "粮路成图",
+      "url": "/api/assets/work_cold_command_scene_059_05_media",
+      "chapterNumber": 59,
+      "paragraphIndex": 38,
+      "sortOrder": 5
+    },
+    {
+      "id": "work_cold_command_scene_060_01",
+      "type": "scene",
+      "title": "秤房看水尺",
+      "url": "/api/assets/work_cold_command_scene_060_01_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "work_cold_command_scene_060_02",
+      "type": "scene",
+      "title": "晨雾过窄口",
+      "url": "/api/assets/work_cold_command_scene_060_02_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 5,
+      "sortOrder": 2
+    },
+    {
+      "id": "work_cold_command_scene_060_03",
+      "type": "scene",
+      "title": "松尾避险",
+      "url": "/api/assets/work_cold_command_scene_060_03_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 17,
+      "sortOrder": 3
+    },
+    {
+      "id": "work_cold_command_scene_060_04",
+      "type": "scene",
+      "title": "返关摊图",
+      "url": "/api/assets/work_cold_command_scene_060_04_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 24,
+      "sortOrder": 4
+    },
+    {
+      "id": "work_cold_command_scene_060_05",
+      "type": "scene",
+      "title": "驿封待核",
+      "url": "/api/assets/work_cold_command_scene_060_05_media",
+      "chapterNumber": 60,
+      "paragraphIndex": 30,
+      "sortOrder": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": "char_cold_guchen",
+      "name": "顾沉舟",
+      "role": "主角",
+      "relation": "落榜书生 · 23岁",
+      "publicSummary": "熟读律令与算学，被征入北原边军，从伙房记账开始查粮练兵。",
+      "privateProfile": {
+        "desire": "让每一份军粮都能抵达该抵达的人手里",
+        "fear": "自己只是在用聪明替另一种权力服务",
+        "voice": "先报数字和来源，紧张时会用指节敲桌",
+        "arcStart": "只想活着回乡",
+        "arcCurrent": "开始承担一州军政与战后抚恤"
+      },
+      "visualPrompt": "年轻中国古代寒门书生转边军文书，旧青衫、账册、雪原军营，克制写实历史电影感"
+    },
+    {
+      "id": "char_cold_suwantang",
+      "name": "苏晚棠",
+      "role": "关键配角",
+      "relation": "北原军医官 · 26岁",
+      "publicSummary": "以伤情分级和药耗复核军令，建立不依赖将领私恩的军医署。",
+      "privateProfile": {
+        "desire": "让伤兵先按伤情得到救治而非按身份排队",
+        "fear": "医署成为战争掩盖责任的工具",
+        "voice": "先报伤口、药量和存量，再谈立场",
+        "arcStart": "只相信可复测的伤情",
+        "arcCurrent": "把军医署建成独立的救命制度"
+      },
+      "visualPrompt": "中国古代北境女军医，青灰医官服、药囊、雪关营帐，冷静坚韧，写实历史电影感"
+    },
+    {
+      "id": "char_cold_helanshuo",
+      "name": "贺兰朔",
+      "role": "重要配角",
+      "relation": "边骑校尉 · 29岁",
+      "publicSummary": "出身牧户的骑战军官，熟悉草场、水源和北境马道。",
+      "privateProfile": {
+        "desire": "为被冤杀的兄长翻案并保住牧户草场",
+        "fear": "军令再次把族人当成可弃的诱饵",
+        "voice": "话少，先指方向和风向，最后才说判断",
+        "arcStart": "只信马和弓",
+        "arcCurrent": "愿意把骑军交给可审计的军制"
+      },
+      "visualPrompt": "中国古代北境边骑校尉，皮甲、弓箭、雪原战马，沉默坚硬，写实历史电影感"
+    },
+    {
+      "id": "char_cold_xiewujiu",
+      "name": "谢无咎",
+      "role": "主要对手",
+      "relation": "北原转运使 · 42岁",
+      "publicSummary": "掌握仓票、盐引与商路，主张以集中征发换取边军稳定。",
+      "privateProfile": {
+        "desire": "在最短时间内让三关不再断粮",
+        "fear": "地方军镇分权后重演割据大战",
+        "voice": "温和精确，把高压称作必要的秩序",
+        "arcStart": "相信数字比人更可靠",
+        "arcCurrent": "被迫承认数字也必须留下被追责的人"
+      },
+      "visualPrompt": "中国古代转运使，深青官袍、仓票与盐引、北境粮仓，温和危险，写实历史电影感"
+    }
+  ]
+}

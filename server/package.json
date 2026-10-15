@@ -1,0 +1,17 @@
+{
+  "name": "mojing-server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-sqlite src/server.mjs",
+    "start": "node --experimental-sqlite src/server.mjs",
+    "check:release": "node scripts/preflight.mjs",
+    "backup": "node --experimental-sqlite scripts/backup.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1148.0",
+    "@smithy/node-http-handler": "^4.12.1",
+    "sharp": "^0.35.5"
+  }
+}

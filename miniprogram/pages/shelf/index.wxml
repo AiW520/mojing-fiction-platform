@@ -1,0 +1,22 @@
+<view class="page-shell safe-top shelf-page">
+  <view class="topbar">
+    <view class="icon-btn" bindtap="back">‹</view>
+    <view><view class="top-title">我的书架</view><view class="caption">收藏的故事，慢慢读</view></view>
+    <view class="icon-btn" bindtap="openSearch">⌕</view>
+  </view>
+  <view class="shelf-tabs"><block wx:for="{{tabs}}" wx:key="*this"><view class="shelf-tab {{tab === item ? 'active' : ''}}" data-tab="{{item}}" bindtap="changeTab">{{item}}</view></block></view>
+  <view wx:if="{{loading}}" class="empty-panel"><view class="body">正在载入书架…</view></view>
+  <view wx:elif="{{error}}" class="empty-panel"><view class="body">{{error}}</view><button class="retry-button" bindtap="reload">重新连接</button></view>
+  <view wx:elif="{{!books.length}}" class="empty-panel"><view class="title-md">{{tab === '全部' ? '书架还是空的' : '这个分类还没有作品'}}</view><view class="body">{{tab === '全部' ? '收藏的作品会出现在这里' : '阅读进度更新后会自动归入分类'}}</view></view>
+  <view wx:else class="shelf-list">
+    <block wx:for="{{books}}" wx:key="id">
+      <view class="shelf-book card" data-id="{{item.id}}" bindtap="openBook">
+        <view class="shelf-cover cover-art {{item.art}}"><image wx:if="{{item.coverImage}}" src="{{item.coverImage}}" mode="aspectFill" binderror="onCoverError" data-id="{{item.id}}"/><text wx:else>{{item.title}}</text></view>
+        <view class="shelf-copy"><view class="title-md">{{item.title}}</view><view class="caption">{{item.author}} · {{item.format === 'longform' ? '长篇连载' : '完整短篇'}}</view><view class="body">{{item.chapter}}</view><view class="progress-row"><view class="progress-track"><view class="progress-fill" style="width: {{item.progress}}%"></view></view><text class="caption">{{item.progress}}%</text></view></view>
+        <view class="scene-arrow">›</view>
+      </view>
+    </block>
+  </view>
+  <view wx:if="{{offline}}" class="shelf-offline">已载入本机书架<button bindtap="reload" disabled="{{refreshing}}">重新连接</button></view>
+  <view class="main-nav"><button bindtap="openHome"><image src="/assets/icons/library/books-ink.png"/><text>书城</text></button><button bindtap="openCreate"><image src="/assets/icons/library/pen-ink.png"/><text>创作</text></button><button class="active" aria-current="page"><image src="/assets/icons/library/read-active.png"/><text>书架</text></button><button bindtap="openMe"><image src="/assets/icons/library/user-ink.png"/><text>我的</text></button></view>
+</view>

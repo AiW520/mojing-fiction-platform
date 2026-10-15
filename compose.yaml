@@ -1,0 +1,36 @@
+services:
+  api:
+    build: ./server
+    restart: unless-stopped
+    env_file: ./server/.env
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      ALLOW_DEV_AUTH: '0'
+      TRUST_PROXY: '1'
+    volumes:
+      - mojing-data:/app/data
+      - mojing-backups:/app/backups
+    expose:
+      - '3000'
+    stop_grace_period: 30s
+  gateway:
+    build:
+      context: .
+      dockerfile: admin-web/Dockerfile
+    restart: unless-stopped
+    env_file: ./server/.env
+    ports:
+      - '80:80'
+      - '443:443'
+    depends_on:
+      api:
+        condition: service_healthy
+    volumes:
+      - caddy-data:/data
+      - caddy-config:/config
+volumes:
+  mojing-data:
+  mojing-backups:
+  caddy-data:
+  caddy-config:

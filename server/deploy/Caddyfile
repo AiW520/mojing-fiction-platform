@@ -1,0 +1,30 @@
+{$API_DOMAIN} {
+  encode zstd gzip
+  reverse_proxy api:3000
+}
+
+{$ADMIN_DOMAIN} {
+  encode zstd gzip
+  header {
+    X-Content-Type-Options nosniff
+    Referrer-Policy same-origin
+    X-Frame-Options DENY
+  }
+  handle /api/* {
+    reverse_proxy api:3000
+  }
+  handle /admin-api/* {
+    reverse_proxy api:3000
+  }
+  handle /comics/* {
+    reverse_proxy api:3000
+  }
+  handle /comics {
+    reverse_proxy api:3000
+  }
+  handle {
+    root * /srv/admin
+    try_files {path} /index.html
+    file_server
+  }
+}

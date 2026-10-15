@@ -1,0 +1,66 @@
+<view class="reader-page theme-{{theme}}">
+  <view class="reader-top" style="top: {{topInset}}px">
+    <view class="reader-icon" bindtap="back">‹</view>
+    <view class="reader-meta"><text>{{work.title}}</text><text wx:if="{{mode === 'longform' && chapter}}">{{chapter.volumeTitle}} · 第 {{chapter.chapterNumber}} 章</text><text wx:else>{{shortChapters.length}} 章 · {{progress}}%</text></view>
+    <button class="reader-icon share-icon" open-type="share" disabled="{{!shareReady}}" aria-label="分享阅读内容" hover-class="share-pressed">↗</button>
+  </view>
+
+  <scroll-view scroll-y class="reader-scroll" style="top: {{topInset + 56}}px; height: {{viewportHeight}}px" scroll-top="{{scrollTop}}" scroll-into-view="{{scrollIntoView}}" bindscroll="onReaderScroll">
+    <view wx:if="{{loading}}" class="reader-state"><view class="loading-mark">墨</view><text>正在展开这一页</text></view>
+    <view wx:elif="{{error}}" class="reader-state"><view class="loading-mark">!</view><text>{{error}}</text><button class="retry-button" bindtap="retry">重新连接</button></view>
+    <view wx:elif="{{mode === 'longform' && !chapter}}" class="reader-state">连载正在准备第一章</view>
+
+    <view wx:elif="{{mode === 'longform'}}" class="reader-content longform-content">
+      <image wx:if="{{chapter.chapterNumber === 1 && work.coverImage}}" class="opening-cover" src="{{work.coverImage}}" mode="aspectFill" bindload="onIllustrationLoad" />
+      <view wx:if="{{offline}}" class="chapter-info">已载入本机缓存</view>
+      <view class="chapter-mark">{{chapter.volumeTitle}}</view>
+      <view class="long-chapter-title">{{chapter.title}}</view>
+      <view class="chapter-info"><text>{{work.author}}</text><view class="info-dot"></view><text>{{chapter.wordCount}} 字</text><view class="info-dot"></view><text>{{work.serializationStatus === 'complete' ? '完结' : '连载至'}} {{chapters.length}} 章</text></view>
+      <view class="ornament"><view></view><text>◆</text><view></view></view>
+      <view class="reader-text long-text" style="font-size: {{fontSize}}px; line-height: {{lineHeight}}">
+        <block wx:for="{{chapterParagraphs}}" wx:key="id" wx:for-item="paragraph">
+          <text class="reader-paragraph" selectable>{{paragraph.text}}</text>
+          <block wx:if="{{showIllustrations}}" wx:for="{{paragraph.illustrations}}" wx:key="id" wx:for-item="asset">
+            <view class="chapter-illustration">
+              <view class="illustration-frame"><button wx:if="{{asset.loadError}}" class="illustration-retry" bindtap="retryIllustration" data-asset="{{asset.id}}">插图未载入，点击重试</button><image wx:else src="{{asset.url}}" mode="aspectFit" lazy-load bindtap="previewIllustration" bindload="onIllustrationLoad" binderror="illustrationError" data-asset="{{asset.id}}" aria-label="{{asset.title}}"/></view>
+              <text>{{asset.title}}</text>
+            </view>
+          </block>
+        </block>
+      </view>
+      <view class="chapter-finish"><text>本章完</text><view>{{chapter.chapterNumber}} / {{chapters.length}}</view></view>
+      <view class="chapter-nav">
+        <button class="chapter-nav-button {{!prev ? 'disabled' : ''}}" bindtap="previousChapter" disabled="{{!prev}}"><text>上一章</text><text class="nav-subtitle">{{prev ? prev.title : '已到开篇'}}</text></button>
+        <button class="chapter-nav-button primary {{!next ? 'disabled' : ''}}" bindtap="nextChapter" disabled="{{!next}}"><text>{{next ? '下一章' : work.serializationStatus === 'complete' ? '全书完' : '待续'}}</text><text class="nav-subtitle">{{next ? next.title : work.serializationStatus === 'complete' ? '已读至最后一章' : '新章正在写作'}}</text></button>
+      </view>
+    </view>
+
+    <view wx:else class="reader-content"><view wx:if="{{offline}}" class="chapter-info">已载入本机缓存</view>
+      <view class="reader-title">{{work.title}}</view><view class="reader-byline">{{work.author}} · {{work.type}}</view><view class="reader-lead">{{work.tagline || work.summary}}</view>
+      <block wx:for="{{shortChapters}}" wx:key="id"><view id="short-{{item.id}}" class="short-chapter"><view class="chapter-mark">CHAPTER {{index + 1}} / {{shortChapters.length}}</view><view class="short-chapter-title">{{item.sceneTitle}}</view><view class="reader-text" style="font-size: {{fontSize}}px; line-height: {{lineHeight}}"><block wx:for="{{item.paragraphs}}" wx:key="index"><text class="reader-paragraph" selectable>{{item}}</text></block></view><view wx:if="{{item.illustration && showIllustrations}}" class="chapter-illustration inline-illustration"><view class="illustration-frame"><button wx:if="{{item.illustration.loadError}}" class="illustration-retry" bindtap="retryIllustration" data-id="{{item.id}}">插图未载入，点击重试</button><image wx:else src="{{item.illustration.url}}" mode="aspectFit" bindtap="previewIllustration" bindload="onIllustrationLoad" binderror="illustrationError" data-id="{{item.id}}" data-asset="{{item.illustration.id}}" /></view><text>{{item.illustration.title}}</text></view></view></block>
+      <view class="reader-end">— 全文完 —</view>
+    </view>
+  </scroll-view>
+
+
+  <view class="reader-bottom {{mode === 'short' ? 'short-mode' : ''}}" style="height: {{66 + bottomInset}}px; padding-bottom: {{8 + bottomInset}}px">
+    <view class="reader-control" bindtap="toggleDirectory"><text class="control-icon">☰</text><text>目录</text></view>
+    <button wx:if="{{mode === 'longform'}}" class="reader-control" bindtap="previousChapter" disabled="{{!prev || loading}}" aria-label="上一章"><text class="control-icon">‹</text><text>上章</text></button>
+    <view class="reading-progress"><view class="progress-track"><view class="progress-fill" style="width: {{progress}}%"></view></view><text>{{progress}}%</text></view>
+    <button wx:if="{{mode === 'longform'}}" class="reader-control" bindtap="nextChapter" disabled="{{!next || loading}}" aria-label="下一章"><text class="control-icon">›</text><text>下章</text></button>
+    <view class="reader-control" bindtap="toggleSettings"><text class="control-icon settings-aa">Aa</text><text>设置</text></view>
+  </view>
+
+  <view wx:if="{{directoryOpen}}" class="sheet-mask" bindtap="closePanels"><view class="reader-sheet directory-sheet" catchtap="stopTap"><view class="sheet-handle"></view><view class="sheet-header"><view><text class="sheet-title">目录</text><text class="sheet-subtitle">{{work.title}} · 已更新 {{chapters.length || shortChapters.length}} 章</text></view><view class="sheet-close" bindtap="closePanels">×</view></view><scroll-view scroll-y class="directory-list" scroll-into-view="{{directoryTarget}}"><block wx:if="{{mode === 'longform'}}" wx:for="{{chapters}}" wx:key="id"><view id="directory-{{item.id}}" class="directory-item {{chapter && chapter.id === item.id ? 'active' : ''}}" data-id="{{item.id}}" bindtap="chooseChapter"><text class="chapter-number">{{item.displayNumber}}</text><view><text>{{item.title}}</text><text class="directory-words">{{item.wordCount}} 字</text></view><text class="current-dot">{{chapter && chapter.id === item.id ? '正在读' : '›'}}</text></view></block><block wx:else wx:for="{{shortChapters}}" wx:key="id"><view class="directory-item" data-id="{{item.id}}" bindtap="chooseShortChapter"><text class="chapter-number">{{index + 1}}</text><view><text>{{item.sceneTitle}}</text></view><text class="current-dot">›</text></view></block></scroll-view></view></view>
+
+  <view wx:if="{{settingsOpen}}" class="sheet-mask" bindtap="closePanels">
+    <view class="reader-sheet settings-sheet" catchtap="stopTap">
+      <view class="sheet-handle"></view>
+      <view class="setting-group"><text class="setting-label">阅读主题</text><view class="theme-options"><view class="theme-option ink {{theme === 'ink' ? 'active' : ''}}" data-theme="ink" bindtap="setTheme"><view class="theme-swatch"></view><text>墨夜</text></view><view class="theme-option paper {{theme === 'paper' ? 'active' : ''}}" data-theme="paper" bindtap="setTheme"><view class="theme-swatch"></view><text>宣纸</text></view><view class="theme-option moon {{theme === 'moon' ? 'active' : ''}}" data-theme="moon" bindtap="setTheme"><view class="theme-swatch"></view><text>月白</text></view></view></view>
+      <view class="setting-group setting-row"><text class="setting-label">字号</text><view class="stepper"><button data-step="-1" bindtap="changeFont" disabled="{{fontSize <= 15}}" aria-label="减小字号">A</button><text>{{fontSize}} px</text><button class="large-a" data-step="1" bindtap="changeFont" disabled="{{fontSize >= 26}}" aria-label="增大字号">A</button></view></view>
+      <view class="setting-group setting-row"><text class="setting-label">行距</text><view class="stepper"><button data-step="-0.1" bindtap="changeLineHeight" disabled="{{lineHeight <= 1.5}}" aria-label="减小行距">紧</button><text>{{lineHeight}}</text><button data-step="0.1" bindtap="changeLineHeight" disabled="{{lineHeight >= 2.4}}" aria-label="增大行距">松</button></view></view>
+      <view class="setting-group setting-row"><text class="setting-label">正文插图</text><switch checked="{{showIllustrations}}" bindchange="toggleIllustrations" color="#16705b" /></view>
+      <button class="save-position" bindtap="bookmark">保存当前阅读位置</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+**/node_modules
+**/dist
+**/.env
+**/.env.*
+**/data
+**/*.log
+**/*.sqlite*
+**/*.png
+design-concepts
+server/test
+server/backups
+admin-web/preview
+**/*.tsbuildinfo

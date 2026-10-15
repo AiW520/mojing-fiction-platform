@@ -1,0 +1,6 @@
+@import "../../styles/theme.scss";
+.shelf-page { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
+.shelf-offline { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 16px; color: $muted; font-size: 12px; }.shelf-offline button { background: transparent; color: $gold-light; font-size: 12px; }
+.top-title { font-size: 29rpx; }.shelf-tabs { display: flex; gap: 30rpx; padding: 12rpx 36rpx 0; border-bottom: 1rpx solid $line; }.shelf-tab { color: $muted; font-size: 24rpx; padding: 18rpx 0; position: relative; }.shelf-tab.active { color: $gold-light; }.shelf-tab.active::after { content: ""; position: absolute; bottom: -1rpx; left: 0; right: 0; height: 3rpx; background: $gold; }.shelf-list { padding: 26rpx 36rpx; }.shelf-book { display: flex; align-items: center; gap: 20rpx; padding: 20rpx; margin-bottom: 14rpx; }.shelf-cover { width: 134rpx; height: 176rpx; flex: 0 0 auto; }.shelf-cover text { font-size: 23rpx; }.shelf-copy { flex: 1; min-width: 0; }.shelf-copy .body { font-size: 22rpx; margin: 26rpx 0 14rpx; }
+.shelf-cover image { position: absolute; z-index: 1; inset: 0; width: 100%; height: 100%; }
+.shelf-book { border-radius: 28rpx; }.shelf-cover { border-radius: 18rpx; }.shelf-tabs { gap: 36rpx; }
