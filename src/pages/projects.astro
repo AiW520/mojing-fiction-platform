@@ -1,0 +1,29 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import projects from '../data/projects.json';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const tags = [...new Set(projects.flatMap(p => p.tags))].sort();
+---
+<StarlightPage frontmatter={{ title: '选择你的下一门课程', description: '按项目、语言和技术筛选真实源码课程。' }}>
+  <p>每门课程从源码证据出发。相同项目的多个目录按版本合并；未验证的运行方式和未覆盖模块会明确列出。</p>
+  <div class="filters">
+    <label for="project-query">项目关键词</label><input id="project-query" type="search" placeholder="名称、语言或技术" />
+    <label for="project-tag">技术</label><select id="project-tag"><option value="">全部技术</option>{tags.map(t => <option>{t}</option>)}</select>
+  </div>
+  <p id="project-count" aria-live="polite">共 {projects.length} 门课程</p>
+  <div class="project-grid">
+    {projects.map(p => <article class="project-card" data-tags={JSON.stringify(p.tags)}>
+      <h2><a href={`${base}/courses/${p.id}/`}>{p.title}</a></h2>
+      <p>{p.description}</p><div>{p.tags.map(t => <span class="tag">{t}</span>)}</div>
+      <p class="course-meta">{p.chapters.length} 章 · {p.sourceIds.length} 个源码版本<br/>{p.status}</p>
+    </article>)}
+  </div>
+  <p id="empty-results" hidden>没有匹配项目，请更换关键词或选择全部技术。</p>
+</StarlightPage>
+<script>
+ const query = document.querySelector<HTMLInputElement>('#project-query')!;
+ const tag = document.querySelector<HTMLSelectElement>('#project-tag')!;
+ const cards = [...document.querySelectorAll<HTMLElement>('.project-card')];
+ const filter = () => { let count = 0; for (const card of cards) { const match = card.textContent!.toLocaleLowerCase().includes(query.value.trim().toLocaleLowerCase()) && (!tag.value || JSON.parse(card.dataset.tags!).includes(tag.value)); card.hidden = !match; if (match) count++; } document.querySelector('#project-count')!.textContent = `找到 ${count} 门课程`; (document.querySelector('#empty-results') as HTMLElement).hidden = count !== 0; };
+ query.addEventListener('input', filter); tag.addEventListener('change', filter);
+</script>

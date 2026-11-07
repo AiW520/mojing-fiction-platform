@@ -1,0 +1,52 @@
+{
+  "id": "teat1",
+  "repository": "AiW520/mojing-fiction-platform",
+  "remoteCommit": "ec4fa9c01417c37cfd8cad05de74707d70c92401",
+  "branches": [
+    "main"
+  ],
+  "existingSiteFiles": [],
+  "files": [
+    {
+      "path": "miniprogram/utils/api.ts",
+      "status": "local-difference",
+      "localSha256": "1629800acc21e98de08de4d75a22e29ea1906c5d30fbb9f5e00ece9cd3efa971",
+      "remoteSha256": "1bdda2bae5850a5364bcabe82ff89e915ab71275f7e1bf1887e29913817a7bec"
+    },
+    {
+      "path": "miniprogram/pages/book/detail.ts",
+      "status": "local-difference",
+      "localSha256": "1c151c8a3016b88b82c13660a42adb8a32841789a9f649b49bd27ebee9601a58",
+      "remoteSha256": "a9bd78e8d52eac44b4f951714d04b799aea4f989af2b3e77f0b9a63eccbf637a"
+    },
+    {
+      "path": "server/src/server.mjs",
+      "status": "local-difference",
+      "localSha256": "5e5d14bfc20c7d168ea609362e17838d684e9486f6888978d7b48fe5bb901468",
+      "remoteSha256": "60f261fe0f54a2c18c97a0859a3cad6c94734c81a01684aaded3192888ca42b8"
+    },
+    {
+      "path": "miniprogram/pages/shelf/index.ts",
+      "status": "local-difference",
+      "localSha256": "d92cbe40be89bb201abcf797e4e05196861d3c6199a5dc140a25ea71005ad1db",
+      "remoteSha256": "1491c0484998926e663d5cbac0d5fa5d5a737544820e30829f059a3f8eaf2df4"
+    },
+    {
+      "path": "server/src/request-body.mjs",
+      "status": "local-only",
+      "localSha256": "ad4bcb13787b96c0b5e58abd630d8e0daa72266a31ec0040fdaa56825df9f618"
+    },
+    {
+      "path": "server/src/idempotency.mjs",
+      "status": "local-difference",
+      "localSha256": "75e96a957cc6d2b561d68c5e218d36638b25f5fd2aa4bb39c06259e799d91aac",
+      "remoteSha256": "727c9c541e37649e831300d8b1f31230cc6a156b72ef191e4170289c9551e224"
+    },
+    {
+      "path": "server/test/request-body.test.mjs",
+      "status": "local-only",
+      "localSha256": "268ccbfb60ecb77207a50a7bfa2be294b152a7246eb4d8a3b0bc39dfbe353436"
+    }
+  ],
+  "reviewScope": "仅核对课程实际引用文件；不代表全仓审计。"
+}

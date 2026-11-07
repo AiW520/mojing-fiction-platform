@@ -1,0 +1,12 @@
+---
+import PageTitle from '@astrojs/starlight/components/PageTitle.astro';
+import projects from '../data/projects.json';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const current = projects.find(p => Astro.url.pathname.includes(`/courses/${p.id}/`));
+---
+<nav class="breadcrumb" aria-label="面包屑">
+  <a href={`${base}/`}>学习地图</a> <span aria-hidden="true">/</span>
+  <a href={`${base}/projects/`}>项目目录</a>
+  {current && <><span aria-hidden="true">/</span> <a href={`${base}/courses/${current.id}/`}>{current.title}</a></>}
+</nav>
+<PageTitle {...Astro.props} />

@@ -1,0 +1,50 @@
+name: Deploy learning site
+on:
+  push:
+    branches: [tutorial-site]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Configure Pages URL
+        shell: bash
+        run: |
+          repo="${GITHUB_REPOSITORY#*/}"
+          owner="${GITHUB_REPOSITORY_OWNER}"
+          echo "SITE_URL=https://${owner}.github.io" >> "$GITHUB_ENV"
+          if [ "${repo,,}" = "${owner,,}.github.io" ]; then
+            echo 'SITE_BASE=/' >> "$GITHUB_ENV"
+          else
+            echo "SITE_BASE=/$repo" >> "$GITHUB_ENV"
+          fi
+      - run: npm run check
+      - run: npm run build
+      - run: python scripts/verify_site.py --built-only
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

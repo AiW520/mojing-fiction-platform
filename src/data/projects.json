@@ -1,0 +1,128 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "teat1",
+    "title": "teat1 / 墨境 · 小程序阅读与创作",
+    "description": "以书架链路理解微信请求、会话、SQLite、幂等与中文流式读取。",
+    "tags": [
+      "TypeScript",
+      "微信小程序",
+      "Node.js",
+      "SQLite",
+      "Vue"
+    ],
+    "sourceIds": [
+      "teat1"
+    ],
+    "status": "核心链路已分析；扩展模块未穷尽",
+    "tutorialVersion": "2026.11.07.1",
+    "owner": "agent-authored",
+    "chapters": [
+      {
+        "id": "index",
+        "title": "00 · 模板名称背后的真实系统",
+        "path": "courses/teat1/index",
+        "objective": "辨认小程序、Web 管理端和后端的职责，找到最短学习路径。"
+      },
+      {
+        "id": "start",
+        "title": "01 · 本地运行与测试数据边界",
+        "path": "courses/teat1/start",
+        "objective": "准备独立服务与小程序开发环境，并识别开发登录的限制。"
+      },
+      {
+        "id": "architecture",
+        "title": "02 · 多端入口、数据与状态",
+        "path": "courses/teat1/architecture",
+        "objective": "解释浏览器/小程序状态和数据库状态分别由谁管理。"
+      },
+      {
+        "id": "flows",
+        "title": "03 · 书架读取、加入与移除",
+        "path": "courses/teat1/flows",
+        "objective": "从三个真实操作核对方法、身份、SQL 和界面变化。"
+      },
+      {
+        "id": "code",
+        "title": "04 · 精读 UTF-8、幂等和字段校验",
+        "path": "courses/teat1/code",
+        "objective": "解释跨块中文为什么容易损坏，以及重放回执为何必须与业务同事务。"
+      },
+      {
+        "id": "security",
+        "title": "05 · 已跑测试与可恢复实验",
+        "path": "courses/teat1/security",
+        "objective": "完成一个中文边界测试，并列出登录、权限与部署的真实保护范围。"
+      }
+    ],
+    "modules": [
+      "小程序 Page · 阅读/书架状态",
+      "request / ensureSession · 环境、身份和缓存",
+      "server.mjs · HTTP 路由与对象授权",
+      "SQLite · 书架、进度和操作回执"
+    ],
+    "flows": [
+      "读取个人书架",
+      "加入书架",
+      "移出书架"
+    ],
+    "exercises": [
+      "中文请求体边界",
+      "重复操作与冲突回执"
+    ],
+    "unreviewed": "微信开发者工具/真机、正式认证、漫画生成、管理端和对象存储未全链验证。",
+    "runtimeValidation": "请求体/事务14通过；有SQLite实验性提示",
+    "entry": "miniprogram/app.ts / server/src/server.mjs",
+    "moduleRecords": [
+      {
+        "id": "teat1-module-1",
+        "name": "小程序 Page · 阅读/书架状态",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "teat1-module-2",
+        "name": "request / ensureSession · 环境、身份和缓存",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "teat1-module-3",
+        "name": "server.mjs · HTTP 路由与对象授权",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "teat1-module-4",
+        "name": "SQLite · 书架、进度和操作回执",
+        "analysisStatus": "core-path"
+      }
+    ],
+    "flowRecords": [
+      {
+        "id": "teat1-flow-1",
+        "name": "读取个人书架",
+        "chapter": "courses/teat1/flows"
+      },
+      {
+        "id": "teat1-flow-2",
+        "name": "加入书架",
+        "chapter": "courses/teat1/flows"
+      },
+      {
+        "id": "teat1-flow-3",
+        "name": "移出书架",
+        "chapter": "courses/teat1/flows"
+      }
+    ],
+    "exerciseRecords": [
+      {
+        "id": "teat1-exercise-1",
+        "name": "中文请求体边界",
+        "status": "instructions-provided"
+      },
+      {
+        "id": "teat1-exercise-2",
+        "name": "重复操作与冲突回执",
+        "status": "instructions-provided"
+      }
+    ]
+  }
+]

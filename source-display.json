@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "defaultShowSnippets": true,
+  "projects": {},
+  "note": "仅显示已审阅的必要片段。设为 false 后重新生成内容与构建，证据保留定位与哈希。已发布的历史版本不会自动撤回。"
+}

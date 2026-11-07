@@ -1,0 +1,11 @@
+[
+  {
+    "id": "teat1",
+    "commit": "fcd778d4ebe24ab92e5cf9e15645e09de5526bfe",
+    "dirty": true,
+    "snapshot": "b51c046f04f1c66c7adc20d63d84adfff996cae1f62a153444b9fe7812da95b9",
+    "fileCount": 925,
+    "lineCount": 95123,
+    "reviewedFileCount": 7
+  }
+]

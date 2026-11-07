@@ -1,0 +1,32 @@
+---
+import Footer from '@astrojs/starlight/components/Footer.astro';
+---
+<div class="progress-panel" data-page={Astro.url.pathname}>
+  <button type="button" id="mark-read" aria-pressed="false">标记本章已读</button>
+  <p id="reading-status" aria-live="polite">学习进度仅保存在此浏览器，无需账号。</p>
+</div>
+<Footer {...Astro.props} />
+<script>
+  // Starlight 0.37 updates the host state; keep the actual button accessible.
+  const menu = document.querySelector('starlight-menu-button');
+  if (menu) {
+    const syncMenu = () => menu.querySelector('button')?.setAttribute('aria-expanded', menu.getAttribute('aria-expanded') || 'false');
+    syncMenu();
+    new MutationObserver(syncMenu).observe(menu, { attributes: true, attributeFilter: ['aria-expanded'] });
+  }
+  function setupProgress() {
+    const panel = document.querySelector<HTMLElement>('.progress-panel');
+    const button = document.querySelector<HTMLButtonElement>('#mark-read');
+    const status = document.querySelector<HTMLElement>('#reading-status');
+    if (!panel || !button || !status) return;
+    const key = 'source-learning:progress:v1';
+    const page = panel.dataset.page!;
+    let pages: string[] = [];
+    try { const saved = JSON.parse(localStorage.getItem(key) || '[]'); pages = Array.isArray(saved) ? saved.filter(x => typeof x === 'string') : []; } catch { /* Privacy mode or malformed data: keep in-memory state. */ }
+    const render = () => { const read = pages.includes(page); button.setAttribute('aria-pressed', String(read)); button.textContent = read ? '已读 · 点击取消' : '标记本章已读'; status.textContent = `此浏览器已标记 ${pages.length} 章。进度仅保存在本地。`; };
+    button.onclick = () => { pages = pages.includes(page) ? pages.filter(x => x !== page) : [...pages, page]; render(); try { localStorage.setItem(key, JSON.stringify(pages)); } catch { status.textContent = '浏览器禁止存储，本次标记只在当前页面有效。'; } };
+    render();
+  }
+  setupProgress();
+  document.addEventListener('astro:page-load', setupProgress);
+</script>

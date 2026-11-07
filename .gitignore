@@ -1,0 +1,13 @@
+audit/*.private.*
+node_modules/
+dist/
+.astro/
+.env*
+.npm-cache/
+experiments/
+scope.json
+__pycache__/
+exports/
+deliverables/
+deployments/
+publish-sites/
